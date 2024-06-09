@@ -148,7 +148,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#94e3fe";
 
-document.getElementById("header").src = "https://cdn.discordapp.com/attachments/1149804892538552370/1225929993230487693/1996__MILLENIUM_OF_SCANDAL.png?ex=6666d087&is=66657f07&hm=2eedfd50f12bc9a8a68b3154fe9451d40dec9968ff53d2b2efc72e77263df36c&";
+document.getElementById("header").src = "https://i.imgur.com/6kl2zCU.jpeg";
 
 document.body.background = "https://live.staticflickr.com/163/361267882_2373e69bbe_b.jpg";
 
