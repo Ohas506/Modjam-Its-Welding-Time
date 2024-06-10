@@ -148,7 +148,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#94e3fe";
 
-document.getElementById("header").src = "https://i.imgur.com/6kl2zCU.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/f25g5vu.jpeg";
 
 document.body.background = "https://live.staticflickr.com/163/361267882_2373e69bbe_b.jpg";
 
