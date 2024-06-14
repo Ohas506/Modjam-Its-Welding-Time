@@ -191,6 +191,75 @@ campaignTrail_temp.candidate_json = [
             "running_mate": true
         }
     },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1006,
+        "fields": {
+            "first_name": "Colin",
+            "last_name": "Powell",
+            "election": 20,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jcs.mil/portals/36/Images/BiographyPhotos/cjcs/012_powell.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "There's not much that's not already been said about Colin Powell. Powell was commissioned as a second lieutenant in the US Armed Forces, later going on to serve two tours in Vietnam. Powell would then become a National Security advisor to the Reagan Administration, before going on to be appointed chairman of the Joint Chiefs of Staff by President Bush. Powell's military service has made him incredibly popular with Democrats and Republicans alike, even leading to murmurs that he might seek the presidency himself. While all these claims have only ever amounted to rumors, Powell has identified himself as a Republican, albeit a liberal one.<br><br>Selecting Powell as your running mate would give your campaign a major boost, the type of boost that's needed to close the gap with Gephardt. Powell would also lend your campaign credibility when it comes to foreign affairs. Despite these major positives, selecting Powell, a liberal Republican, might be an action that only adds to the list of grievances that Evengelicals have with your candidacy.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1007,
+        "fields": {
+            "first_name": "John",
+            "last_name": "McCain",
+            "election": 20,
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://jetsimon.com/cts-media/public/1993PC_CheneyMcCain_0.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "The Maverick John McCain has a track record of independence. Before getting involved in politics, McCain served in Vietnam, getting taken POW by the VietCong, wherein he suffered torture and abuse. McCain would then get elected to the House, later the Senate, representing Arizona. McCain has butted heads with the Bush Administration multiple times, the most prominent of which were his opposition to deploying forces to Somalia, and his harsh criticism of the President's failed attempt to make peace in Yugoslavia.<br><br>McCain is a solid pick for running mate, being relatively well known and popular with the Republican base. His somewhat liberal views and Maverick Reputation make him a good choice if you seek to distance yourself from the Bush administration. McCain however, was embroiled in scandal in the 1980s, being a member of the so called “Keating Five”, a group of politicians who were alleged to have taken bribes from Charles Keating Jr. While this has not been an issue this decade of McCains career, it might resurface should you select him.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1008,
+        "fields": {
+            "first_name": "Ross",
+            "last_name": "Perot",
+            "election": 20,
+            "party": "Independent",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://d.newsweek.com/en/full/1510783/ross-perot-dies-quotes.jpg?w=1600&h=1600&q=88&f=b1f7a26c2f938f743fa00d517930a7d2",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Ross Perot would make a quizzical choice for a running mate. Perot served in the Navy, before going on to work at IBM, later founding Perot Systems. Jack Gargan, a personality of his own, would convince Perot to contest the 1992 Republican Primaries against Bush. Perot initially showed interest in running, but would ultimately drop out after being targeted by what he claims was a “FBI intimidation plot”. Gargan would then make an offer to Trump to run, an offer that Trump would wholeheartedly take up. Trump would campaign against Bush in the 92 primaries, emphasizing his opposition to NAFTA and the establishment. Trump would ultimately force Bush to cave, as Bush would make him his running mate, replacing Dan Quale. Perot for his part declared himself an independent, decrying Trump as a “ FBI Plant”, someone trying to takedown the Populist movement from the inside. Perot would attempt to win the Freedom Party's nomination for President this year, losing to party founder Dick Lamm, due to what he claims was Lamm’s refusal to turn over the Parties mailing lists.<br><br>Choosing Perot would certainly turn a lot of eyes, but it might draw the support from Independents needed to purpell your ticket to victory. Additionally Parrot's erratic personality might lead to some embarrassing moments if left to run its course. All in all, choosing Perot is a big gamble.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
 ]
 campaignTrail_temp.running_mate_json = [
     {
@@ -219,10 +288,34 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 58,
+        "pk": 59,
         "fields": {
             "candidate": 77,
             "running_mate": 1005
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 60,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1006
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 61,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1007
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 61,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1008
         }
     }
 
@@ -258,7 +351,23 @@ jet_data = {
     "endingTextColor": "#000000",
     "customQuote": ""
 }
+styling = document.createElement("style");
+document.head.appendChild(styling);
 
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+z.observe(document, { subtree: true, childList: true });
 //#startcode
 
 
