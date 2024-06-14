@@ -55,7 +55,7 @@ campaignTrail_temp.global_parameter_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 1001,
+        "pk": 77,
         "fields": {
             "first_name": "Bill",
             "last_name": "Weld",
@@ -78,7 +78,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 50000,
+        "pk": 78,
         "fields": {
             "first_name": "Dick",
             "last_name": "Gephardt ",
@@ -98,10 +98,135 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 1,
             "running_mate": false
         }
-    }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Dick",
+            "last_name": "Chenny",
+            "election": 20,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Secretary_of_Defense_Richard_B._Cheney%2C_official_portrait.jpg/220px-Secretary_of_Defense_Richard_B._Cheney%2C_official_portrait.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "After serving on the staff of President Nixion, Cheney was elected to congress in 1978, representing Wyoming in the House of Representatives until 1989. In that same year he would be appointed Secretary of Defense by president elect Bush. He has overseen American-led interventions in Iraq and Somalia, an overall reduction in the US military budget following the end of the Cold War, and a US and UN bombing campaign in Bosnia.<br><br>Selecting Chenny would lend your campaign a sense of credibility when it comes to foreign policy, but it would also align it with the deeply unpopular Bush administration. In particular Bush, and by extension Chennies, inaction in regards to the Rwandan Genocide and  perceived mishandling of the ongoing crisis in Yugoslavia continue to be points of controversy.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1003,
+        "fields": {
+            "first_name": "Jim",
+            "last_name": "Jeffords",
+            "election": 20,
+            "party": "Republican",
+            "state": "Vermont",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/JeffordsJim%28I-VT%29.jpg/330px-JeffordsJim%28I-VT%29.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Jim Jeffords is currently representing the state of Vermont in the House of Representatives. Before serving in the House he was a captain in the Navy. During his tenure in the House, Jeffords has been noted as a moderate Republican, championing education and healthcare reform. Additionally he condemned President Bush for his inaction in regards to the Rwanden Genocide, arguing that the President should have done more to prevent the situation from spirling out of control.<br><br>Selecting Jeffords as your running mate can help you establish yourself as a “New Republican”, someone different from Bush or Reagan. Despite this, selecting Jeffords would also further alienate Evangelical Republicans, a group that's already uneasy about your candidacy as is.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1004,
+        "fields": {
+            "first_name": "Jack",
+            "last_name": "Kemp",
+            "election": 20,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Jack_Kemp_official_portrait.jpg/300px-Jack_Kemp_official_portrait.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Jack Kemp represented New York in the House of Representatives from 1971 to 1989, wherein he gained a reputation for being a “bleeding heart” conservative. In 1989 he was appointed Secretary of the HUD by president Bush. During his time at the helm of the HUD, he has pursued various policies all of which have run into roadblocks from a Democrat controlled legislature. He also played college level football before getting into politics.<br><br>Picking Kemp can help you pander to both factions of the GOP, the more conservative wing of the party is comfortable with a “bleeding heart” being on the ticket, while the more liberal wing is reassured by Kemp's more liberal views on some social issues. On the flip side, Kemp has been seen as an unsuccessful HUD secretary, so choosing him might signal to voters that you'd be an extension of the Bush administration's failures.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1005,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Dole",
+            "election": 20,
+            "party": "Republican",
+            "state": "Kansas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.gannett-cdn.com/presto/2021/02/18/NTCJ/80c031b8-d9e4-4222-9bed-232868251a7f-199204_Sen.BobDole.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Bob Dole is a senator from Kansas who is well entrenched with the party apparatus. Before deciding to mount a run for the presidency, Dole was serving as Party Minority Leader, a post now held by Trent Lott. While Doles voting history in the senate has proved to be quite moderate, following Buchanan’s departure from the race and key endorsements from Pat Robertson and Strom Thurmond; he has gained the support of the Evangelical wing of the party. Ultimately he would lose the race to you in a squeaker, although you already know that.<br><br>Dole is the logical choice for a running mate. His age and experience is a counterweight to your youth and outsider status, his Evangelical support base is something you lack, and his hailing from the Midwest contrasts well with your Massachusetts blood. Picking Dole has little downsides, one of these small downsides is his age, at almost seventy three Dole is pushing the barrier when it comes to what Americans think is an acceptable age to be running the country.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
 ]
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1003
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1004
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 1005
+        }
+    }
 
-campaignTrail_temp.running_mate_json = []
+]
 
 campaignTrail_temp.opponents_default_json = [
     {
