@@ -1,9 +1,9 @@
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
-        "pk": 20,
+        "pk": 9,
         "fields": {
-            "year": 2016,
+            "year": 2000,
             "display_year": "1996 IWT Demo",
             "summary": "<div style='overflow-y:scroll;height:200px;'>With the conclusion of President George H. W. Bush’s two terms in office the time has come for the nation to decide if a fresh face will continue on sixteen years of Republican administration or if a resurgent Democratic Party can claim Victory. <br><br>Key issues include NAFTA, Immigration, and of course affairs abroad.<br><br> -The Democratic Party has rallied behind the candidacy of House Minority leader Dick Gephardt of Missouri, a man mostly known for his vehement opposition to NAFTA. Gephardt benefits from the nation's generally apathy towards four more years of Republican governance.<br><br>-The Republican Party has yet to decide on a nominee, with a few high profile figures duking it out. Vice President Trump is the front runner, with senator Bob Dole in a close second, along with Massachusetts Governor Bill Weld in a distant third. With the Republican nominee yet to be chosen, it's fair to say it's anybody's game as to who it will be.\n</div>",
             "image_url": "https://i.natgeofe.com/n/3cb29742-425b-4391-80a3-86beb771a49c/south-lawn_16x9.jpg?w=1200",
@@ -18,8 +18,8 @@ campaignTrail_temp.election_json = [
 
 campaignTrail_temp.temp_election_list = [
     {
-        "id": 20,
-        "year": 2016,
+        "id": 9,
+        "year": 2000,
         "is_premium": 0,
         "display_year": "1996 IWT Demo"
     }
@@ -59,7 +59,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Bill",
             "last_name": "Weld",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Massachussets",
             "priority": 1,
@@ -82,7 +82,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Dick",
             "last_name": "Gephardt ",
-            "election": 20,
+            "election": 9,
             "party": "Democrat",
             "state": "Missouri",
             "priority": 1,
@@ -105,7 +105,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Pat",
             "last_name": "Buchanan",
-            "election": 20,
+            "election": 9,
             "party": "US Taxpayers",
             "state": "Virginia",
             "priority": 1,
@@ -128,7 +128,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Dick",
             "last_name": "Lamm",
-            "election": 20,
+            "election": 9,
             "party": "Freedom",
             "state": "Virginia",
             "priority": 1,
@@ -151,7 +151,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Dick",
             "last_name": "Chenny",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Wyoming",
             "priority": 1,
@@ -174,7 +174,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Jim",
             "last_name": "Jeffords",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Vermont",
             "priority": 1,
@@ -197,7 +197,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Jack",
             "last_name": "Kemp",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "New York",
             "priority": 1,
@@ -220,7 +220,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Bob",
             "last_name": "Dole",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Kansas",
             "priority": 1,
@@ -243,7 +243,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Colin",
             "last_name": "Powell",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "New York",
             "priority": 1,
@@ -266,7 +266,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "John",
             "last_name": "McCain",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Arizona",
             "priority": 1,
@@ -289,7 +289,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Ross",
             "last_name": "Perot",
-            "election": 20,
+            "election": 9,
             "party": "Independent",
             "state": "Texas",
             "priority": 1,
@@ -369,7 +369,7 @@ campaignTrail_temp.running_mate_json = [
 
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 20,
+        "election": 9,
         "candidates": [
             1001,
             50000
@@ -379,7 +379,7 @@ campaignTrail_temp.opponents_default_json = [
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 20,
+        "election": 9,
         "candidates": [
             1001,
             50000

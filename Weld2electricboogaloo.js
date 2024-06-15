@@ -5853,21 +5853,12 @@ campaignTrail_temp.answer_feedback_json = [
         }
     }
 ]
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/GdKpLFs.jpeg";
-campaignTrail_temp.running_mate_image_url = "";
-campaignTrail_temp.candidate_last_name = "Weld";
-campaignTrail_temp.running_mate_last_name = "For President";
-campaignTrail_temp.running_mate_state_id = '426';
-campaignTrail_temp.player_answers = [];
-campaignTrail_temp.player_visits = [];
-campaignTrail_temp.answer_feedback_flg = 1;
-campaignTrail_temp.game_start_logging_id = '3843333';
+campaignTrail_temp.candidate_image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/George_Wallace_%28D-AL%29_%28cropped%29.jpg/330px-George_Wallace_%28D-AL%29_%28cropped%29.jpg";
+campaignTrail_temp.running_mate_image_url = "https://files.catbox.moe/23o533.png";
+campaignTrail_temp.candidate_last_name = "Wallace";
+campaignTrail_temp.running_mate_last_name = "LeMay";
 
-campaignTrail_temp.cyoa = true
 
-cyoAdventure = function (a){
-    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-}
 campaignTrail_temp.jet_data = [{
     "nicknames": {
         "77": "Weld",
