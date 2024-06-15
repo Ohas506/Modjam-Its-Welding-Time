@@ -1,9 +1,9 @@
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
-        "pk": 20,
+        "pk": 9,
         "fields": {
-            "year": 2000,
+            "year": 1996,
             "display_year": "1996 IWT Demo",
             "summary": "<div style='overflow-y:scroll;height:200px;'>With the conclusion of President George H. W. Bush’s two terms in office the time has come for the nation to decide if a fresh face will continue on sixteen years of Republican administration or if a resurgent Democratic Party can claim Victory. <br><br>Key issues include NAFTA, Immigration, and of course affairs abroad.<br><br> -The Democratic Party has rallied behind the candidacy of House Minority leader Dick Gephardt of Missouri, a man mostly known for his vehement opposition to NAFTA. Gephardt benefits from the nation's generally apathy towards four more years of Republican governance.<br><br>-The Republican Party has yet to decide on a nominee, with a few high profile figures duking it out. Vice President Trump is the front runner, with senator Bob Dole in a close second, along with Massachusetts Governor Bill Weld in a distant third. With the Republican nominee yet to be chosen, it's fair to say it's anybody's game as to who it will be.\n</div>",
             "image_url": "https://i.natgeofe.com/n/3cb29742-425b-4391-80a3-86beb771a49c/south-lawn_16x9.jpg?w=1200",
@@ -16,55 +16,19 @@ campaignTrail_temp.election_json = [
     }
 ]
 
-campaignTrail_temp.temp_election_list = [
-    {
-        "id": 20,
-        "year": 2000,
-        "is_premium": 0,
-        "display_year": "1996 IWT Demo"
-    }
-]
-
-campaignTrail_temp.credits = "Ohas for the Summer Mod Jam"
-
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 25,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
-
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 200,
+        "pk": 77,
         "fields": {
             "first_name": "Bill",
             "last_name": "Weld",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Massachussets",
             "priority": 1,
             "description": "<div style='overflow-y:scroll;height:200px;'>Bill Weld is the current Governor of Massachusts. In getting elected Governor he did the impossible, win as a Republican in a Heavily Blue state. He would defy expectations again, winning re-election in a landslide carrying even Boston, a city that in living memory had never voted Republican.\n\n Before becoming Governor he served on the Nixon Impeachment inquiry and was head of the Criminal Division of Reagan's Justice Department. This Judicial experience has given him a “Law and order” reputation.<br><br>Weld's win in Massachusetts was partly a result of his liberal views on social issues, something that will be to his detriment among Evangelical Republicans, a significant wing of the party. <br><br>Weld has yet to comment on NAFTA, an issue that has split the Republican Party right down the middle. <br><br>Weld is a fresh face on the national scene, being much younger than Dole or Trump. He's also relatively controversy free while also being energetic and exciting, something that can not be said about Trump or Dole.<br><br>Weld will have to walk a tightrope if he is to win the party nomination, balancing his liberal credentials with overtures to the Evengelicals, positioning himself as a fresh face in contrast to Dole, and presenting an image of stability in contrast to Trump.\n</div>",
-            "color_hex": "#ff2600",
+            "color_hex": "#D2042D",
             "secondary_color_hex": null,
             "is_active": 1,
             "image_url": "https://i.imgur.com/GdKpLFs.jpeg",
@@ -78,16 +42,16 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 201,
+        "pk": 78,
         "fields": {
             "first_name": "Dick",
             "last_name": "Gephardt ",
-            "election": 20,
+            "election": 9,
             "party": "Democrat",
             "state": "Missouri",
             "priority": 1,
             "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
+            "color_hex": "#0041C2",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -101,11 +65,11 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 202,
+        "pk": 79,
         "fields": {
             "first_name": "Pat",
             "last_name": "Buchanan",
-            "election": 20,
+            "election": 9,
             "party": "US Taxpayers",
             "state": "Virginia",
             "priority": 1,
@@ -124,11 +88,11 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 203,
+        "pk": 80,
         "fields": {
             "first_name": "Dick",
             "last_name": "Lamm",
-            "election": 20,
+            "election": 9,
             "party": "Freedom",
             "state": "Virginia",
             "priority": 1,
@@ -151,7 +115,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Dick",
             "last_name": "Chenny",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Wyoming",
             "priority": 1,
@@ -174,7 +138,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Jim",
             "last_name": "Jeffords",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Vermont",
             "priority": 1,
@@ -197,7 +161,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Jack",
             "last_name": "Kemp",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "New York",
             "priority": 1,
@@ -220,7 +184,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Bob",
             "last_name": "Dole",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Kansas",
             "priority": 1,
@@ -243,7 +207,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Colin",
             "last_name": "Powell",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "New York",
             "priority": 1,
@@ -266,7 +230,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "John",
             "last_name": "McCain",
-            "election": 20,
+            "election": 9,
             "party": "Republican",
             "state": "Arizona",
             "priority": 1,
@@ -289,7 +253,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Ross",
             "last_name": "Perot",
-            "election": 20,
+            "election": 9,
             "party": "Independent",
             "state": "Texas",
             "priority": 1,
@@ -312,7 +276,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 56,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1002
         }
     },
@@ -320,7 +284,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 57,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1003
         }
     },
@@ -328,7 +292,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 58,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1004
         }
     },
@@ -336,7 +300,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 59,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1005
         }
     },
@@ -344,7 +308,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 60,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1006
         }
     },
@@ -352,7 +316,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 61,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1007
         }
     },
@@ -360,7 +324,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 61,
         "fields": {
-            "candidate": 200,
+            "candidate": 77,
             "running_mate": 1008
         }
     }
@@ -369,21 +333,34 @@ campaignTrail_temp.running_mate_json = [
 
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 20,
+        "election": 9,
         "candidates": [
-            20,
-            50000
+            77,
+            78,
+            79,
+            80
         ]
     }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 20,
+        "election": 9,
         "candidates": [
-            20,
-            50000
+            77,
+            78,
+            79,
+            80
         ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 1996,
+        "is_premium": 0,
+        "display_year": "2000"
     }
 ]
 
@@ -414,7 +391,7 @@ let z = new MutationObserver((mutationsList, observer) => {
     }
 });
 z.observe(document, { subtree: true, childList: true });
-//#startcode
+
 
 
 
