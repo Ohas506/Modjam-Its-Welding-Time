@@ -1,7 +1,7 @@
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
-        "pk": 9,
+        "pk": 20,
         "fields": {
             "year": 2000,
             "display_year": "1996 IWT Demo",
@@ -18,7 +18,7 @@ campaignTrail_temp.election_json = [
 
 campaignTrail_temp.temp_election_list = [
     {
-        "id": 9,
+        "id": 20,
         "year": 2000,
         "is_premium": 0,
         "display_year": "1996 IWT Demo"
@@ -55,11 +55,11 @@ campaignTrail_temp.global_parameter_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 77,
+        "pk": 200,
         "fields": {
             "first_name": "Bill",
             "last_name": "Weld",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "Massachussets",
             "priority": 1,
@@ -78,11 +78,11 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 78,
+        "pk": 201,
         "fields": {
             "first_name": "Dick",
             "last_name": "Gephardt ",
-            "election": 9,
+            "election": 20,
             "party": "Democrat",
             "state": "Missouri",
             "priority": 1,
@@ -101,11 +101,11 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 79,
+        "pk": 202,
         "fields": {
             "first_name": "Pat",
             "last_name": "Buchanan",
-            "election": 9,
+            "election": 20,
             "party": "US Taxpayers",
             "state": "Virginia",
             "priority": 1,
@@ -124,11 +124,11 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 80,
+        "pk": 203,
         "fields": {
             "first_name": "Dick",
             "last_name": "Lamm",
-            "election": 9,
+            "election": 20,
             "party": "Freedom",
             "state": "Virginia",
             "priority": 1,
@@ -151,7 +151,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Dick",
             "last_name": "Chenny",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "Wyoming",
             "priority": 1,
@@ -174,7 +174,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Jim",
             "last_name": "Jeffords",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "Vermont",
             "priority": 1,
@@ -197,7 +197,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Jack",
             "last_name": "Kemp",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "New York",
             "priority": 1,
@@ -220,7 +220,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Bob",
             "last_name": "Dole",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "Kansas",
             "priority": 1,
@@ -243,7 +243,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Colin",
             "last_name": "Powell",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "New York",
             "priority": 1,
@@ -266,7 +266,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "John",
             "last_name": "McCain",
-            "election": 9,
+            "election": 20,
             "party": "Republican",
             "state": "Arizona",
             "priority": 1,
@@ -289,7 +289,7 @@ campaignTrail_temp.candidate_json = [
         "fields": {
             "first_name": "Ross",
             "last_name": "Perot",
-            "election": 9,
+            "election": 20,
             "party": "Independent",
             "state": "Texas",
             "priority": 1,
@@ -312,7 +312,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 56,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1002
         }
     },
@@ -320,7 +320,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 57,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1003
         }
     },
@@ -328,7 +328,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 58,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1004
         }
     },
@@ -336,7 +336,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 59,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1005
         }
     },
@@ -344,7 +344,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 60,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1006
         }
     },
@@ -352,7 +352,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 61,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1007
         }
     },
@@ -360,7 +360,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 61,
         "fields": {
-            "candidate": 77,
+            "candidate": 200,
             "running_mate": 1008
         }
     }
@@ -369,9 +369,9 @@ campaignTrail_temp.running_mate_json = [
 
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 9,
+        "election": 20,
         "candidates": [
-            1001,
+            20,
             50000
         ]
     }
@@ -379,9 +379,9 @@ campaignTrail_temp.opponents_default_json = [
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 9,
+        "election": 20,
         "candidates": [
-            1001,
+            20,
             50000
         ]
     }
