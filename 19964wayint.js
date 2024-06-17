@@ -112,234 +112,119 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 81,
+        "pk": 1002,
         "fields": {
             "first_name": "Dick",
-            "last_name": "Cheney",
+            "last_name": "Chenny",
             "election": 9,
             "party": "Republican",
             "state": "Wyoming",
-            "priority": 5,
-            "description": "''",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/dick-cheney-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Dick Cheney is a seasoned operative of the Republican Party who has served as White House Chief of Staff, Minority Whip in Congress, Secretary of Defense, and as CEO of Halliburton. He would be a respected choice across the Republican spectrum, and would add experience and gravitas to the Republican ticket.</p>",
-            "candidate_score": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Secretary_of_Defense_Richard_B._Cheney%2C_official_portrait.jpg/220px-Secretary_of_Defense_Richard_B._Cheney%2C_official_portrait.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Dick Chenny is a seasoned member of the Republican Party, representing Wyoming in the House of Representatives, serving as the House Minority Whip, White House Chief of Staff, and as the Bush Administrations Secretary of Defense. Chenies been out of politics for about four years, currently he's CEO at Haliburton, a multinational Oil company.<br><br>Cheney is a seasoned Republican Operative, someone with decades of service to the party, selecting him would give the ticket the Washington experience that you lack and that successful ticket will need. His foreign policy credentials are also a nice touch.",
+            "candidate_score": 1,
             "running_mate": true
         }
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 82,
+        "pk": 1004,
         "fields": {
-            "first_name": "John",
-            "last_name": "Danforth",
+            "first_name": "Jack",
+            "last_name": "Kemp",
             "election": 9,
             "party": "Republican",
-            "state": "Missouri",
-            "priority": 6,
-            "description": "''",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/john-danforth-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>John Danforth served four terms as Senator from Missouri. He has broad experience in government, and as a moderate Republican would reinforce Bush's claim to be a uniter. Danforth also has close relationships with conservative stalwarts such as Kit Bond, Clarence Thomas, and John Ashcroft, and would not arouse undue suspicion from the conservative wing of the party. Winning Missouri back would be a key piece of any Republican victory in 2000.</p>",
-            "candidate_score": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Jack_Kemp_official_portrait.jpg/300px-Jack_Kemp_official_portrait.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Jack Kemp represented New York in the House before being appointed Secretary of the HUD by Bush. During his time in congress and as Secretary of the HUD, he’s garnered a reputation of being a “bleeding heart” Republican, being a proponent of supply side economics, tax cuts, and other standard Republican budgetary policies. On the flip side he's much more moderate on social issues. Before getting into politics he played Professional Football.<br><br>Choosing Kemp would reassure the Conservative Wing of the Party, thus mitigating the amount of them willing to jump ship to Buchanan. ",
+            "candidate_score": 1,
             "running_mate": true
         }
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 83,
+        "pk": 1005,
         "fields": {
-            "first_name": "Tom",
-            "last_name": "Ridge",
+            "first_name": "Bob",
+            "last_name": "Dole",
             "election": 9,
             "party": "Republican",
-            "state": "Pennsylvania",
-            "priority": 7,
-            "description": "''",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "state": "Kansas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/tom-ridge-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Tom Ridge is the popular Governor of a large swing state. Pennsylvania's 23 electoral votes would almost ensure a Bush victory if Ridge could deliver them. He has a reputation as an able administrator and has been very tough on crime. However, he has also been pro-choice for his entire career, and his selection as running mate could cause issues with the Republican base in other regions.</p>",
-            "candidate_score": 0,
+            "image_url": "https://www.gannett-cdn.com/presto/2021/02/18/NTCJ/80c031b8-d9e4-4222-9bed-232868251a7f-199204_Sen.BobDole.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "Senate Majority leader Bob Dole has spent almost his entire life in politics. A veteran of the Second World War, Dole is a longtime member of both the House and the Senate. Along with being Majority Leader, Dole has served as chair of the RNC and Gerlad Ford's running mate in the 1976 presidential election.<br><br>Dole’s decades in politics have given him considerable name recognition, something your ticket could benefit from. Despite this, concerns remain about Dole's age and health, given that later this year he will be turning seventy three. ",
+            "candidate_score": 1,
             "running_mate": true
         }
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 84,
+        "pk": 1006,
         "fields": {
             "first_name": "Colin",
             "last_name": "Powell",
             "election": 9,
             "party": "Republican",
-            "state": "Virginia",
-            "priority": 8,
-            "description": "''",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/colin-powell-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Colin Powell is a moderate Republican and a key general from the Desert Storm campaign. He enjoys high personal popularity among the American electorate. He would be the first African-American to be a running mate for a major party. It will take some strong inducements to get Powell to run, however. He has repeatedly stated that he is not seeking the role, but perhaps you could persuade him by taking a moderate position on the social issues of the day.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 85,
-        "fields": {
-            "first_name": "Joe",
-            "last_name": "Lieberman",
-            "election": 9,
-            "party": "Democrat",
-            "state": "Connecticut",
-            "priority": 9,
-            "description": "''",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
             "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
+            "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/joe-lieberman-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
-            "candidate_score": 0,
+            "image_url": "https://people.com/thmb/7X8p2cxu948bC8W_mw7hNxiiBWI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/colin-powell-7-94fc90b47f844f429f30a83d3b6bfecd.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "What more is there to say about Colin Powell? Powell served two tours in Vietnam, commanded the V corps in Frankfurt, served as National Security advisor to Ronald Regean,  and most famously of all, headed the Joint Chiefs of Staff during the Gulf War. Known for his meticulous and calculated strategy, Powell successfully led coalition forces to victory, gaining himself much popularity.<br><br>Selecting a retired four star general certainly has its perks, his immense popularity being the most obvious. His foreign policy experience also contrasts well with your Domestic experience. On the flip side, Powells a moderate on most social issues, something he shares with you. Thus, selecting him might embolden more conservatives to jump ship to Bucky.",
+            "candidate_score": 1,
             "running_mate": true
         }
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 86,
-        "fields": {
-            "first_name": "Bob",
-            "last_name": "Graham",
-            "election": 9,
-            "party": "Democrat",
-            "state": "Florida",
-            "priority": 10,
-            "description": "''",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/bob-graham-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Bob Graham is a Senator and former Governor from Florida. His popularity in that state could be crucial to a Democratic victory in 2000. He is fairly moderate and was one of Bill Clinton's top choices for running mate before Clinton went with Gore. His focus has been on the environment, education, and intelligence issues.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 87,
+        "pk": 1007,
         "fields": {
             "first_name": "John",
-            "last_name": "Kerry",
+            "last_name": "McCain",
             "election": 9,
-            "party": "Democrat",
-            "state": "Massachusetts",
-            "priority": 11,
-            "description": "''",
+            "party": "Republican",
+            "state": "Arizona",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
             "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
+            "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/john-kerry-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>John Kerry is a Senator from Massachusetts. He gained prominence in his youth as a Vietnam Veteran Against the War. He also won a Silver Star in that war. He is a solid liberal on the political spectrum. His home state is strongly Democratic, but his views may help the Democrats reduce the loss of support to Ralph Nader. He can also be helpful in New Hampshire.</p>",
-            "candidate_score": 0,
+            "image_url": "https://jetsimon.com/cts-media/public/1993PC_CheneyMcCain_0.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "The Maverick John McCain has a track record of independence in the House and Senate. Before getting involved in politics, McCain served in Vietnam, getting taken POW by the VietCong, wherein he suffered torture and abuse. During his time in Congress, McCain has repeatedly clashed with party leaders, most notably he opposed the Bush Administrations intervention in Somalia. He's also made a name for himself by opposing Pork Barrel Spending and supporting Campaign Finance Reform.<br><br>Picking McCain as your running mate would help distance yourself from the Bush and Reagan Administrations, and would add to your “New Republican” image. On the flip side, McCain and you both being on the same ticket might turn some heads amongst the party leadership; as both of you have reputations for being “Independently” minded.",
+            "candidate_score": 1,
             "running_mate": true
         }
     },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 88,
-        "fields": {
-            "first_name": "Evan",
-            "last_name": "Bayh",
-            "election": 9,
-            "party": "Democrat",
-            "state": "Indiana",
-            "priority": 12,
-            "description": "''",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/evan-bayh-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Evan Bayh is a Senator from Indiana and a former Governor. He is broadly popular in that state and is a leader of the moderate wing of the Democrats. This could help the Democrats compete in the Midwest and South, but it could also alienate the left-wing of the party and drive additional support to Ralph Nader's bid.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 89,
-        "fields": {
-            "first_name": "Winona",
-            "last_name": "LaDuke",
-            "election": 9,
-            "party": "Green",
-            "state": "Minnesota",
-            "priority": 13,
-            "description": "''",
-            "color_hex": "#00C100",
-            "secondary_color_hex": "#A1FFA1",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 90,
-        "fields": {
-            "first_name": "Ezola",
-            "last_name": "Foster",
-            "election": 9,
-            "party": "Reform",
-            "state": "California",
-            "priority": 14,
-            "description": "''",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "''",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "''",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    }
 ]
 
 campaignTrail_temp.running_mate_json = [
@@ -347,80 +232,40 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 57,
         "fields": {
-            "candidate": 80,
-            "running_mate": 90
+            "candidate": 77,
+            "running_mate": 1005
         }
     },
     {
         "model": "campaign_trail.running_mate",
         "pk": 56,
         "fields": {
-            "candidate": 79,
-            "running_mate": 89
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 48,
-        "fields": {
             "candidate": 77,
-            "running_mate": 81
+            "running_mate": 1002
         }
     },
     {
         "model": "campaign_trail.running_mate",
         "pk": 52,
         "fields": {
-            "candidate": 78,
-            "running_mate": 85
+            "candidate": 77,
+            "running_mate": 1004
         }
     },
     {
         "model": "campaign_trail.running_mate",
         "pk": 53,
         "fields": {
-            "candidate": 78,
-            "running_mate": 86
+            "candidate": 77,
+            "running_mate": 1006
         }
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 49,
+        "pk": 98,
         "fields": {
             "candidate": 77,
-            "running_mate": 82
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 54,
-        "fields": {
-            "candidate": 78,
-            "running_mate": 87
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 55,
-        "fields": {
-            "candidate": 78,
-            "running_mate": 88
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 50,
-        "fields": {
-            "candidate": 77,
-            "running_mate": 83
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 51,
-        "fields": {
-            "candidate": 77,
-            "running_mate": 84
+            "running_mate": 1007
         }
     }
 ]
@@ -500,7 +345,7 @@ jet_data = {
 //#startcode
 
 
-corrr = '\n              <h2>NCT MODJAM</h2><font id="wittyquote" size="4" color="white"><em>"Managing people's sex lives is something that I don't think is a good role for government."</em></font>\n            ';
+corrr = '\n<h2>NCT MODJAM</h2><font id="wittyquote" size="4" color="white"><em>Managing people sex lives is something that I dont think is a good role for government.</em></font>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#941100";
@@ -513,7 +358,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#FFFFFF";
 
-document.getElementById("header").src = "https://i.imgur.com/dPIVx8u.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/5IWA2Bh.jpeg";
 
 document.body.background = "https://c2.staticflickr.com/4/3260/3117096015_e7355b7a3a_b.jpg";
 
