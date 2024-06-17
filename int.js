@@ -27,7 +27,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Massachussets",
             "priority": 1,
-            "description": "<div style='overflow-y:scroll;height:200px;'>Bill Weld is the current Governor of Massachusts. In getting elected Governor he did the impossible, win as a Republican in a Heavily Blue state. He would defy expectations again, winning re-election in a landslide carrying even Boston, a city that in living memory had never voted Republican.\n\n Before becoming Governor he served on the Nixon Impeachment inquiry and was head of the Criminal Division of Reagan's Justice Department. This Judicial experience has given him a “Law and order” reputation.<br><br>Weld's win in Massachusetts was partly a result of his liberal views on social issues, something that will be to his detriment among Evangelical Republicans, a significant wing of the party. <br><br>Weld has yet to comment on NAFTA, an issue that has split the Republican Party right down the middle. <br><br>Weld is a fresh face on the national scene, being much younger than Dole or Trump. He's also relatively controversy free while also being energetic and exciting, something that can not be said about Trump or Dole.<br><br>Weld will have to walk a tightrope if he is to win the party nomination, balancing his liberal credentials with overtures to the Evengelicals, positioning himself as a fresh face in contrast to Dole, and presenting an image of stability in contrast to Trump.\n</div>",
+            "description": "<div style='overflow-y:scroll;height:200px;'>Bill Weld is the current Governor of Massachusts. In getting elected Governor he did the impossible, win as a Republican in a Heavily Blue state. He would defy expectations again, winning re-election in a landslide carrying even Boston, a city that in living memory had never voted Republican.\n\n Before becoming Governor he served on the Nixon Impeachment inquiry and was head of the Criminal Division of Reagan's Justice Department. This Judicial experience has given him a “Law and order” reputation.<br><br>Weld's win in Massachusetts was partly a result of his liberal views on social issues, something that will be to his detriment among Evengelical Republicans, a significant wing of the party. <br><br>Weld has yet to comment on NAFTA, an issue that has split the Republican Party right down the middle. <br><br>Weld is a fresh face on the national scene, being much younger than Dole or Trump. He's also relatively controversy free while also being energetic and exciting, something that can not be said about Trump or Dole.<br><br>Weld will have to walk a tightrope if he is to win the party nomination, balancing his liberal credentials with overtures to the Evengelicals, positioning himself as a fresh face in contrast to Dole, and presenting an image of stability in contrast to Trump.\n</div>",
             "color_hex": "#D2042D",
             "secondary_color_hex": null,
             "is_active": 1,
@@ -74,7 +74,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Virginia",
             "priority": 1,
             "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
+            "color_hex": "#A01641",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -97,7 +97,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Virginia",
             "priority": 1,
             "description": "<p>Put description here</p>",
-            "color_hex": "#0000FF",
+            "color_hex": "#d05663",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -150,7 +150,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "Jim Jeffords is currently representing the state of Vermont in the House of Representatives. Before serving in the House he was a captain in the Navy. During his tenure in the House, Jeffords has been noted as a moderate Republican, championing education and healthcare reform. Additionally he condemned President Bush for his inaction in regards to the Rwanden Genocide, arguing that the President should have done more to prevent the situation from spirling out of control.<br><br>Selecting Jeffords as your running mate can help you establish yourself as a “New Republican”, someone different from Bush or Reagan. Despite this, selecting Jeffords would also further alienate Evangelical Republicans, a group that's already uneasy about your candidacy as is.",
+            "description_as_running_mate": "Jim Jeffords is currently representing the state of Vermont in the House of Representatives. Before serving in the House he was a captain in the Navy. During his tenure in the House, Jeffords has been noted as a moderate Republican, championing education and healthcare reform. Additionally he condemned President Bush for his inaction in regards to the Rwanden Genocide, arguing that the President should have done more to prevent the situation from spirling out of control.<br><br>Selecting Jeffords as your running mate can help you establish yourself as a “New Republican”, someone different from Bush or Reagan. Despite this, selecting Jeffords would also further alienate Evengelical Republicans, a group that's already uneasy about your candidacy as is.",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -196,7 +196,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "Bob Dole is a senator from Kansas who is well entrenched with the party apparatus. Before deciding to mount a run for the presidency, Dole was serving as Party Minority Leader, a post now held by Trent Lott. While Doles voting history in the senate has proved to be quite moderate, following Buchanan’s departure from the race and key endorsements from Pat Robertson and Strom Thurmond; he has gained the support of the Evangelical wing of the party. Ultimately he would lose the race to you in a squeaker, although you already know that.<br><br>Dole is the logical choice for a running mate. His age and experience is a counterweight to your youth and outsider status, his Evangelical support base is something you lack, and his hailing from the Midwest contrasts well with your Massachusetts blood. Picking Dole has little downsides, one of these small downsides is his age, at almost seventy three Dole is pushing the barrier when it comes to what Americans think is an acceptable age to be running the country.",
+            "description_as_running_mate": "Bob Dole is a senator from Kansas who is well entrenched with the party apparatus. Before deciding to mount a run for the presidency, Dole was serving as Party Minority Leader, a post now held by Trent Lott. While Doles voting history in the senate has proved to be quite moderate, following Buchanan’s departure from the race and key endorsements from Pat Robertson and Strom Thurmond; he has gained the support of the Evengelical wing of the party. Ultimately he would lose the race to you in a squeaker, although you already know that.<br><br>Dole is the logical choice for a running mate. His age and experience is a counterweight to your youth and outsider status, his Evengelical support base is something you lack, and his hailing from the Midwest contrasts well with your Massachusetts blood. Picking Dole has little downsides, one of these small downsides is his age, at almost seventy three Dole is pushing the barrier when it comes to what Americans think is an acceptable age to be running the country.",
             "candidate_score": 1,
             "running_mate": true
         }

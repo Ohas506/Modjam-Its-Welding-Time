@@ -37,19 +37,19 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 381,
+        "pk": 12257,
         "fields": {
-            "priority": -1,
-            "description": "The day that you've been waiting for has arrived. As the delegates arrive in Cleveland Ohio to determine the Presidential nominee of the GOP, a tenseness is apparent in the air. On the first ballot, no nominee, second, third, fourth, they all carry on like this until the fifth ballot. On the fifth ballot of the Republican National Convention, a ramshackle alliance of former Trump delegates, paired with some Opportunistic Dole delegates along with some delegates of the so called “center”, rallied behind a message of unity, a message that the Republican Party must unite in nominating Governor Bill Weld of Massachusetts for president! Your tiptoeing across the various factions of the party has paid off as you have been officially confirmed as the GOP’s nominee! As you step on to the stage to address the convention, what will your first message to America as the GOPs candidate for president be?",
+            "priority": 0,
+            "description": "Paleoconservative radio commentator and former aide to the Reagan Administration Pat Buchanan has announced that in light of your more liberal views on social issues, he will be mounting a third party run for presidency. Buchanan's arch conservative views include; Nazi apologia, fervent Christian Nationalism, and an adherence to the most fringe Far Right viewpoints imaginable. There is a concern among your advisors that Buchanan could siphon votes away from your Right Flank. How do we mitigate this possibility?",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
-        "pk": 12254,
+        "pk": 12282,
         "fields": {
-            "priority": 1,
-            "description": "The day that you've been waiting for has arrived. As the delegates arrive in Cleveland Ohio to determine the Presidential nominee of the GOP, a tenseness is apparent in the air. On the first ballot, no nominee, second, third, until the fourth ballot. On the fourth ballot in a squeaker, it appears that Bob Dole has edged out Trump for the GOP nomination. Game Over. It appears that your longshot bid for the Republican nomination was just that; a longshot. As Dole takes to the stage to give his acceptance speech, the feeling of defeat slowly creeps in. As Doles speeches raps up he walks down to shake your hand.\n",
+            "priority": 0,
+            "description": "You are currently serving as Governor of Massachusetts. Will you resign the Governorship to campaign for President? \n",
             "likelihood": 1
         }
     }
@@ -141,7 +141,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3481,
         "fields": {
             "question": 389,
-            "description": " The American people are quite frankly sick and tired of hearing about the NAFTA issue. If we're gonna beat the Dems we need to unite behind a common sense proposal, one that protects American workers while reducing costs and barriers towards North American trade.\n"
+            "description": "The American people are quite frankly sick and tired of hearing about the NAFTA issue. If we're gonna beat the Dems we need to unite behind a common sense proposal, one that protects American workers while reducing costs and barriers towards North American trade.\n"
         }
     },
     {
@@ -174,6 +174,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 12254,
             "description": "Thanks for a well run race, it truly made me a better Governor. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12258,
+        "fields": {
+            "question": 12257,
+            "description": "There's a Golden Rule when it comes to Third Parties: Don't give them any more attention than they're already getting. Instead let's make a point of my more Conservative beliefs to try to reassure any potential Buchanan voters.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12259,
+        "fields": {
+            "question": 12257,
+            "description": "Buchanan’s a nut case and everyone knows it. Let's put out some ads attacking Bucky on some of his more reprehensible views, you know the Nazi stuff."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12260,
+        "fields": {
+            "question": 12257,
+            "description": "Lets telephone Robertson, Falwell, and Dole. If we can convince them to put out statements of endorsement for my campaign, then that's sure to cut into Buchanan's potential voter base. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12261,
+        "fields": {
+            "question": 12257,
+            "description": "I'm currently serving as Governor of Massachusetts, and some washed up Regean aide thinks he's more qualified than I am? Hell in the same administration he was some minor aide in, I was the head of its Justice Department's Criminal Division. Bucky ain't got the experience needed to be President, but I do. Let's hammer that home. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12283,
+        "fields": {
+            "question": 12282,
+            "description": "Yes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12284,
+        "fields": {
+            "question": 12282,
+            "description": "No. I made a commitment to serve out all four years, and besides my terms over in a matter of months, may as well see it out to the end."
         }
     }
 ]
@@ -5675,6 +5723,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 79,
             "global_multiplier": -0.25
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12286,
+        "fields": {
+            "answer": 12283,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": 0.0034
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 12288,
+        "fields": {
+            "answer": 12284,
+            "candidate": 77,
+            "affected_candidate": 77,
+            "global_multiplier": -0.0034
+        }
     }
 ]
 
@@ -5712,6 +5780,160 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 78,
             "affected_candidate": 78,
             "state_multiplier": -0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12263,
+        "fields": {
+            "answer": 12258,
+            "state": 181,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 0.98
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12264,
+        "fields": {
+            "answer": 12258,
+            "state": 204,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 0.98
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12265,
+        "fields": {
+            "answer": 12258,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 0.98
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12268,
+        "fields": {
+            "answer": 12259,
+            "state": 181,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12269,
+        "fields": {
+            "answer": 12259,
+            "state": 203,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12270,
+        "fields": {
+            "answer": 12259,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12272,
+        "fields": {
+            "answer": 12260,
+            "state": 181,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12273,
+        "fields": {
+            "answer": 12260,
+            "state": 204,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12274,
+        "fields": {
+            "answer": 12260,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12275,
+        "fields": {
+            "answer": 12260,
+            "state": 220,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 0.98
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12278,
+        "fields": {
+            "answer": 12261,
+            "state": 181,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12279,
+        "fields": {
+            "answer": 12261,
+            "state": 204,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12280,
+        "fields": {
+            "answer": 12261,
+            "state": 190,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 12281,
+        "fields": {
+            "answer": 12261,
+            "state": 220,
+            "candidate": 77,
+            "affected_candidate": 79,
+            "state_multiplier": 1.5
         }
     }
 ]
@@ -5851,9 +6073,62 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 77,
             "answer_feedback": "It was something at least. As you settle back in to finish your last few months as Governor of Massachusetts, Dole hits the campaign trail. "
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12262,
+        "fields": {
+            "answer": 12258,
+            "candidate": 77,
+            "answer_feedback": " Denying Buchanan the publicity and recognition he needs to reach voters is a smart move. Regardless, a small core of the GOP will inevitably be lost to Patrick the “Hitlerite” Buchanan. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12266,
+        "fields": {
+            "answer": 12259,
+            "candidate": 77,
+            "answer_feedback": " While these ads do a remarkable job of highlighting Buchanans, shall we say, less savory views, they also have the unintended effect of blasting Buchanan’s message into more American homes than Bucky could on his own. A certain “type”, you know the type, of GOP voters take note of what he's saying"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12271,
+        "fields": {
+            "answer": 12260,
+            "candidate": 77,
+            "answer_feedback": " Robertson puts out a half hearted endorsement statement, Falwell refuses outright, and out of the three Dole is the only one who wholeheartedly gets behind your campaign. At the very least you've prevented a small segment of Mainstream Evangelicals from defecting to Bucky. Only problem is that Falwell's refusal to endorse you has emboldened those on the fringe to jump ship.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12276,
+        "fields": {
+            "answer": 12261,
+            "candidate": 77,
+            "answer_feedback": "This is true, you are worlds more qualified to be President. Problem is, this plays right into Bucky's anti-Establishment, Pro-Independent, and Pro-Outsider message."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12285,
+        "fields": {
+            "answer": 12283,
+            "candidate": 77,
+            "answer_feedback": "You're really going all into this eh? Paul Cellucci (your Lieutenant Governor) assumes the Governorship as the media reports on you making an expected decision.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12287,
+        "fields": {
+            "answer": 12284,
+            "candidate": 77,
+            "answer_feedback": " While some people criticize you for not faithfully serving the people of Massachustts, after all there is little time for being Governor when you're running for president, the fact that your term will be over in a few mere months silences any major damage that may have been done.\n"
+        }
     }
 ]
-
 //Dont copy paste from down here
 campaignTrail_temp.jet_data = [{
     "nicknames": {
@@ -5990,7 +6265,7 @@ var TrumpMap = {
     3464: 2,
   }
 
-var EvangelicalMap = {
+var EvengelicalMap = {
     3363: 1,
     3364: -1,
     3388: 1,
@@ -6002,16 +6277,43 @@ var EvangelicalMap = {
 
 }
 
+var CenterMap = {
+    3365: 1,
+    3388: 1,
+    3389: 1,
+    12250: 1,
+    3481: 1,
+    12252: -1,
+    3464: 1,
+    3465: 1,
+    3466: 2,
+
+
+
+}
 
 
 
 
 
-ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+
+
 
 cyoAdventure = function(a) {
+ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 
-if (e.question_number == 5) {
+    if (EvengelicalMap.hasOwnProperty(ans)) {
+        Evengelical += EvengelicalMap[ans];
+      }
+    if (TrumpMap.hasOwnProperty(ans)) {
+        Trump += TrumpMap[ans];
+      }
+    if (CenterMap.hasOwnProperty(ans)) {
+        Center += CenterMap[ans];
+      }
+
+
+    if (e.question_number == 4) {
         window.setTimeout(e.vpSwitcher, 20)
     }
 
@@ -6025,7 +6327,7 @@ getQuestionFromPk = function(pk) {
   let index = questionSheath.map(f=>f.pk).indexOf(pk)
   if (index < 0) {
     return false
-  }
+  } 
   return questionSheath[index]
 }
 getQuestionFromLabel = function(label) {
@@ -6035,39 +6337,44 @@ getQuestionFromLabel = function(label) {
   }
   return questionSheath[index]
 }
+//Trigger if you win the primaries
+if (campaignTrail_temp.question_number == 4 && Trump >= 2 && Evengelical >= 2 && Center >=2) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    campaignTrail_temp.questions_json[7] = {
+        
+            "model": "campaign_trail.question",
+            "pk": 381,
+            "fields": {
+                "priority": -1,
+                "description": "The day that you've been waiting for has arrived. As the delegates arrive in Cleveland Ohio to determine the Presidential nominee of the GOP, a tenseness is apparent in the air. On the first ballot, no nominee, second, third, fourth, they all carry on like this until the fifth ballot. On the fifth ballot of the Republican National Convention, a ramshackle alliance of former Trump delegates, paired with some Opportunistic Dole delegates along with some delegates of the so called “center”, rallied behind a message of unity, a message that the Republican Party must unite in nominating Governor Bill Weld of Massachusetts for president! Your tiptoeing across the various factions of the party has paid off as you have been officially confirmed as the GOP’s nominee! As you step on to the stage to address the convention, what will your first message to America as the GOPs candidate for president be?",
+                "likelihood": 1
+            
+        }
+        
+    }
+         
+}
+if (campaignTrail_temp.question_number == 4 && Trump < 2 || Evengelical < 2 || Center < 2) {
+    
+    campaignTrail_temp.questions_json[8] = {
+        
+            "model": "campaign_trail.question",
+            "pk": 12254,
+            "fields": {
+                "priority": 1,
+                "description": "The day that you've been waiting for has arrived. As the delegates arrive in Cleveland Ohio to determine the Presidential nominee of the GOP, a tenseness is apparent in the air. On the first ballot, no nominee, second, third, until the fourth ballot. On the fourth ballot in a squeaker, it appears that Bob Dole has edged out Trump for the GOP nomination. Game Over. It appears that your longshot bid for the Republican nomination was just that; a longshot. As Dole takes to the stage to give his acceptance speech, the feeling of defeat slowly creeps in. As Doles speeches raps up he walks down to shake your hand.\n",
+                "likelihood": 1
+            }
+        }
+         
+} 
+if (campaignTrail_temp.question_number == 4 && Trump >= 2 && Evengelical >= 2 && Center >= 2){campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(381);                                                                                                                                                                                
 }
 
+if(campaignTrail_temp.question_number == 4 && Trump < 2 || Evengelical < 2 || Center < 2){campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(12254);}
+
+}
     
+
 
 
