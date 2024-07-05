@@ -6143,5 +6143,24 @@ campaignTrail_temp.jet_data = [{
 ]
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/8zRknTr.png";
 campaignTrail_temp.running_mate_image_url = "https://people.com/thmb/7X8p2cxu948bC8W_mw7hNxiiBWI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/colin-powell-7-94fc90b47f844f429f30a83d3b6bfecd.jpg";
-campaignTrail_temp.candidate_last_name = "Weld";
-campaignTrail_temp.running_mate_last_name = "Powell";
+campaignTrail_temp.candidate_last_name = "";
+campaignTrail_temp.running_mate_last_name = "";
+campaignTrail_temp.player_answers = [];
+campaignTrail_temp.player_visits = [];
+campaignTrail_temp.answer_feedback_flg = 1;
+campaignTrail_temp.game_start_logging_id = '4966146';
+const customStyling = document.createElement("style");
+  customStyling.innerHTML = `
+  #campaign_sign {
+      background-image: url("https://i.imgur.com/hVU9It7.jpeg");
+      background-size: cover;
+      border-color: #c9c9c9;    
+      border-width: .02em;
+      margin: 0 auto;
+      background-position: center;
+      width: 100%; 
+      height: 105px; 
+      margin-left: -0.07em;
+    }
+    `;
+document.head.appendChild(customStyling);
