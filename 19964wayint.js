@@ -32,7 +32,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#D2042D",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
-            "image_url": "https://i.imgur.com/EWNTwJX.jpeg",
+            "image_url": "https://i.imgur.com/a7Zxbg0.png",
             "electoral_victory_message": "",
             "electoral_loss_message": "",
             "no_electoral_majority_message": "",
@@ -341,7 +341,13 @@ jet_data = {
     "customQuote": "\"Managing people's sex lives is something that I don't think is a good role for government.\"",
     "gameTitle": "NCT MODJAM"
 }
-
+styling = document.createElement("style");
+document.head.appendChild(styling);          
+styling.innerHTML = `
+body {
+    background-size: cover;
+}
+`
 //#startcode
 
 

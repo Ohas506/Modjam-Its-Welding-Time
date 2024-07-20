@@ -6141,7 +6141,7 @@ campaignTrail_temp.jet_data = [{
     }
 }
 ]
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/8zRknTr.png";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/a7Zxbg0.png";
 campaignTrail_temp.running_mate_image_url = "https://people.com/thmb/7X8p2cxu948bC8W_mw7hNxiiBWI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/colin-powell-7-94fc90b47f844f429f30a83d3b6bfecd.jpg";
 campaignTrail_temp.candidate_last_name = "";
 campaignTrail_temp.running_mate_last_name = "";

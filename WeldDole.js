@@ -6141,7 +6141,7 @@ campaignTrail_temp.jet_data = [{
     }
 }
 ]
-campaignTrail_temp.candidate_image_url = "https://i.imgur.com/8zRknTr.png";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/a7Zxbg0.png";
 campaignTrail_temp.running_mate_image_url = "https://www.gannett-cdn.com/presto/2021/02/18/NTCJ/80c031b8-d9e4-4222-9bed-232868251a7f-199204_Sen.BobDole.jpg";
 campaignTrail_temp.candidate_last_name = "";
 campaignTrail_temp.running_mate_last_name = "";
