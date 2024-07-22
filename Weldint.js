@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 9,
         "fields": {
             "year": 2000,
-            "summary": "<div style='overflow-y:scroll;height:200px;'>  <font size=\"-2\">As America gears up for the 1996 Presidential election, the nation is faced with the usual referendum on the incumbent's four years in office. Four years of political scandals and foreign policy frustrations have paved the way for a widespread feeling of fatigue to take hold across the country.<br><li>Incumbent President Bill Clinton down in the polls, will have to stress the handful of accomplishments his administrations has.<br><li>Massachusetts Governor Bill Weld, a man so socially progressive you might forget he's the GOPs nominee, will have to defeat Clinton while also fighting of a challenger to his right<br> <li>Paleoconservative radio commentator and former Reagan aide Pat Buchanan has entered the race to give voters a much more Conservative alternative to Weld.<br><li>Finally, Former Governor of Colorado Dick Lamm is running under the banner of the Freedom Party, a party that encapsulates all of Lamm’s eccentric viewpoints.</div>\n",
+            "summary": "<div style='overflow-y:scroll;height:200px;'>  <font size=\"2.5\">As America gears up for the 1996 Presidential election, the nation is faced with the usual referendum on the incumbent's four years in office. <br><br>Incumbent President Bill Clinton up in the polls, is the bookies favorite due to a strong economy and a divided GOP. <br><br>Massachusetts Governor Bill Weld, a man so socially progressive you might forget he's the GOPs nominee, will have to defeat Clinton while also fighting of a challenger to his right<br><br>Former Colorado Governor Dick Lamm is running alongside Pat Buchanan as an arch conservative alternative to Weld.  </div>\n",
             "image_url": "https://img.huffingtonpost.com/asset/5b9d6ae62400003100539542.jpeg?ops=scalefit_960_noupscale",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://cdn.theatlantic.com/thumbor/RgXCOiNHt8pliVSioy3zW2VtOLs=/0x0:1752x1274/630x458/media/img/posts/2018/01/WEL_Foer_Manafort_college/original.jpg",
@@ -71,7 +71,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Dick",
             "last_name": "Lamm",
             "election": 9,
-            "party": "Freedom",
+            "party": "Freedom/US Taxpayers",
             "state": "Colorado",
             "priority": 3,
             "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
@@ -82,29 +82,6 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "",
             "electoral_loss_message": "",
             "no_electoral_majority_message": "",
-            "description_as_running_mate": "''",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 79,
-        "fields": {
-            "first_name": "Pat",
-            "last_name": "Buchanan",
-            "election": 9,
-            "party": "US taxpayers",
-            "state": "Virginia",
-            "priority": 4,
-            "description": "''",
-            "color_hex": "#c7268d",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "''",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
             "description_as_running_mate": "''",
             "candidate_score": 1,
             "running_mate": false
@@ -364,7 +341,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#FFFFFF";
 
-document.getElementById("header").src = "https://i.imgur.com/5IWA2Bh.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/mHpjFyg.jpeg";
 
 document.body.background = "https://c2.staticflickr.com/4/3260/3117096015_e7355b7a3a_b.jpg";
 
