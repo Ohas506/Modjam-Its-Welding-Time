@@ -1957,7 +1957,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 200,
             "issue": 101,
-            "issue_score": 0.5
+            "issue_score": 0.3
         }
     },
     {
