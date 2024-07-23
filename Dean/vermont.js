@@ -29,4 +29,68 @@ e = campaignTrail_temp;
 
 corrr=`\n<h2>ON THE GREEN MOUNTAIN TRAIL</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
 
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: lightskyblue;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: lightblue;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 150px;
+            background-color: lightblue;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+    {searchString: "Jill Krowinski", explanationText: "Speaker of the Vermont House of Representatives<img src=https://i.imgur.com/GYfkatc.png>"},
+    {searchString: "gold", explanationText: "A metal that is more valuable than silver "},
+	{searchString: "smurfy grin", explanationText: "<img src=https://cdn.discordapp.com/attachments/1131296206908301423/1138054729604284446/schlumpf.png> :3"}
+        
+];
      

@@ -8,7 +8,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1042,
         "fields": {
             "priority": 1,
-            "description": "Let's step back a couple years. In the run-up to the 2016 election, you have the luxury of being your party's presumptive nominee, along with a significant amount of time to prepare for the campaign. How will you take advantage of this time?",
+            "description": "Jill Krowinski In the run-up to the 2016 election, you have the luxury of being your party's presumptive nominee, along with a significant amount of time to prepare for the campaign. How will you take advantage of this time?",
             "likelihood": 1
         }
     },
@@ -1244,7 +1244,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20681,
             "issue": "100",
-            "state_issue_score": -1,
+            "state_issue_score": 0.6,
             "weight": 1.5
         }
     },
@@ -1254,7 +1254,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20681,
             "issue": "101",
-            "state_issue_score": 0,
+            "state_issue_score": 0.6,
             "weight": 1.5
         }
     },
@@ -1344,7 +1344,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20701,
             "issue": "100",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1354,7 +1354,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20701,
             "issue": "101",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1374,7 +1374,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20701,
             "issue": "103",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1394,8 +1394,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20711,
             "issue": "100",
-            "state_issue_score": 0,
-            "weight": 1.5
+            "state_issue_score": 1,
+            "weight": 0.5
         }
     },
     {
@@ -1404,8 +1404,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20711,
             "issue": "101",
-            "state_issue_score": 0,
-            "weight": 1.5
+            "state_issue_score": 1,
+            "weight": 0.5
         }
     },
     {
@@ -1414,8 +1414,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20711,
             "issue": "102",
-            "state_issue_score": 0,
-            "weight": 1.5
+            "state_issue_score": 1,
+            "weight": 0.5
         }
     },
     {
@@ -1424,8 +1424,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20711,
             "issue": "103",
-            "state_issue_score": 0,
-            "weight": 1.5
+            "state_issue_score": 1,
+            "weight": 0.5
         }
     },
     {
@@ -1454,7 +1454,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20721,
             "issue": "101",
-            "state_issue_score": -0.7,
+            "state_issue_score": 0,
             "weight": 1.5
         }
     },
@@ -1544,7 +1544,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20741,
             "issue": "100",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1554,7 +1554,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20741,
             "issue": "101",
-            "state_issue_score": 0,
+            "state_issue_score": -1,
             "weight": 1.5
         }
     },
@@ -1564,7 +1564,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20741,
             "issue": "102",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1574,7 +1574,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20741,
             "issue": "103",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1584,7 +1584,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20741,
             "issue": "104",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1794,7 +1794,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20791,
             "issue": "100",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1804,7 +1804,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20791,
             "issue": "101",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1814,7 +1814,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20791,
             "issue": "102",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1824,7 +1824,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20791,
             "issue": "103",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1844,7 +1844,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20801,
             "issue": "100",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1854,7 +1854,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20801,
             "issue": "101",
-            "state_issue_score": 0,
+            "state_issue_score": -0.7,
             "weight": 1.5
         }
     },
@@ -1864,7 +1864,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20801,
             "issue": "102",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1874,7 +1874,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20801,
             "issue": "103",
-            "state_issue_score": 0,
+            "state_issue_score": -0.6,
             "weight": 1.5
         }
     },
@@ -1884,8 +1884,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 20801,
             "issue": "104",
-            "state_issue_score": 0,
-            "weight": 1.5
+            "state_issue_score": 0.7,
+            "weight": 0.5
         }
     },
     {
@@ -1940,7 +1940,67 @@ campaignTrail_temp.state_issue_score_json = [
     }
 ]
 
+function getTooltips(str) {
+    let matches = [];
 
+    tooltipList.forEach((tooltip, index) => {
+        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
+       let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
+
+
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            matches.push({
+                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
+                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0), 
+                tooltipIndex: index
+            });
+        }
+    });
+
+    // Sort by starting position; if two start at the same position, longer match comes first
+    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+
+    // Filter out overlaps
+    for (let i = 0; i < matches.length - 1; ) {
+        if (matches[i + 1].start < matches[i].end) {
+            matches.splice(i + 1, 1); // Remove the next match since it overlaps
+        } else {
+            i++; // Move to next match
+        }
+    }
+
+    return matches;
+}
+function applyTooltips(str) {
+    const matches = getTooltips(str);
+    let result = '';
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+        const tooltip = tooltipList[match.tooltipIndex];
+        result += str.slice(lastIndex, match.start);
+        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
+        lastIndex = match.end;
+    });
+
+    result += str.slice(lastIndex); // Add the remainder of the original string
+    return result;
+}
+
+function applyTooltipsToObject(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string') {
+            obj[key] = applyTooltips(obj[key]);
+        } else if (typeof obj[key] === 'object') {
+            applyTooltipsToObject(obj[key]); // Recursive call
+        }
+    }
+}
+
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
 
 
 campaignTrail_temp.candidate_state_multiplier_json = [
@@ -1950,7 +2010,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20681,
-            "state_multiplier": 0.38
+            "state_multiplier": 0.178
         }
     },
     {
@@ -1977,7 +2037,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20681,
-            "state_multiplier": 0.1
+            "state_multiplier": 0
         }
     },
     {
@@ -2022,7 +2082,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20701,
-            "state_multiplier": 0.24
+            "state_multiplier": 0.32
         }
     },
     {
@@ -2058,7 +2118,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20711,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.29
         }
     },
     {
@@ -2085,7 +2145,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20711,
-            "state_multiplier": 0.1
+            "state_multiplier": 0
         }
     },
     {
@@ -2094,7 +2154,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20721,
-            "state_multiplier": 0.51
+            "state_multiplier": 0.54
         }
     },
     {
@@ -2166,7 +2226,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20741,
-            "state_multiplier": 0.39
+            "state_multiplier": 0.32
         }
     },
     {
@@ -2382,7 +2442,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20801,
-            "state_multiplier": 0.35
+            "state_multiplier": 0.67
         }
     },
     {
