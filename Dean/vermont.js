@@ -88,9 +88,279 @@ function addDynamicCSS() {
 addDynamicCSS();
 
 tooltipList = [
-    {searchString: "Jill Krowinski", explanationText: "Speaker of the Vermont House of Representatives<img src=https://i.imgur.com/GYfkatc.png>"},
-    {searchString: "gold", explanationText: "A metal that is more valuable than silver "},
-	{searchString: "smurfy grin", explanationText: "<img src=https://cdn.discordapp.com/attachments/1131296206908301423/1138054729604284446/schlumpf.png> :3"}
-        
+    {searchString: "Jill Krowinski", explanationText: "<img src=https://i.imgur.com/GYfkatc.png>Speaker of the Vermont House of Representatives"},
+    {searchString: "Phil Baruth", explanationText: "<img src=https://i.imgur.com/ByB289q.png>President pro tempore of the Vermont State Senate"},
+	{searchString: "Bernie Sanders", explanationText: "<img src=https://i.imgur.com/OoSys1U.png>Senior U.S. Senator for Vermont"},
+    {searchString: "Peter Welch", explanationText: "<img src=https://i.imgur.com/01aXaFU.png>“Junior” U.S. Senator for Vermont"},
+    {searchString: "Patrick Leahy", explanationText: "<img src=https://i.imgur.com/asCmII7.png>St. Patrick"},
+    {searchString: "Becca Balint", explanationText: "<img src=https://i.imgur.com/PBN9RAF.png> U.S. Representative for Vermont; a scrappy little dyke"},
+    {searchString: "Scott Beck", explanationText: "<img src=https://i.imgur.com/mzfLaAi.png>Republican State Representative from St. Johnsbury, a close ally"},
+    {searchString: "Anne Donahue", explanationText: "<img src=https://i.imgur.com/9LC1u1y.pngVeteran> Republican (for the moment) State Representative from Northfield, an American Christian Democrat"},
+    {searchString: "Russ Ingalls", explanationText: "<img src=https://i.imgur.com/thMddgt.png> State Senator for Essex County, a conservative Republican"},
+    {searchString: "Tanya Vyhovsky", explanationText: "<img src=https://i.imgur.com/GRD3krI.png> State Senator for Chittenden County; Progressive and democratic socialist"},
+    {searchString: "Donald Trump", explanationText: "The Monster"},
+    {searchString: "John Klar", explanationText: "<img src=https://i.imgur.com/6tILI6U.png> Your 2020 primary challenger, 2022 Republican State Senate candidate, right-wing to the hilt"},
+    {searchString: "Bruce Lisman:", explanationText: "The Monster"},
+    {searchString: "Gerald Malloy", explanationText: "<img src=https://i.imgur.com/KTKzbCy.png> DEPLOY MALLOY"},
+    {searchString: "Jim Dandeneau", explanationText: "<img src=https://i.imgur.com/WLVJcKs.png> Director of the Vermont Democratic Party; can’t stand you"},
+    {searchString: "Jim Dandeneau", explanationText: "<img src=https://i.imgur.com/WLVJcKs.png> Director of the Vermont Democratic Party; can’t stand you"},
+    {searchString: "Paul Dame", explanationText: "<img src=https://i.imgur.com/ZlXxNVt.png> Chair of the Vermont Republican Party; barely relevant"},
+    {searchString: "Jim Douglas", explanationText: "<img src=https://i.imgur.com/vgbCGov.png> Republican Governor of Vermont from 2002-2010, a moderate, but more conservative than you"},
+    {searchString: "Joe Benning", explanationText: "Respected Former State Senator and Republican nominee for Lt. Gov in 2022"},
+    {searchString: "Patricia McCoy", explanationText: "Leader of the State House Republican"},
+    {searchString: "Brenda Siegel", explanationText: "2022 Democratic Gubernatorial nominee; lost in blowout"},
+    {searchString: "Paul Heintz", explanationText: " Editor-in-Chief of the VTDigger, the state’s leading media outlet"},
+    {searchString: "Rebecca Holcombe", explanationText: "Democratic State Representative, your former Secretary of Education turned fierce opponent "},
+    {searchString: "Miro Weinberger", explanationText: "img src=https://i.imgur.com/1wjhmvx.png> Former Mayor of Burlington "},
+    {searchString: "going to offer her my full support and to introduce her", explanationText: "https://i.imgur.com/ZYKxx1U.png>"},
+    {searchString: "Jim Douglas", explanationText: "<img src=https://i.imgur.com/94IQl7o.png> Vermont State Treasurer; Democrat Governor-in-waiting"},
+    {searchString: "Art Peterson", explanationText: "State Rep (R); Big Dude"},
+    {searchString: "Emilie Kornheiser", explanationText: "<img src=https://i.imgur.com/LGf7UON.png> Democrat Chair of the House Ways and Means Committee; ambitious and progressive"},
+    {searchString: "Slate Ridge", explanationText: " Former anti-government militia training camp in Rutland county"},
+    {searchString: "Dem", explanationText: "Irresponsible"},
+    {searchString: "Prog", explanationText: "Radical!"},
+    {searchString: "Boston Bruins", explanationText: "<img src=https://i.imgur.com/ok6CxAf.png> Go Bs!"},
+    {searchString: "Jason Gibbs", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Governor Gibbs"},
+    {searchString: "Senator Dick Mazza", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Best Pals"},
 ];
+// Initialise custom music
+
+$("#music_player")[0].children[0].style.display="none"
+$("#music_player")[0].children[1].style.display="none"
+
+document.getElementById("modLoadReveal").style.display="none"
+document.getElementById("modloaddiv").style.display="none"
+
+musicBox = document.getElementById("music_player")
+musicBox.style.display=""
+
+var trackSel;
+e = campaignTrail_temp
+e.selectedSoundtrack = 0
+
+toTime = (seconds) => {
+  var date = new Date(null);
+  date.setSeconds(seconds);
+  return date.toISOString().substr(11, 8);
+}
+
+generateTime = () => {
+    // Get the audio element
+    var audio = document.getElementById("campaigntrailmusic");
+
+    timeTracker = document.createElement("div");
+    timeTracker.style = `
+      text-align:left;
+      border-style:solid;
+      border-width:3px;
+      height:150px;
+      width:200px;
+      background-color:#999999;
+      float:right;
+      padding: 10px;
+    `
+    $("#trackSelParent")[0].prepend(timeTracker);
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+    // Create a new element to display the current position of the audio
+    var positionDisplay = document.createElement("gg");
+    positionDisplay.id = "position-display";
+
+    // Create a new slider element to change the time
+    var timeSlider = document.createElement("input");
+    timeSlider.type = "range";
+    timeSlider.min = 0;
+    timeSlider.max = 1;
+    timeSlider.step = 0.001;
+    timeSlider.value = 0;
+    timeSlider.style.width = "200px";
+    timeSlider.id = "time-slider";
+
+    var pausePlay = document.createElement("button");
+    pausePlay.id = "position-display";
+    pausePlay.innerHTML = "<b>Pause</b>"
+    pausePlay.style.width = "100%";
+
+
+    pausePlay.addEventListener("click", event => {
+      event.preventDefault();
+      updatePositionDisplay();
+      let audio = document.getElementById("campaigntrailmusic");
+      if (audio.paused) {
+        audio.play();
+        event.target.innerHTML = "<b>Pause</b>";
+        return;
+      }
+      audio.pause();
+      event.target.innerHTML = "<b>Play</b>";
+      return;
+    })
+
+    var volumeLabel = document.createElement("gg");
+    volumeLabel.id = "volume-label";
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+    var volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.min = 0;
+    volumeSlider.max = 1;
+    volumeSlider.step = 0.001;
+    volumeSlider.value = 0;
+    volumeSlider.style.width = "200px";
+    volumeSlider.id = "volume-slider";
+
+    volumeSlider.value = audio.volume;
+
+    timeTracker.appendChild(pausePlay);
+    timeTracker.appendChild(document.createElement("br"));
+    timeTracker.appendChild(document.createElement("br"));
+    timeTracker.appendChild(positionDisplay);
+    timeTracker.appendChild(timeSlider);
+    timeTracker.appendChild(volumeLabel);
+    timeTracker.appendChild(volumeSlider);
+
+    updatePositionDisplay();
+
+    //for (let i = 0; i < 10; i++)
+    //timeTracker.append(document.createElement("br"));
+
+
+    // Function to update the position display
+    function updatePositionDisplay() {
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+    }
+
+    // Function to change the time of the audio
+    function changeTime() {
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+      audio.currentTime = timeSlider.value * audio.duration;
+    }
+
+    updateVolume = event => {
+      audio.volume = event.target.value;
+    }
+    
+    // Update the position display and slider every second
+    setInterval(updatePositionDisplay, 1000);
+
+    // Listen for changes to the time slider and change the time of the audio
+    timeSlider.addEventListener("input", changeTime);
+    volumeSlider.addEventListener("input", updateVolume)
+}
+
+function newMusicPlayer() {
+  trackSel = document.createElement("div");
+  trackSel.id = "trackSelParent"
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+  for (i in soundtracks) {
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+    }
+  }
+  z += `</select></b><br><br>`
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+    z += b
+  }
+  z += "</div><br><br>"
+  trackSel.innerHTML = z
+
+  // select correct song
+
+  musicBox.appendChild(trackSel);
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+    return f.tagName == "LABEL"
+  }).map(f=>f.children[0])[0].checked = true
+
+  // set soundtrack changer
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+  soundtrackSelector.onchange = function() {
+    for (i in soundtracks) {
+      if (soundtracks[i].name == soundtrackSelector.value) {
+        e.selectedSoundtrack = i
+        break
+      }
+    }
+    document.getElementById("trackSelParent").remove()
+    newMusicPlayer()
+  }
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+  for (match in matches) {
+    matches[match].onchange = function() {
+      audio = $("#campaigntrailmusic")[0];
+      audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+      audio.currentTime = 0
+    }
+  }
+
+  musicBox.children[2].loop = false
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+  musicBox.children[2].onended = function() {
+    console.log("next track")
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+      return f.tagName == "LABEL"
+    }).map(f=>f.children[0])
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+    buttons[newSel].click()
+  }
+
+  for (w = 0; w < 7; w++) {
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+  }
+  
+  generateTime();
+}
+
+clamp = function(a, max, min, overflow=true) {
+  if (overflow) {
+    return a > max ? min : a < min ? max : a;
+  }
+  return a > max ? max : a < min ? min : a;
+}
+
+
+// Track list
+
+var soundtracks = {
+  0: {
+    name: "Vermont",
+    tracklist: [
+      {
+        "name": "The Divided Sky",
+        "url": "https://audio.jukehost.co.uk/rfe4G8dLKLMIkEOA7YtxmjnjcEEzwXgp"
+      },
+   ]
+   },	  
+}
+
+// Set up new music player
+
+newMusicPlayer()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
