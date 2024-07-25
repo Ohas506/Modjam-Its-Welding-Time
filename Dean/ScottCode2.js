@@ -1039,8 +1039,8 @@ campaignTrail_temp.states_json = [
             "name": "Addison",
             "abbr": "Addison",
             "electoral_votes": 1,
-            "popular_votes": 21000,
-            "poll_closing_time": 21867,
+            "popular_votes": 21089,
+            "poll_closing_time": 110,
             "winner_take_all_flg": 1,
             "election": 20
         },
@@ -2100,6 +2100,7 @@ function setSoundtrack(soundtrackName) {
         console.error("Soundtrack not found: " + soundtrackName);
     }
 }
+
 var soundtracks = {
     0: {
       name: "Vermont",
@@ -2108,20 +2109,53 @@ var soundtracks = {
           "name": "The Divided Sky",
           "url": "https://audio.jukehost.co.uk/rfe4G8dLKLMIkEOA7YtxmjnjcEEzwXgp"
         },
+        {
+          "name": "Vermont - These Green Mountains",
+          "url": "https://audio.jukehost.co.uk/pkxTtLz4unBykxGyGJC5ytUcT9SFobKC"
+        },
+        {
+          "name": "Hail! Vermont",
+          "url": "https://audio.jukehost.co.uk/XWdphfTiFJzfoFPmXinT3KPWcEEb5g1u"
+        },
+        {
+          "name": "Ballad of the Green Mountaineer",
+          "url": "https://audio.jukehost.co.uk/yQ5IgLOiOQZoHHOEV6howjH5PKX6qfUU"
+        },
+        {
+          "name": "Stick Season",
+          "url": "https://audio.jukehost.co.uk/X6GEoAcnwHBtbPsRBEMw2rzBGxz3yYEl"
+        },
+  
      ]
      },
      1: {
-      name: "Test",
+      name: "Scott",
       tracklist: [
         {
-          "name": "Green Mountain",
-          "url": "https://audio.jukehost.co.uk/yQ5IgLOiOQZoHHOEV6howjH5PKX6qfUU"
+          "name": "The Ballad Of Thunder Road",
+          "url": "https://audio.jukehost.co.uk/M1kxCOmO2tk2QJryLo7ZtFWWYAVLxuq1"
+        },
+        {
+          "name": "My Way (2008 Remastered)",
+          "url": "https://audio.jukehost.co.uk/H1W8RTABK3nbTtNiM6m8xtCF30GIEjKE"
+        },
+        {
+          "name": "Tom Petty- I Won't Back Down",
+          "url": "https://audio.jukehost.co.uk/ORwMHT58OhGeqxGQEEpIKL3cEounWUiv"
+        },
+        {
+          "name": "Reelin' In The Years",
+          "url": "https://audio.jukehost.co.uk/8sAOgl3V3ymHztloSqcagSnowWVvHEUn"
+        },
+        {
+          "name": "Governor Phil Scott, We Are Never Ever Ever Getting Back Together Low Lily",
+          "url": "https://audio.jukehost.co.uk/iqe2zJqAItOZ7BpxAoEo745piO0GbaEE"
         },
      ]
      },
            
   }
-
+var Music = 0;
 
 campaignTrail_temp.candidate_state_multiplier_json = [
     {
@@ -5449,12 +5483,35 @@ campaignTrail_temp.answer_feedback_json = [
         }
     }
 ]
+
+
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/byFtv7l.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GwWm2mN.png";
+campaignTrail_temp.candidate_last_name = "";
+campaignTrail_temp.running_mate_last_name = "";
+const customStyling = document.createElement("style");
+  customStyling.innerHTML = `
+  #campaign_sign {
+      background-image: url("https://i.imgur.com/5SlYA42.png");
+      background-size: cover;
+      border-color: #c9c9c9;    
+      border-width: .01em;
+      margin: 0 auto;
+      background-position: center;
+      width: 100%; 
+      height: 90px; 
+      margin-left: -0.07em;
+    }
+    `;
+document.head.appendChild(customStyling);
+
+
 campaignTrail_temp.cyoa = true
 cyoAdventure = function (a){
-if(e.question_number == 0) {
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-setSoundtrack("Test");
-}
+if (e.question_number == 0) {
+    setSoundtrack("Scott");
+    }
 }
 
 

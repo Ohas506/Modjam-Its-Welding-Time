@@ -5515,4 +5515,3 @@ campaignTrail_temp.jet_data = [{
     }
 }
 ]
-
