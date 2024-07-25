@@ -120,7 +120,7 @@ tooltipList = [
     {searchString: "Dem", explanationText: "Irresponsible"},
     {searchString: "Prog", explanationText: "Radical!"},
     {searchString: "Boston Bruins", explanationText: "<img src=https://i.imgur.com/ok6CxAf.png> Go Bs!"},
-    {searchString: "Jason Gibbs", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Governor Gibbs"},
+    {searchString: "Gibbs", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Governor Gibbs"},
     {searchString: "Senator Dick Mazza", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Best Pals"},
 ];
 // Initialise custom music
