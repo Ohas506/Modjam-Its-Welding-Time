@@ -90,8 +90,8 @@ addDynamicCSS();
 tooltipList = [
     {searchString: "Jill Krowinski", explanationText: "<img src=https://i.imgur.com/GYfkatc.png>Speaker of the Vermont House of Representatives"},
     {searchString: "Phil Baruth", explanationText: "<img src=https://i.imgur.com/ByB289q.png>President pro tempore of the Vermont State Senate"},
-	{searchString: "Bernie Sanders", explanationText: "<img src=https://i.imgur.com/OoSys1U.png>Senior U.S. Senator for Vermont"},
-    {searchString: "Peter Welch", explanationText: "<img src=https://i.imgur.com/01aXaFU.png>“Junior” U.S. Senator for Vermont"},
+	{searchString: "Sanders", explanationText: "<img src=https://i.imgur.com/OoSys1U.png>Senior U.S. Senator for Vermont"},
+    {searchString: "Welch", explanationText: "<img src=https://i.imgur.com/01aXaFU.png>“Junior” U.S. Senator for Vermont"},
     {searchString: "Patrick Leahy", explanationText: "<img src=https://i.imgur.com/asCmII7.png>St. Patrick"},
     {searchString: "Becca Balint", explanationText: "<img src=https://i.imgur.com/PBN9RAF.png> U.S. Representative for Vermont; a scrappy little dyke"},
     {searchString: "Scott Beck", explanationText: "<img src=https://i.imgur.com/mzfLaAi.png>Republican State Representative from St. Johnsbury, a close ally"},
@@ -111,17 +111,20 @@ tooltipList = [
     {searchString: "Brenda Siegel", explanationText: "2022 Democratic Gubernatorial nominee; lost in blowout"},
     {searchString: "Paul Heintz", explanationText: " Editor-in-Chief of the VTDigger, the state’s leading media outlet"},
     {searchString: "Rebecca Holcombe", explanationText: "Democratic State Representative, your former Secretary of Education turned fierce opponent "},
-    {searchString: "Miro Weinberger", explanationText: "img src=https://i.imgur.com/1wjhmvx.png> Former Mayor of Burlington "},
-    {searchString: "going to offer her my full support and to introduce her", explanationText: "https://i.imgur.com/ZYKxx1U.png>"},
+    {searchString: "Miro Weinberger", explanationText: "<img src=https://i.imgur.com/1wjhmvx.png> Former Mayor of Burlington "},
+    {searchString: "going to offer her my full support and to introduce her", explanationText: "<img src=https://i.imgur.com/ZYKxx1U.png>"},
     {searchString: "Jim Douglas", explanationText: "<img src=https://i.imgur.com/94IQl7o.png> Vermont State Treasurer; Democrat Governor-in-waiting"},
     {searchString: "Art Peterson", explanationText: "State Rep (R); Big Dude"},
     {searchString: "Emilie Kornheiser", explanationText: "<img src=https://i.imgur.com/LGf7UON.png> Democrat Chair of the House Ways and Means Committee; ambitious and progressive"},
-    {searchString: "Slate Ridge", explanationText: " Former anti-government militia training camp in Rutland county"},
+    {searchString: "Slate Ridge", explanationText: "Former anti-government militia training camp in Rutland county"},
     {searchString: "Dem", explanationText: "Irresponsible"},
     {searchString: "Prog", explanationText: "Radical!"},
     {searchString: "Boston Bruins", explanationText: "<img src=https://i.imgur.com/ok6CxAf.png> Go Bs!"},
     {searchString: "Gibbs", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Governor Gibbs"},
     {searchString: "Senator Dick Mazza", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Best Pals"},
+    {searchString: "Nikki Haley", explanationText: "<img src=https://i.imgur.com/eMAVDC4.png> Former UN Ambassador and Governor of South Carolina"},
+    {searchString: "Mitt Romney", explanationText: "<img src=https://i.imgur.com/7YZ7Y2g.png> Junior U.S. Senator for Utah, two-time presidential candidate"},
+    {searchString: "Liz Cheney", explanationText: "<img src=https://i.imgur.com/MzMFWPK.png> Former U.S. Representative for Wyoming"}
 ];
 // Initialise custom music
 

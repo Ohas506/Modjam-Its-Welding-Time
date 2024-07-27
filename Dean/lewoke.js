@@ -5499,6 +5499,11 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+if(ans == 5148 || ans == 5149 || ans == 5150){campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1055);
+}
+if(ans == 5147){campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(1052);
+}
+
 
 
 campaignTrail_temp.jet_data = [{
