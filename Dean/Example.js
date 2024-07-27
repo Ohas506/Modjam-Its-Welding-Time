@@ -58,6 +58,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 1059,
+        "fields": {
+            "priority": 5,
+            "description": "Example, if yur here you used cheets",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 1077,
         "fields": {
             "priority": 6,
@@ -5665,80 +5674,49 @@ const customStyling = document.createElement("style");
     }
     `;
 document.head.appendChild(customStyling);
+
+
 campaignTrail_temp.cyoa = true
 cyoAdventure = function (a){
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-function cyoAdventure(a) {
-    let ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
-    const e = campaignTrail_temp;
 
-    function tunnel(new_q) {
-        return e.questions_json.find(q => q.pk === new_q);
+
+
+if (ans == 5148 || ans ==  5149 || ans ==  5150) {
+console.log("(ans == 5148 || ans ==  5149 || ans ==  5150)");
+campaignTrail_temp.questions_json[6] = {
+    
+    "model": "campaign_trail.question",
+    "pk": 1055,
+    "fields": {
+        "priority": 10,
+        "description": "You’re chatting over lunch with Gibbs on the fifth floor when he turns the conversation towards education funding. Vetoing the yield bill was obvious, but Gibbs wants to do more. Twist the knife he says, leave the Democrats holding the bag for a 14% property tax increase and they’ll be wiped out. He’s gleeful at the thought, as you lick the bits of your sandwich off your fingers, you think.",
+        "likelihood": 1
+    } 
+}
+}
+
+if (ans == 5147) {
+console.log("ans == 5147")
+campaignTrail_temp.questions_json[6] =  {
+    
+    "model": "campaign_trail.question",
+    "pk": 1052,
+    "fields": {
+        "priority": 10,
+        "description": "Negotiations with legislative Democrats on the state’s education finances have finally borne fruit. Major bipartisan reforms to the education financing system are on the way, including much of Representative Scott Beck’s ideas on homestead and non-homestead taxes and pupil weighting, as well as Representative Emilie Kornheiser’s measures to tax short-term rentals and limit the powers of local voters. Your signature of the yield bill is a celebration of bipartisanship. Gibbs approaches you after the signing.\n",
+        "likelihood": 1
     }
-
-    function getQuestionFromPk(pk) {
-        let index = questionSheath.findIndex(q => q.pk === pk);
-        return index >= 0 ? questionSheath[index] : false;
-    }
-
-    function getQuestionFromLabel(label) {
-        let index = questionSheath.findIndex(q => q.label === label);
-        return index >= 0 ? questionSheath[index] : false;
-    }
-
-    if (e.question_number === 0) {
-        setSoundtrack("Scott");
-    }
-
-    console.log(`Current answer: ${ans}`);
-
-    switch (ans) {
-        case 5148:
-        case 5149:
-        case 5150:
-            console.log('Triggering question 1055');
-            campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 5] = tunnel(1055);
-            break;
-        case 5147:
-            console.log('Triggering question 1052');
-            campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 5] = tunnel(1052);
-            break;
-        case 5262:
-            console.log('Updating candidate names');
-            updateCandidateName(202, "Howard", "Dean");
-            updateCandidateName(201, "", "Write In");
-            updateCandidateName(203, "Pao", "Mutino");
-            break;
-        default:
-            console.log('No matching answer found');
-            break;
-    }
-
-    console.log('Updating questions_json');
-
-    campaignTrail_temp.questions_json[9] = {
-        "model": "campaign_trail.question",
-        "pk": 1055,
-        "fields": {
-            "priority": 6,
-            "description": "You’re chatting over lunch with Gibbs on the fifth floor when he turns the conversation towards education funding. Vetoing the yield bill was obvious, but Gibbs wants to do more. Twist the knife he says, leave the Democrats holding the bag for a 14% property tax increase and they’ll be wiped out. He’s gleeful at the thought, as you lick the bits of your sandwich off your fingers, you think.",
-            "likelihood": 1
-        }
-    };
-
-    campaignTrail_temp.questions_json[10] = {
-        "model": "campaign_trail.question",
-        "pk": 1052,
-        "fields": {
-            "priority": 6,
-            "description": "Negotiations with legislative Democrats on the state’s education finances have finally borne fruit. Major bipartisan reforms to the education financing system are on the way, including much of Representative Scott Beck’s ideas on homestead and non-homestead taxes and pupil weighting, as well as Representative Emilie Kornheiser’s measures to tax short-term rentals and limit the powers of local voters. Your signature of the yield bill is a celebration of bipartisanship. Gibbs approaches you after the signing.\n",
-            "likelihood": 1
-        }
-    };
+}
+}
+if (ans == 5262) {
+updateCandidateName(202, "Howard", "Dean");
+updateCandidateName(201, "Pao", "Mutino");
+updateCandidateName(203, "", "WriteIn");
+}
 }
 
 
-}
 
 
 

@@ -85,15 +85,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 10599,
-        "fields": {
-            "priority": 5,
-            "description": "Example, if yur here you used cheets",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 1059,
         "fields": {
             "priority": 7,
@@ -5728,7 +5719,6 @@ updateCandidateName(202, "Howard", "Dean");
 updateCandidateName(201, "Pao", "Mutino");
 updateCandidateName(203, "", "WriteIn");
 }
-
 campaignTrail_temp.questions_json[9] = {
     
     "model": "campaign_trail.question",
