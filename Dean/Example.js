@@ -3701,6 +3701,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state_multiplier": 0.6
         }
     },
+    
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 20876,
