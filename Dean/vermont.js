@@ -118,7 +118,7 @@ tooltipList = [
     {searchString: "Ridge", explanationText: "Former anti-government militia training camp in Rutland county"},
     {searchString: "Dem", explanationText: "Irresponsible"},
     {searchString: "Prog", explanationText: "Radical!"},
-    {searchString: "Bruins", explanationText: "<img src=https://i.imgur.com/ok6CxAf.png> Go Bs!"},
+    {searchString: "Bruixns", explanationText: "<img src=https://i.imgur.com/ok6CxAf.png> Go Bs!"},
     {searchString: "Gibbs", explanationText: "<img src=https://i.imgur.com/Ex0Cd8T.png> Governor Gibbs"},
     {searchString: "Mazza", explanationText: "<img src=https://i.imgur.com/A9o1Mh6.png> Best Pals"},
     {searchString: "Haley", explanationText: "<img src=https://i.imgur.com/eMAVDC4.png> Former UN Ambassador and Governor of South Carolina"},
