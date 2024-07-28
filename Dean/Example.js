@@ -5731,4 +5731,10 @@ campaignTrail_temp.jet_data = [{
 
 
 
- 
+"model": "campaign_trail.answer_feedback",
+"pk": 2678,
+"fields": {
+    "answer": 5200,
+    "candidate": 200,
+    "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 54.2%\nJim Sexton: 36.6%\n(Small loss for Scott)\n"
+}

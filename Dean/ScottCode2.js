@@ -4903,24 +4903,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2678,
-        "fields": {
-            "answer": 5200,
-            "candidate": 200,
-            "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 54.2%\nJim Sexton: 36.6%\n(Small loss for Scott)\n"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2679,
-        "fields": {
-            "answer": 5201,
-            "candidate": 200,
-            "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 73.2%\nJim Sexton: 19.6%"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 2684,
         "fields": {
             "answer": 5227,
@@ -5736,7 +5718,34 @@ updateCandidateName(202, "Howard", "Dean");
 updateCandidateName(201, "Pao", "Mutino");
 updateCandidateName(203, "", "Write In");
 }
+
+if (ans == 5148 || ans ==  5149 || ans ==  5150 && ans == 5200) {
+campaignTrail_temp.answer_feedback_json[12] = {
+    "model": "campaign_trail.answer_feedback",
+        "pk": 2679,
+        "fields": {
+            "answer": 5200,
+            "candidate": 200,
+            "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 73.2%\nJim Sexton: 19.6%"
+        }
+    }
 }
+if (ans == 5148 || ans ==  5149 || ans ==  5150 && ans == 5201) {
+    campaignTrail_temp.answer_feedback_json[12] = {
+        "model": "campaign_trail.answer_feedback",
+            "pk": 26791,
+            "fields": {
+                "answer": 5201,
+                "candidate": 200,
+                "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 66.9%\nJim Sexton: 25.4%"
+            }
+        }
+
+
+}
+}
+
+
 
 
 
