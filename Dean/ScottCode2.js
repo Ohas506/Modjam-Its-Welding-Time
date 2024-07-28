@@ -1972,7 +1972,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20681,
-            "state_multiplier": 0.178
+            "state_multiplier": 0.29
         }
     },
     {
@@ -2008,7 +2008,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20691,
-            "state_multiplier": 1.06
+            "state_multiplier": 1.08
         }
     },
     {
@@ -2044,7 +2044,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20701,
-            "state_multiplier": 0.32
+            "state_multiplier": 0.58
         }
     },
     {
@@ -2098,7 +2098,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20711,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.26
         }
     },
     {
@@ -2116,7 +2116,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20721,
-            "state_multiplier": 0.54
+            "state_multiplier": 0.448
         }
     },
     {
@@ -2143,7 +2143,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20721,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.1
         }
     },
     {
@@ -2188,7 +2188,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20741,
-            "state_multiplier": 0.32
+            "state_multiplier": 0.45
         }
     },
     {
@@ -2242,7 +2242,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20751,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.26
         }
     },
     {
@@ -2359,7 +2359,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20781,
-            "state_multiplier": 0.1
+            "state_multiplier": 0
         }
     },
     {
@@ -2440,7 +2440,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20811,
-            "state_multiplier": 0.78
+            "state_multiplier": 0.61
         }
     },
     {
@@ -2458,7 +2458,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20811,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.42
         }
     },
     {
@@ -2910,7 +2910,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5262,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.8
+            "global_multiplier": -0.6
         }
     },
     {
@@ -2920,7 +2920,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5262,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.5
+            "global_multiplier": 0.4
         }
     },
     {
@@ -3687,7 +3687,18 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 200,
             "affected_candidate": 202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.18
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 208700,
+        "fields": {
+            "answer": 5262,
+            "state": 20681,
+            "candidate": 200,
+            "affected_candidate": 202,
+            "state_multiplier": 0.22
         }
     },
     {
@@ -4805,7 +4816,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5173,
             "candidate": 200,
-            "answer_feedback": ""
+            "answer_feedback": "..."
         }
     },
     {
@@ -5679,66 +5690,44 @@ document.head.appendChild(customStyling);
 campaignTrail_temp.cyoa = true
 cyoAdventure = function (a){
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-function tunnel(new_q){
-    e = campaignTrail_temp;
-    return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
-}
-
-getQuestionFromPk = function(pk) {
-  let index = questionSheath.map(f=>f.pk).indexOf(pk)
-  if (index < 0) {
-    return false
-  }
-  return questionSheath[index]
-}
-getQuestionFromLabel = function(label) {
-  let index = questionSheath.map(f=>f.label).indexOf(label)
-  if (index < 0) {
-    return false
-  }
-  return questionSheath[index]
-}
-
 if (e.question_number == 0) {
     setSoundtrack("Scott");
     }
 
-
-
 if (ans == 5148 || ans ==  5149 || ans ==  5150) {
-console.log("(ans == 5148 || ans ==  5149 || ans ==  5150)");
-campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 5] = tunnel(1055);
-}
-
-if (ans == 5147) {
-console.log("ans == 5147")
-campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 5] = tunnel(1052);
+    console.log("(ans == 5148 || ans ==  5149 || ans ==  5150)");
+    campaignTrail_temp.questions_json[6] = {
+        
+        "model": "campaign_trail.question",
+        "pk": 1055,
+        "fields": {
+            "priority": 10,
+            "description": "You’re chatting over lunch with Gibbs on the fifth floor when he turns the conversation towards education funding. Vetoing the yield bill was obvious, but Gibbs wants to do more. Twist the knife he says, leave the Democrats holding the bag for a 14% property tax increase and they’ll be wiped out. He’s gleeful at the thought, as you lick the bits of your sandwich off your fingers, you think.",
+            "likelihood": 1
+        } 
+    }
+    }
+    
+    if (ans == 5147) {
+    console.log("ans == 5147")
+    campaignTrail_temp.questions_json[6] =  {
+        
+        "model": "campaign_trail.question",
+        "pk": 1052,
+        "fields": {
+            "priority": 10,
+            "description": "Negotiations with legislative Democrats on the state’s education finances have finally borne fruit. Major bipartisan reforms to the education financing system are on the way, including much of Representative Scott Beck’s ideas on homestead and non-homestead taxes and pupil weighting, as well as Representative Emilie Kornheiser’s measures to tax short-term rentals and limit the powers of local voters. Your signature of the yield bill is a celebration of bipartisanship. Gibbs approaches you after the signing.\n",
+            "likelihood": 1
+        }
+    }
 }
 if (ans == 5262) {
 updateCandidateName(202, "Howard", "Dean");
 updateCandidateName(201, "Pao", "Mutino");
-updateCandidateName(203, "", "WriteIn");
-}
-campaignTrail_temp.questions_json[9] = {
-    
-    "model": "campaign_trail.question",
-    "pk": 1055,
-    "fields": {
-        "priority": -10,
-        "description": "You’re chatting over lunch with Gibbs on the fifth floor when he turns the conversation towards education funding. Vetoing the yield bill was obvious, but Gibbs wants to do more. Twist the knife he says, leave the Democrats holding the bag for a 14% property tax increase and they’ll be wiped out. He’s gleeful at the thought, as you lick the bits of your sandwich off your fingers, you think.",
-        "likelihood": 1
-    }
-}
-campaignTrail_temp.questions_json[10] =  {
-    "model": "campaign_trail.question",
-    "pk": 1052,
-    "fields": {
-        "priority": -10,
-        "description": "Negotiations with legislative Democrats on the state’s education finances have finally borne fruit. Major bipartisan reforms to the education financing system are on the way, including much of Representative Scott Beck’s ideas on homestead and non-homestead taxes and pupil weighting, as well as Representative Emilie Kornheiser’s measures to tax short-term rentals and limit the powers of local voters. Your signature of the yield bill is a celebration of bipartisanship. Gibbs approaches you after the signing.\n",
-        "likelihood": 1
-    }
+updateCandidateName(203, "", "Write In");
 }
 }
+
 
 
 
