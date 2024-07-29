@@ -2515,16 +2515,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 3100,
-        "fields": {
-            "answer": 5246,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 3102,
         "fields": {
             "answer": 5248,
@@ -2910,7 +2900,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5262,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.4
+            "global_multiplier": -0.6
         }
     },
     {
@@ -2920,7 +2910,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5262,
             "candidate": 200,
             "affected_candidate": 202,
-            "global_multiplier": 0.1
+            "global_multiplier": 0.4
         }
     },
     {
@@ -2930,17 +2920,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5221,
             "candidate": 200,
             "affected_candidate": 200,
-            "global_multiplier": -0.9
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 208799,
-        "fields": {
-            "answer": 5221,
-            "candidate": 201,
-            "affected_candidate": 202,
-            "global_multiplier": 2
+            "global_multiplier": -3
         }
     },
     {
@@ -3708,7 +3688,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 200,
             "affected_candidate": 202,
-            "state_multiplier": 0.22
+            "state_multiplier": 0.18
         }
     },
     {
@@ -3730,20 +3710,20 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20701,
             "candidate": 200,
             "affected_candidate": 202,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.19
         }
     },
     {
-      "model": "campaign_trail.answer_score_state",
-      "pk": 20333,
-      "fields": {
-          "answer": 5262,
-          "state": 20801,
-          "candidate": 200,
-          "affected_candidate": 202,
-          "state_multiplier": 0.02
-      }
-  },
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21871,
+        "fields": {
+            "answer": 5262,
+            "state":  20801,
+            "candidate": 200,
+            "affected_candidate": 202,
+            "state_multiplier": 0.03
+        }
+    },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 20876,
@@ -4903,6 +4883,24 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 2678,
+        "fields": {
+            "answer": 5200,
+            "candidate": 200,
+            "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 54.2%\nJim Sexton: 36.6%\n(Small loss for Scott)\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2679,
+        "fields": {
+            "answer": 5201,
+            "candidate": 200,
+            "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 73.2%\nJim Sexton: 19.6%"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 2684,
         "fields": {
             "answer": 5227,
@@ -5719,33 +5717,49 @@ updateCandidateName(201, "Pao", "Mutino");
 updateCandidateName(203, "", "Write In");
 }
 
-if (ans == 5148 || ans ==  5149 || ans ==  5150 && ans == 5200) {
-campaignTrail_temp.answer_feedback_json[12] = {
-    "model": "campaign_trail.answer_feedback",
-        "pk": 2679,
-        "fields": {
-            "answer": 5200,
-            "candidate": 200,
-            "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 73.2%\nJim Sexton: 19.6%"
-        }
-    }
+if (ans == 5221) {
+campaignTrail_temp.question_number=24
+updateCandidateName(200, "Gregory", "Thayer");
 }
-if (ans == 5148 || ans ==  5149 || ans ==  5150 && ans == 5201) {
-    campaignTrail_temp.answer_feedback_json[12] = {
-        "model": "campaign_trail.answer_feedback",
-            "pk": 26791,
-            "fields": {
-                "answer": 5201,
-                "candidate": 200,
-                "answer_feedback": "VT-Gov Republican Primary\nPhil Scott (i): 66.9%\nJim Sexton: 25.4%"
-            }
-        }
+campaignTrail_temp.multiple_endings=true
+endingPicker = (out, totv, aa, quickstats) => {
+used=false
+e.final_overall_results.sort((a, b) => b.popular_votes - a.popular_votes);
+//Change to actuall ending
+if (ans == 5221) {
+        //If you want to enable replacing the image based upon your performance, copy from here....
+          if (used != true) {
+              setInterval(function () {
+                  used = true;
+                  imgg = document.getElementsByClassName("person_image")[0];
+                  if (imgg != null) {
+                      imgg.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%22A_sail%21_A_sail%21%21%22_LCCN2012645216.jpg/330px-%22A_sail%21_A_sail%21%21%22_LCCN2012645216.jpg";
+                  }
+              }, 100);
+          }
+          // to here!
+           return "<font color='black'><h3>We have just finished counting the votes in Kentucky......</h3><p>and it appears that by the thinnest of margins you have won your and your running mates, home state! It seems that dissatisfaction among Cleavelandite Democrats coupled with a heavy investment from your campaign in Kentucky, has paid off! This has no doubt shown the nation that Byrans victory over the Democratic nomination was only a temporary flirtation with populism on the part of the party, and that the Gold Democrats are still a force to be reckoned with. It is likely that in four years, the gold wing of the party will recapture its nomination. All of this is down to your spectacular campaign, one that will no doubt be memorialized in the history books of America.</p></font>";
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
-}
-
-
 
 
 
