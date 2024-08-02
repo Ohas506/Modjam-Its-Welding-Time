@@ -4,6 +4,7 @@
 updateCandidateName(202, "Esther", "Charlestin");
 updateCandidateName(203, "", "Write In");
 updateCandidateName(201, "Pao", "Mutino");
+
 var soundtracks = {
     0: {
       name: "Vermont",
@@ -56,9 +57,34 @@ var soundtracks = {
         },
      ]
      },
+     2: {
+      name: "Dean",
+      tracklist: [
+        {
+          "name": "Bob Dylan - All Along the Watchtower",
+          "url": "https://audio.jukehost.co.uk/EGyGLRIvhz5IR9Hgd2f9yBMEZs4ARw30"
+        },
+        {
+          "name": "Arcade Fire - Culture War",
+          "url": "https://audio.jukehost.co.uk/RhtuRlzsvBxm4eLoUPiAysQT1FfnIdM3"
+        },
+        {
+          "name": "Mr. November",
+          "url": "https://audio.jukehost.co.uk/NvZjEsU0zzF38iKXJEC2nLlyh4eLXMQ7"
+        },
+        {
+          "name": "Dirty Harry",
+          "url": "https://audio.jukehost.co.uk/g309kEETfxUYJHuKvmLGgkK2Wq31U4MD"
+        },
+        {
+          "name": "Howard Dean Yell Remix",
+          "url": "https://audio.jukehost.co.uk/9P6eqKrSp2KhP7PKoYaANFhTMPMH6aqv"
+        },
+     ]
+     },
            
   }
-setSoundtrack("Scott");
+setSoundtrack("Dean");
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -6083,7 +6109,7 @@ function updateCandidateName(candidateId, newFirstName, newLastName) {
 
 
 campaignTrail_temp.candidate_image_url = "https://i.imgur.com/ILGK42n.png";
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/tCdMDmB.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/ii8RqSl.jpeg"
 campaignTrail_temp.candidate_last_name = "";
 campaignTrail_temp.running_mate_last_name = "";
 
