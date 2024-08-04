@@ -109,7 +109,7 @@ tooltipList = [
     {searchString: "Siegel", explanationText: "2022 Democratic Gubernatorial nominee; lost in blowout"},
     {searchString: "Heintz", explanationText: " Editor-in-Chief of the VTDigger, the state’s leading media outlet"},
     {searchString: "Holcombe", explanationText: "Democratic State Representative, your former Secretary of Education turned fierce opponent "},
-    {searchString: "Weinberger", explanationText: "<img src=https://i.imgur.com/1wjhmvx.png> Former Mayor of Burlington "},
+    {searchString: "Weinberger", explanationText: "<img src=https://i.imgur.com/1wjhmvx.png> Mayor of Burlington since 2012"},
     {searchString: "going to offer her my full support and to introduce her", explanationText: "<img src=https://i.imgur.com/ZYKxx1U.png>"},
     {searchString: "Douglas", explanationText: "<img src=https://i.imgur.com/94IQl7o.png> Vermont State Treasurer; Democrat Governor-in-waiting"},
     {searchString: "Peterson", explanationText: "State Rep (R); Big Dude"},
@@ -123,8 +123,26 @@ tooltipList = [
     {searchString: "Haley", explanationText: "<img src=https://i.imgur.com/eMAVDC4.png> Former UN Ambassador and Governor of South Carolina"},
     {searchString: "Romney", explanationText: "<img src=https://i.imgur.com/7YZ7Y2g.png> Junior U.S. Senator for Utah, two-time presidential candidate"},
     {searchString: "Cheney", explanationText: "<img src=https://i.imgur.com/MzMFWPK.png> Former U.S. Representative for Wyoming"},
-    {searchString: "Pieciak", explanationText: "<img src=https://i.imgur.com/nU5VRTG.png> Vermont State Treasurer; Democrat Governor-in-waiting"}
-];
+    {searchString: "Pieciak", explanationText: "<img src=https://i.imgur.com/nU5VRTG.png> Vermont State Treasurer; Democrat Governor-in-waiting"},
+    {searchString: "Zuckerman", explanationText: "<img src=https://i.imgur.com/qsWumfx.png> Progressive Lt. Governor of Vermont; does his own thing"},
+    {searchString: "Cina", explanationText: "<img src=https://i.imgur.com/D7VGlJo.png> Progressive State Rep. for the Old North End of Burlington, known for his outfits and DJing side gig"},
+    {searchString: "Dr. Dynasaur", explanationText: "Vermont’s program for low-cost or free health coverage for children and pregnant women, pioneered by Governor Dean"},
+    {searchString: "Northeast Kingdom", explanationText: "Vermont’s three most rural northeast counties; Caledonia, Orleans, and Essex"},
+    {searchString: "Renne", explanationText: "Deputy Mayor of Winooski, former Balint and Leahy staffer"},
+    {searchString: "Gray", explanationText: "Lt. Governor 2021-2023, close to Gov. Dean and Sen. Leahy, candidate for Congress in 2022, lost to Becca Balint badly"},
+    {searchString: "Vermont Yankee", explanationText: "Shuttered nuclear power plant in Southeastern Vermont"},
+    {searchString: "Saunders", explanationText: "Governor Scott’s attempted appointment to be Secretary of Education, massively unpopular amongst public education advocates"},
+    {searchString: "Trippi", explanationText: "Dean for America campaign manager 2004, prominent Democratic political strategist"},
+    {searchString: "Siegel", explanationText: " 2022 Democratic Gubernatorial nominee; lost in blowout"},
+    {searchString: "Heintz", explanationText: "Editor-in-Chief of the VTDigger, the state’s leading media outlet"},
+    {searchString: "Hightower", explanationText: "Former Progressive Burlington City Councillor "},
+    {searchString: "W.", explanationText: "The Great Deceiver"},
+    {searchString: "Act 250", explanationText: "Vermont’s controversial (and restrictive) land use act"},
+    {searchString: "H. 687", explanationText: " Legislative Democrat’s controversial land use reform act, Republicans accuse it of disadvantaging rural communities"},
+    {searchString: "Stanak", explanationText: "Progressive State Rep. and Mayoral candidate. Would be first LGBTQ+ Mayor of Burlington"},
+    {searchString: "Healey", explanationText: "Democratic Governor of neighboring Massachusetts; first lesbian Governor in the country"},
+    {searchString: "Buttigieg", explanationText: "Husband to Mayor Pete, whom you endorsed for DNC Chair in 2017"},
+];  
 // Initialise custom music
 
 $("#music_player")[0].children[0].style.display="none"

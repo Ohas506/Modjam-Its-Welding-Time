@@ -150,51 +150,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 1052,
-        "fields": {
-            "priority": 6,
-            "description": "It seems your historic tensions with the Progressive Party have been too great to overcome, and they have withheld from you their endorsement. Nevertheless, you can count upon the strong support of the VTDP and their deep-pocketed donors.\n\n\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1065,
-        "fields": {
-            "priority": 7,
-            "description": "In light of your surprising pivot to the left, you have been left with few allies in the Democratic Party elite, and raising big dollars will be a serious challenge. The Progressive Party has, however, given you a full-throated endorsement. But will it be enough?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1059,
-        "fields": {
-            "priority": 7,
-            "description": "Congratulations! As the campaign gets underway, it’s clear you’ve managed to secure the support of your traditional allies in the Democratic Party and reconciled with the Progressive Party, both deep pocketed donors and left-wing activists. The left of center is united going into November.\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1057,
-        "fields": {
-            "priority": 7,
-            "description": "In light of your shock rebranding of yourself as an ardent leftist, you have been blacklisted by the Democratic donor establishment despite the best efforts of Jim Dandeneau to patch things up, they will take Phil Scott over anything that smells like the Progs. The Progressive Party’s enthusiastic support hardly makes up for it.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1053,
-        "fields": {
-            "priority": 7,
-            "description": "In light of your enthusiastic support for the right of the VTDP, your historic rivalry, and your lack of outreach to the left, the Progressive Party has decided not to endorse your campaign for Governor, instead opting to support a write-in campaign for Zoraya Hightower. On the other hand, the Democratic Party leadership and their powerful donor allies have promised enthusiastic support for the length of your campaign.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 1060,
         "fields": {
             "priority": 7,
@@ -2263,7 +2218,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20681,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2281,7 +2236,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20681,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2299,7 +2254,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20691,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2317,7 +2272,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20691,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2335,7 +2290,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20701,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2353,7 +2308,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20701,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2389,7 +2344,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20721,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2407,7 +2362,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20721,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2425,7 +2380,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20731,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2443,7 +2398,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20731,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2461,7 +2416,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20741,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2479,7 +2434,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20741,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2497,7 +2452,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20751,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2515,7 +2470,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20751,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2533,7 +2488,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20761,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2551,7 +2506,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20761,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2569,7 +2524,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20771,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2605,7 +2560,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20781,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2623,7 +2578,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20781,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2641,7 +2596,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20791,
-            "state_multiplier": 0
+            "state_multiplier": 0.0005
         }
     },
     {
@@ -2659,7 +2614,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20791,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2677,7 +2632,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 20801,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2695,7 +2650,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20801,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     },
     {
@@ -2711,9 +2666,9 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 20813,
         "fields": {
-            "candidate": 202,
+            "candidate": 203,
             "state": 20811,
-            "state_multiplier": 0
+            "state_multiplier": 0.004
         }
     },
     {
@@ -2729,9 +2684,9 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 20815,
         "fields": {
-            "candidate": 203,
+            "candidate": 202,
             "state": 20811,
-            "state_multiplier": 0
+            "state_multiplier": 0.005
         }
     }
 ]
@@ -3144,7 +3099,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5171,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.03
         }
     },
     {
@@ -3154,7 +3109,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5184,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.6
+            "global_multiplier": -0.16
         }
     },
     {
@@ -3164,7 +3119,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5184,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.4
+            "global_multiplier": 0.15
         }
     },
     {
@@ -3569,8 +3524,6 @@ campaignTrail_temp.answer_score_global_json = [
     }
 ]
 
-
-
 campaignTrail_temp.answer_score_state_json = [
     {
         "model": "campaign_trail.answer_score_state",
@@ -3690,7 +3643,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
+            "state_multiplier": 0.12
         }
     },
     {
@@ -3701,7 +3654,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.1
         }
     },
     {
@@ -3712,7 +3665,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.4
         }
     },
     {
@@ -3735,6 +3688,17 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21572,
+        "fields": {
+            "answer": 5184,
+            "state": 20721,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.08
         }
     },
     {
@@ -6108,13 +6072,142 @@ const customStyling = document.createElement("style");
       margin-left: -0.07em;
     }
     `;
+
+
+var Dem_Donors = 0; // The Big Men mad at Deans antics
+
+var Progs = 0; // Did you yell at Pat
+    
+
+
 document.head.appendChild(customStyling);
 campaignTrail_temp.cyoa = true
 cyoAdventure = function (a){
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+if (ans == 5184) {
+updateCandidateName(201, "Howard", "Dean");
+}
+//Dean Dem v Prog
+
+if (ans == 5147) {
+Dem_Donors += 2;
+Progs -= 2;
 }
 
+if (ans == 5148) {
+Dem_Donors += 1;
+}
 
+if (ans == 5149) {
+Dem_Donors -= 3;
+Progs += 2;
+}
+
+if (ans == 5150) {
+Dem_Donors -= 1;
+Progs += 1;
+}
+
+if (ans == 5144) {
+Progs += 1;
+}
+if (ans == 21048) {
+Dem_Donors += 1;  
+}
+
+if (ans == 5152) {
+Dem_Donors += 1;
+Progs -= 1;  
+}
+
+if (ans == 21052) {
+Progs += 1;  
+}
+
+if (ans == 2105) {
+Dem_Donors -= 1;
+Progs += 1;
+}
+
+if (ans == 5155) {
+Dem_Donors -= 1;
+Progs += 1;
+}
+
+if (ans == 21057) {
+Dem_Donors += 1;
+Progs -= 1;
+    }
+
+//Direct Question Replacement for Question eight
+if (Dem_Donors == -1 && Progs >= 0) {
+campaignTrail_temp.questions_json[7] =  {
+"model": "campaign_trail.question",
+        "pk": 1065,
+        "fields": {
+            "priority": 7,
+            "description": "In light of your surprising pivot to the left, you have been left with few allies in the Democratic Party elite, and raising big dollars will be a serious challenge. The Progressive Party has, however, given you a full-throated endorsement. But will it be enough?",
+            "likelihood": 1
+        }
+    
+
+
+    }
+
+}
+
+if (Dem_Donors >= 0 && Progs == -1) {
+campaignTrail_temp.questions_json[7] =  {
+ "model": "campaign_trail.question",
+        "pk": 1052,
+        "fields": {
+            "priority": 6,
+            "description": "It seems your historic tensions with the Progressive Party have been too great to overcome, and they have withheld from you their endorsement. Nevertheless, you can count upon the strong support of the VTDP and their deep-pocketed donors.\n\n\n",
+            "likelihood": 1
+        }
+
+    }
+
+}
+
+if (Dem_Donors >= 0 && Progs >= 0) {
+campaignTrail_temp.questions_json[7] =  {
+"model": "campaign_trail.question",
+        "pk": 1059,
+        "fields": {
+            "priority": 7,
+            "description": "Congratulations! As the campaign gets underway, it’s clear you’ve managed to secure the support of your traditional allies in the Democratic Party and reconciled with the Progressive Party, both deep pocketed donors and left-wing activists. The left of center is united going into November.\n",
+            "likelihood": 1
+        }
+}
+}
+
+if (Dem_Donors <= -2 && Progs >= 0) {
+campaignTrail_temp.questions_json[7] =  {
+"model": "campaign_trail.question",
+        "pk": 1057,
+        "fields": {
+            "priority": 7,
+            "description": "In light of your shock rebranding of yourself as an ardent leftist, you have been blacklisted by the Democratic donor establishment despite the best efforts of Jim Dandeneau to patch things up, they will take Phil Scott over anything that smells like the Progs. The Progressive Party’s enthusiastic support hardly makes up for it.",
+            "likelihood": 1
+        }
+    
+}
+}
+
+if (Dem_Donors >= 0 && Progs <= -2) {
+campaignTrail_temp.questions_json[7] =  {
+"model": "campaign_trail.question",
+    "pk": 1053,
+    "fields": {
+        "priority": 7,
+        "description": "In light of your enthusiastic support for the right of the VTDP, your historic rivalry, and your lack of outreach to the left, the Progressive Party has decided not to endorse your campaign for Governor, instead opting to support a write-in campaign for Zoraya Hightower. On the other hand, the Democratic Party leadership and their powerful donor allies have promised enthusiastic support for the length of your campaign.",
+        "likelihood": 1
+    }
+
+}
+}
+}
 
 
 campaignTrail_temp.jet_data = [{
