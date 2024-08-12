@@ -90,7 +90,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1042,
         "fields": {
             "priority": 1,
-            "description": "It is November 2022. The midterm results have yielded unexpectedly good results for Democrats, including in Vermont, where Democrats gained a legislative supermajority. However, you cannot claim to have played any large role in this. Your constant presence on Twitter has included inflammatory accusations against Congresswoman-Elect Becca Balint, frugal use of the block feature and regular controversy. Just weeks ago, Twitter was acquired by billionaire and Tesla CEO Elon Musk. Musk promises sweeping changes ostensibly in support of “free speech”, but you know this will only allow Republicans and worse free range to spread disinformation. Now might be the perfect time to scale back your social media presence and start trying a more diplomatic approach to state politics. What say you Governor Dean?",
+            "description": "Your constant presence on Twitter has included inflammatory accusations against Congresswoman-Elect Becca Balint, frugal use of the block feature and regular controversy. Just weeks ago, Twitter was acquired by Elon Musk. Musk promises sweeping changes ostensibly in support of “free speech”, but you know this will only allow the Right free range to spread disinformation. Now might be the perfect time to scale back your social media presence and start trying a more diplomatic approach to state politics. What say you Governor Dean?",
             "likelihood": 1
         }
     },
@@ -363,7 +363,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5139,
         "fields": {
             "question": 1042,
-            "description": "Look, I go off the handle sometimes, I have a big mouth. It hurt me badly back in 2004 from the Confederate flag comments to the “Dean Scream”. I’m sincerely sorry to anyone I’ve offended and I recognize how fired up social media gets me. With Twitter devolving into chaos under Musk, there’s never been a better time than now to step away. I’m deactivating my account.\n"
+            "description": "Look, I go off the handle sometimes, I have a big mouth. It hurt me badly back in 2004 from the Confederate flag comments to the “Dean Scream”. I’m sincerely sorry to anyone I’ve offended and I recognize how fired up social media gets me. With Twitter devolving into chaos under Musk, there’s never been a better time than now to step away. I’m deactivating my account."
         }
     },
     {
@@ -371,7 +371,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5140,
         "fields": {
             "question": 1042,
-            "description": "People know who I am. I’ve never been afraid to say the hard truths in politics. For years I’ve called out bullshit from the right on Twitter. If anyone thinks I’m going to back down and let right-wing trolls run rampant on Musk’s Twitter they’ve got another thing coming. I’m going to stay an active and engaged user of social media, neofascists be damned.\n"
+            "description": "People know who I am. I’ve never been afraid to say the hard truths in politics. For years I’ve called out bullshit from the right on Twitter. If anyone thinks I’m going to back down and let right-wing trolls run rampant on Musk’s Twitter they’ve got another thing coming. I’m going to stay an active and engaged user of social media, neofascists be damned."
         }
     },
     {
@@ -379,7 +379,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5141,
         "fields": {
             "question": 1042,
-            "description": "Campaigns are run on social media these days. If I want to be remotely relevant in the political arena, I need to get my message out there. That doesn’t mean I can’t make some changes though. Let’s pare down on the attacks and start publicizing the work I’m doing to support the Vermont Democratic Party.\n"
+            "description": "Campaigns are run on social media these days. If I want to be remotely relevant in the political arena, I need to get my message out there. That doesn’t mean I can’t make some changes though. Let’s pare down on the attacks and start publicizing the work I’m doing to support the Vermont Democratic Party."
         }
     },
     {
@@ -2209,7 +2209,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20681,
-            "state_multiplier": 0.29
+            "state_multiplier": 0.4
         }
     },
     {
@@ -2335,7 +2335,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20721,
-            "state_multiplier": 0.448
+            "state_multiplier": 0.7
         }
     },
     {
@@ -2659,7 +2659,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20811,
-            "state_multiplier": 0.61
+            "state_multiplier": 0.8
         }
     },
     {
@@ -3109,7 +3109,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5184,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.16
+            "global_multiplier": -0.27
         }
     },
     {
@@ -3119,7 +3119,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5184,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.15
+            "global_multiplier": 0.2
         }
     },
     {
@@ -3544,7 +3544,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.46
         }
     },
     {
@@ -3643,7 +3643,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.12
+            "state_multiplier": 0.18
         }
     },
     {
@@ -3654,7 +3654,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.2
         }
     },
     {
@@ -3665,7 +3665,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.4
+            "state_multiplier": 0.5
         }
     },
     {
@@ -3676,7 +3676,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20701,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.19
+            "state_multiplier": 0.18
         }
     },
     {
@@ -3687,7 +3687,18 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20801,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 213271,
+        "fields": {
+            "answer": 5184,
+            "state": 20751,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.04
         }
     },
     {
@@ -3698,7 +3709,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20721,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -3731,7 +3742,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 202,
             "affected_candidate": 201,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.18
         }
     },
     {
@@ -5438,7 +5449,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20989,
             "candidate": 201,
-            "answer_feedback": "Governor Beshear/Shapiro agrees to make a brief stop while in nearby New Hampshire. The event feels rushed, but nonetheless there is a healthy crowd. \n"
+            "answer_feedback": "Governor Waltz agrees to make a brief stop while in nearby New Hampshire. The event feels rushed, but nonetheless there is a healthy crowd. \n"
         }
     },
     {
@@ -6061,7 +6072,7 @@ campaignTrail_temp.running_mate_last_name = "";
 const customStyling = document.createElement("style");
   customStyling.innerHTML = `
   #campaign_sign {
-      background-image: url("https://i.imgur.com/FH9GJGv.png");
+      background-image: url("https://i.imgur.com/CQaWRGc.png");
       background-size: cover;
       border-color: #c9c9c9;    
       border-width: .01em;
