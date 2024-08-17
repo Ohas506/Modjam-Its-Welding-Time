@@ -152,6 +152,7 @@ tooltipList = [
     {searchString: "Ed Davey", explanationText: "<img src=https://i.imgur.com/Gp1SFgh.png> jolly ol bloke"},
     {searchString: "Musk", explanationText: "<img src=https://i.imgur.com/7sIidcf.png> What a fucking idiot"},
     {searchString: "Walz", explanationText: "<img src=https://i.imgur.com/ueOvjJ7.png>"},
+    {searchString: "Tilray", explanationText: "American pharmaceutical, cannabis-lifestyle and consumer packaged goods company, Howard Dean is a board member"},
   ]; 
 // Initialise custom music
 

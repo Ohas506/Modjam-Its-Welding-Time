@@ -150,6 +150,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 105589,
+        "fields": {
+            "priority": 6,
+            "description": "Test",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 1060,
         "fields": {
             "priority": 7,
@@ -195,37 +204,10 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 1067,
+        "pk": 106656,
         "fields": {
-            "priority": -6,
-            "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1071,
-        "fields": {
-            "priority": -5,
-            "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…\n",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1072,
-        "fields": {
-            "priority": -4,
-            "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 1074,
-        "fields": {
-            "priority": -3,
-            "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…\n",
+            "priority": -7,
+            "description": "test",
             "likelihood": 1
         }
     },
@@ -303,58 +285,32 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 21169,
+        "pk": 18179,
         "fields": {
             "priority": 0,
-            "description": "As the campaign approaches its close, most people's attention is diverted towards the presidential election, and away from local politics. The national scene is a nightmare, with a national mood that resembles an upcoming apocalypse. The debates are a shitshow, Trump seemingly openly promises to end democracy at his rallies, Biden’s campaign prematurely ends and Harris takes up the Democratic mantle. War rages in Europe and the Middle East. Do you have anything to say on this?",
+            "description": "Test",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
-        "pk": 21170,
+        "pk": 181671,
         "fields": {
             "priority": 0,
-            "description": "It’s Halloween, five days before the election. As you step back inside after greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. As you see the program before your eyes, instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack. What do you do?",
+            "description": "Test",
             "likelihood": 1
         }
     },
     {
         "model": "campaign_trail.question",
-        "pk": 21209,
+        "pk": 18234,
         "fields": {
             "priority": 0,
-            "description": "It’s finally election day. Vermonters, and indeed the entire nation will head to the polls. After casting your ballot with your wife Judy, you, filled with optimism for Vermont but burdened by the stresses of national politics, head to Barre, in Washington county, for one last chance to meet with voters, before heading back to Burlington for your election night event.",
+            "description": "Test",
             "likelihood": 1
         }
     },
-    {
-        "model": "campaign_trail.question",
-        "pk": 21232,
-        "fields": {
-            "priority": 0,
-            "description": "As the campaign approaches its close, most people's attention is diverted towards the presidential election, and away from local politics. The national scene is a nightmare, with a national mood that resembles an upcoming apocalypse. The debates are a shitshow, Trump seemingly openly promises to end democracy at his rallies, Biden’s campaign prematurely ends and Harris takes up the Democratic mantle. War rages in Europe and the Middle East. Do you have anything to say on this?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 21265,
-        "fields": {
-            "priority": 0,
-            "description": "It’s Halloween, five days before the election. As you step back inside after greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. As you see the program before your eyes, instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack. What do you do?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 21284,
-        "fields": {
-            "priority": 0,
-            "description": "It’s finally election day. Vermonters, and indeed the entire nation will head to the polls. After casting your ballot with your wife Judy, you, filled with optimism for Vermont but burdened by the stresses of national politics, head to Barre, in Washington county, for one last chance to meet with voters, before heading back to Burlington for your election night event.",
-            "likelihood": 1
-        }
-    }
+   
 ]
 
 campaignTrail_temp.answers_json = [
@@ -548,6 +504,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1057,
             "description": "So it goes… "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1891,
+        "fields": {
+            "question": 1057,
+            "description": "Fuck off. They don’t want me? I’ve worked for this party for decades, I was the DNC Chairman. Fine, I don’t want them."
         }
     },
     {
@@ -859,7 +823,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21019,
         "fields": {
             "question": 21018,
-            "description": "You know when I was Governor, some folks would complain we already have a Republican Governor, we’ve got Dean. My record of fiscal discipline and balanced budget speaks for itself."
+            "description": "You know when I was Governor, some folks would complain we already have a Republican Governor, we’ve got Dean. My record of fiscal discipline and balanced budgets speaks for itself."
         }
     },
     {
@@ -2236,7 +2200,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20681,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.003
         }
     },
     {
@@ -2331,6 +2295,15 @@ campaignTrail_temp.candidate_state_multiplier_json = [
     },
     {
         "model": "campaign_trail.candidate_state_multiplier",
+        "pk": 2323552,
+        "fields": {
+            "candidate": 203,
+            "state": 20711,
+            "state_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.candidate_state_multiplier",
         "pk": 20722,
         "fields": {
             "candidate": 200,
@@ -2362,7 +2335,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20721,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.004
         }
     },
     {
@@ -2407,7 +2380,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20741,
-            "state_multiplier": 0.45
+            "state_multiplier": 0.7 
         }
     },
     {
@@ -2425,7 +2398,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 20741,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.2  
         }
     },
     {
@@ -2434,7 +2407,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20741,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.2    
         }
     },
     {
@@ -2470,7 +2443,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20751,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.009
         }
     },
     {
@@ -2506,7 +2479,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20761,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.009
         }
     },
     {
@@ -2542,7 +2515,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20771,
-            "state_multiplier": 0
+            "state_multiplier": 0.008
         }
     },
     {
@@ -2551,7 +2524,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 20781,
-            "state_multiplier": 0.74
+            "state_multiplier": 0.45
         }
     },
     {
@@ -2614,7 +2587,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 203,
             "state": 20791,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.009
         }
     },
     {
@@ -2719,7 +2692,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5251,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.06
         }
     },
     {
@@ -2759,7 +2732,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5189,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.4
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3116,
+        "fields": {
+            "answer": 1891,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.41
         }
     },
     {
@@ -2984,6 +2967,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 211234,
+        "fields": {
+            "answer": 21019,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 21027,
         "fields": {
             "answer": 21020,
@@ -3124,6 +3117,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 21116,
+        "fields": {
+            "answer": 5184,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 21073,
         "fields": {
             "answer": 5185,
@@ -3154,12 +3157,42 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 2111,
+        "fields": {
+            "answer": 5196,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 21076,
         "fields": {
             "answer": 5176,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.04
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 251817,
+        "fields": {
+            "answer": 21238,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21388,
+        "fields": {
+            "answer": 5176,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 21
         }
     },
     {
@@ -3239,7 +3272,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5242,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.4
+            "global_multiplier": -0.34
         }
     },
     {
@@ -3424,16 +3457,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 21255,
-        "fields": {
-            "answer": 21253,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 21259,
         "fields": {
             "answer": 21257,
@@ -3450,16 +3473,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 21268,
-        "fields": {
-            "answer": 21266,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
         }
     },
     {
@@ -3499,7 +3512,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5200,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.4
+            "global_multiplier": -0.04
         }
     },
     {
@@ -3665,7 +3678,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.46
         }
     },
     {
@@ -3698,7 +3711,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20751,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.087
         }
     },
     {
@@ -3708,7 +3721,7 @@ campaignTrail_temp.answer_score_state_json = [
             "answer": 5184,
             "state": 20721,
             "candidate": 201,
-            "affected_candidate": 200,
+            "affected_candidate": 201,
             "state_multiplier": 0.04
         }
     },
@@ -3885,7 +3898,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.08
         }
     },
     {
@@ -3896,7 +3909,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.06
         }
     },
     {
@@ -4039,7 +4052,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20801,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.5
+            "state_multiplier": -0.08
         }
     },
     {
@@ -4050,7 +4063,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20691,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.5
+            "state_multiplier": -0.08
         }
     },
     {
@@ -4281,7 +4294,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.04
         }
     },
     {
@@ -4292,7 +4305,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20691,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.1
         }
     },
     {
@@ -4303,7 +4316,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20741,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.1
         }
     },
     {
@@ -4314,7 +4327,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20781,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.1
         }
     },
     {
@@ -4325,7 +4338,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.06
+            "state_multiplier": 0.08
         }
     },
     {
@@ -4336,7 +4349,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20791,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.07
+            "state_multiplier": 0.06
         }
     },
     {
@@ -4501,7 +4514,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.003
+            "state_multiplier": -0.03
         }
     },
     {
@@ -4710,7 +4723,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.01
         }
     },
     {
@@ -4721,7 +4734,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.01
         }
     },
     {
@@ -4787,7 +4800,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.02
         }
     },
     {
@@ -4798,7 +4811,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.06
         }
     },
     {
@@ -4809,7 +4822,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20701,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.05
         }
     },
     {
@@ -5152,7 +5165,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5184,
             "candidate": 201,
-            "answer_feedback": "There we go. The signatures have been collected, the endorsements lined up, the donors primed, all that’s left is for you to file. You click your ballpoint pen and start on the official forms. (D candidate switches from Charlestin to Dean, Massive gain for Dean)\n"
+            "answer_feedback": "There we go. The signatures have been collected, the endorsements lined up, the donors primed, all that’s left is for you to file. You click your ballpoint pen and start on the official forms.\n"
         }
     },
     {
@@ -5171,6 +5184,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 5189,
             "candidate": 201,
             "answer_feedback": "The left alone cannot make victory."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 26611,
+        "fields": {
+            "answer": 1891,
+            "candidate": 201,
+            "answer_feedback": "There’s no way to describe this other than a historic betrayal. You’ve irretrievably lost a portion of your supporters to Scott, and burned every remaining bridge with Vermont Democratic Party insiders. You will still walk to the nomination, but winning the election is another matter."
         }
     },
     {
@@ -5449,7 +5471,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20989,
             "candidate": 201,
-            "answer_feedback": "Governor Waltz agrees to make a brief stop while in nearby New Hampshire. The event feels rushed, but nonetheless there is a healthy crowd. \n"
+            "answer_feedback": "Governor Walz agrees to make a brief stop while in nearby New Hampshire. The event feels rushed, but nonetheless there is a healthy crowd. \n"
         }
     },
     {
@@ -6048,9 +6070,6 @@ function setSoundtrack(soundtrackName) {
     }
 }
 
-
-var Music = 0;
-
 function updateCandidateName(candidateId, newFirstName, newLastName) {
     for (var i = 0; i < e.candidate_json.length; i++) {
         var candidate = e.candidate_json[i];
@@ -6059,6 +6078,18 @@ function updateCandidateName(candidateId, newFirstName, newLastName) {
             candidate.fields.last_name = newLastName;
             break; // Exit the loop once the candidate is found and updated
         }
+    }
+}
+function updateAdvisorImage(electionId, newImageUrl) {
+    // Find the correct election entry
+    let election = e.election_json.find(election => election.pk === electionId);
+    
+    if (election) {
+        // Update the advisor image URL
+        election.fields.advisor_url = newImageUrl;
+        console.log(`Advisor image updated for election ${electionId}`);
+    } else {
+        console.log(`Election with ID ${electionId} not found`);
     }
 }
 
@@ -6092,6 +6123,7 @@ var Progs = 0; // Did you yell at Pat
 
 
 document.head.appendChild(customStyling);
+
 campaignTrail_temp.cyoa = true
 cyoAdventure = function (a){
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
@@ -6122,6 +6154,7 @@ Progs += 1;
 if (ans == 5144) {
 Progs += 1;
 }
+
 if (ans == 21048) {
 Dem_Donors += 1;  
 }
@@ -6148,8 +6181,13 @@ Progs += 1;
 if (ans == 21057) {
 Dem_Donors += 1;
 Progs -= 1;
-    }
+}
 
+if (ans == 1891) {
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/P2zRPSf.png"   
+campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#a52a2a";
+updateAdvisorImage(20, "https://i.imgur.com/j7e89JI.png");
+}
 //Direct Question Replacement for Question eight
 if (Dem_Donors == -1 && Progs >= 0) {
 campaignTrail_temp.questions_json[7] =  {
@@ -6216,6 +6254,128 @@ campaignTrail_temp.questions_json[7] =  {
         "likelihood": 1
     }
 
+}
+}
+
+// Coffe/Twitter cyoa
+if (ans == 5139) {
+campaignTrail_temp.questions_json[13] =  {
+    "model": "campaign_trail.question",
+        "pk": 1067,
+        "fields": {
+            "priority": -6,
+            "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…\n",
+            "likelihood": 1
+        }
+    }
+}
+if (ans == 5140) {
+campaignTrail_temp.questions_json[13] =  {
+        "model": "campaign_trail.question",
+            "pk": 1071,
+            "fields": {
+                "priority": -5,
+                "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…\n",
+                "likelihood": 1
+            }
+        }
+}
+if (ans == 5141) {
+campaignTrail_temp.questions_json[13] =  {
+        "model": "campaign_trail.question",
+            "pk": 1072,
+            "fields": {
+                "priority": -4,
+                "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…",
+                "likelihood": 1
+            }
+        }
+}
+if (ans == 5142) {
+campaignTrail_temp.questions_json[13] =  {
+    "model": "campaign_trail.question",
+        "pk": 1074,
+        "fields": {
+            "priority": -3,
+            "description": "You’re drinking your morning coffee and scrolling through your phone to read the latest news. It fills you with emotion, not just rage, but snark. You log onto Twitter, and before long you’re typing…\n",
+            "likelihood": 1
+        }
+    }
+}
+
+if (ans == 21202) {
+console.log("ans == 21202")
+campaignTrail_temp.questions_json[22] = {
+"model": "campaign_trail.question",
+        "pk": 21232,
+        "fields": {
+            "priority": 0,
+            "description": "As the campaign approaches its close, most people's attention is diverted towards the presidential election, and away from local politics. The national scene is a nightmare, with a national mood that resembles an upcoming apocalypse. The debates are a shitshow, Trump seemingly openly promises to end democracy at his rallies, Biden’s campaign prematurely ends and Harris takes up the Democratic mantle. War rages in Europe and the Middle East. Do you have anything to say on this?",
+            "likelihood": 1
+        }
+    }
+
+}
+if (ans == 21196 || ans == 21199 || ans == 21203) {
+ console.log("ans did not == 21202")
+campaignTrail_temp.questions_json[22] = {
+"model": "campaign_trail.question",
+        "pk": 21169,
+        "fields": {
+            "priority": 0,
+            "description": "As the campaign approaches its close, most people's attention is diverted towards the presidential election, and away from local politics. The national scene is a nightmare, with a national mood that resembles an upcoming apocalypse. The debates are a shitshow, Trump seemingly openly promises to end democracy at his rallies, Biden’s campaign prematurely ends and Harris takes up the Democratic mantle. War rages in Europe and the Middle East. Do you have anything to say on this?",
+            "likelihood": 1
+        }
+}
+}
+
+
+
+if (ans == 5140 || ans == 5142) {
+campaignTrail_temp.questions_json[23] = {
+"model": "campaign_trail.question",
+        "pk": 21265,
+        "fields": {
+            "priority": 0,
+            "description": "It’s Halloween, five days before the election. As you step back inside after greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. As you see the program before your eyes, instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack. What do you do?",
+            "likelihood": 1
+        }
+    
+}
+}
+
+if (ans ==  5139 || ans == 5141) {
+campaignTrail_temp.questions_json[23] = {
+"model": "campaign_trail.question",
+        "pk": 21170,
+        "fields": {
+            "priority": 0,
+            "description": "It’s Halloween, five days before the election. As you step back inside after greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. As you see the program before your eyes, instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack. What do you do?",
+            "likelihood": 1
+        }
+    }
+}
+if (ans == 21196 || ans == 21199 || ans == 21203) {
+campaignTrail_temp.questions_json[24] = {
+    "model": "campaign_trail.question",
+    "pk": 21209,
+    "fields": {
+        "priority": 0,
+        "description": "It’s finally election day. Vermonters, and indeed the entire nation will head to the polls. After casting your ballot with your wife Judy, you, filled with optimism for Vermont but burdened by the stresses of national politics, head to Barre, in Washington county, for one last chance to meet with voters, before heading back to Burlington for your election night event.",
+        "likelihood": 1
+    }
+}
+}
+
+if (ans == 21202) {
+campaignTrail_temp.questions_json[24] = {
+    "model": "campaign_trail.question",
+    "pk": 21284,
+    "fields": {
+        "priority": 0,
+        "description": "It’s finally election day. Vermonters, and indeed the entire nation will head to the polls. After casting your ballot with your wife Judy, you, filled with optimism for Vermont but burdened by the stresses of national politics, head to Barre, in Washington county, for one last chance to meet with voters, before heading back to Burlington for your election night event.",
+        "likelihood": 1
+    }
 }
 }
 }
