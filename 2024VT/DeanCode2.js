@@ -1079,7 +1079,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21257,
         "fields": {
             "question": 21170,
-            "description": "Motherfuckers! That damn fool Harrison is riding the Democratic Party on a way trip to hell. It wasn’t like this when I was in charge- we were winning- 50 state strategy- anyway, I’m going to get a handle on what’s happening RIGHT NOW. I’m calling every contact I have in the Harris campaign to figure out what the hell is going on. I don’t care if it takes all night, there’s got to be some kind of fucking strategy!"
+            "description": "Motherfuckers! That damn fool Harrison is riding the Democratic Party on a way trip to hell. It wasn’t like this when I was in charge- we were winning- 50 state strategy - anyway, I’m going to get a handle on what’s happening RIGHT NOW. I’m calling every contact I have to figure out what the hell is going on. I don’t care if it takes all night, there’s got to be some kind of fucking strategy!"
         }
     },
     {
@@ -1111,7 +1111,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21270,
         "fields": {
             "question": 21265,
-            "description": "Motherfuckers! That damn fool Harrison is riding the Democratic Party on a way trip to hell. It wasn’t like this when I was in charge- we were winning- 50 state strategy- anyway, I’m going to get a handle on what’s happening RIGHT NOW. I’m calling every contact I have in the Harris campaign to figure out what the hell is going on. I don’t care if it takes all night, there’s got to be some kind of fucking strategy!"
+            "description": "Motherfuckers! That damn fool Harrison is riding the Democratic Party on a way trip to hell. It wasn’t like this when I was in charge- we were winning- 50 state strategy - anyway, I’m going to get a handle on what’s happening RIGHT NOW. I’m calling every contact I have to figure out what the hell is going on. I don’t care if it takes all night, there’s got to be some kind of fucking strategy!"
         }
     },
     {
@@ -5060,7 +5060,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5147,
             "candidate": 201,
-            "answer_feedback": "With your assistance, Shannon cleans up in the Democratic caucus. You appear beside her during her victory speech and make frequent appearances in her campaign advertising. All seems to be going well until, in an upset, she is defeated by Rep. Stanak by 4 points in the general election. Tying yourself so closely to this shock failure has weakened your credibility, especially among Progressives. "
+            "answer_feedback": "Paul appreciates your dutiful support, but despite your backing she’s unable to force a second round in the caucus against Joan Shannon. You’ll quietly support Shannon in the general, but your role in this campaign is over."
         }
     },
     {
@@ -6367,7 +6367,7 @@ campaignTrail_temp.questions_json[23] = {
         "pk": 21265,
         "fields": {
             "priority": 0,
-            "description": "It’s Halloween, five days before the election. As you step back inside after greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. As you see the program before your eyes, instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack. What do you do?",
+            "description": "It’s Halloween. After greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. Instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack.",
             "likelihood": 1
         }
     
@@ -6380,7 +6380,7 @@ campaignTrail_temp.questions_json[23] = {
         "pk": 21170,
         "fields": {
             "priority": 0,
-            "description": "It’s Halloween, five days before the election. As you step back inside after greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. As you see the program before your eyes, instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack. What do you do?",
+            "description": "It’s Halloween. After greeting some trick-or treaters at your Burlington home, you flip on the television and switch the channel to MSNBC. Instant horror floods your body. A new batch of NYT/Siena swing state polls show Harris trailing by 3-4 points across the board, a big decline from the results within the margin of error earlier this month. You can’t believe what’s happening to this country. If you don’t do something quick, you feel like you might have a panic attack.",
             "likelihood": 1
         }
     }
@@ -6408,6 +6408,9 @@ campaignTrail_temp.questions_json[24] = {
     }
 }
 }
+}
+endingPicker = (out, totv, aa, quickstats) => {
+e.final_overall_results.sort((a, b) => b.popular_votes - a.popular_votes);
 }
 var changeGameDisp = (hide) => {
     disp = "";
