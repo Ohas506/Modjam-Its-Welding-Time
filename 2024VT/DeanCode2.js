@@ -90,7 +90,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1042,
         "fields": {
             "priority": 1,
-            "description": "Your constant presence on Twitter has included inflammatory accusations against Congresswoman-Elect Becca Balint, frugal use of the block feature and regular controversy. Just weeks ago, Twitter was acquired by Elon Musk. Musk promises sweeping changes ostensibly in support of “free speech”, but you know this will only allow the Right free range to spread disinformation. Now might be the perfect time to scale back your social media presence and start trying a more diplomatic approach to state politics. What say you Governor Dean?",
+            "description": "Your constant presence on Twitter has included inflammatory accusations against Congresswoman-Elect Becca Balint, frugal use of the block feature and regular controversy. Just weeks ago, Twitter was acquired by Elon Musk. Musk promises sweeping changes ostensibly in support of “free speech”, but you know this will only allow the Right free range to spread disinformation. Is this the end of your time on Twitter?",
             "likelihood": 1
         }
     },
@@ -319,7 +319,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5139,
         "fields": {
             "question": 1042,
-            "description": "Look, I go off the handle sometimes, I have a big mouth. It hurt me badly back in 2004 from the Confederate flag comments to the “Dean Scream”. I’m sincerely sorry to anyone I’ve offended and I recognize how fired up social media gets me. With Twitter devolving into chaos under Musk, there’s never been a better time than now to step away. I’m deactivating my account."
+            "description": "Look, I go off the handle sometimes, I have a big mouth. It hurt me badly back in 2004 from the Confederate flag comments to the “Dean Scream”. I’m sincerely sorry to anyone I’ve offended and I recognize how fired up social media gets me. There’s never been a better time than now to deactivate my account"
         }
     },
     {
@@ -2677,12 +2677,22 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 310023,
+        "fields": {
+            "answer": 5259,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 3104,
         "fields": {
             "answer": 5250,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "global_multiplier": -0.08
         }
     },
     {
@@ -2922,7 +2932,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20980,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.08
         }
     },
     {
@@ -3272,7 +3282,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5242,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.34
+            "global_multiplier": -0.25
         }
     },
     {
@@ -3332,7 +3342,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21171,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.08
         }
     },
     {
@@ -3392,7 +3402,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21203,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.08
         }
     },
     {
@@ -3432,7 +3442,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21237,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.09
         }
     },
     {
@@ -3551,6 +3561,39 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
+        "pk": 8216,
+        "fields": {
+            "answer": 5250,
+            "state": 20771,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 82345,
+        "fields": {
+            "answer": 5250,
+            "state": 20791,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 82645,
+        "fields": {
+            "answer": 5250,
+            "state": 20801,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
         "pk": 20886,
         "fields": {
             "answer": 5176,
@@ -3656,7 +3699,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
+            "state_multiplier": 0.16
         }
     },
     {
@@ -3678,7 +3721,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.46
+            "state_multiplier": 0.42
         }
     },
     {
@@ -3711,7 +3754,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20751,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.087
+            "state_multiplier": 0.14
         }
     },
     {
@@ -4041,7 +4084,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20781,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.5
+            "state_multiplier": -0.05
         }
     },
     {
@@ -4261,7 +4304,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20691,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.06
+            "state_multiplier": 0.06
         }
     },
     {
@@ -4272,7 +4315,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20771,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.06
+            "state_multiplier": 0.06
         }
     },
     {
@@ -4283,7 +4326,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20791,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.06
+            "state_multiplier": 0.06
         }
     },
     {
@@ -4459,7 +4502,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20771,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.05
         }
     },
     {
@@ -4470,7 +4513,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20741,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.05
         }
     },
     {
@@ -4481,7 +4524,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20691,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.05
         }
     },
     {
@@ -4492,7 +4535,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20791,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.05
         }
     },
     {
@@ -4503,7 +4546,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.003
+            "state_multiplier": 0.08
         }
     },
     {
@@ -4646,7 +4689,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20791,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": 0.03
         }
     },
     {
@@ -4657,7 +4700,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20741,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": 0.03
         }
     },
     {
@@ -4669,28 +4712,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": 0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21243,
-        "fields": {
-            "answer": 21237,
-            "state": 20791,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21244,
-        "fields": {
-            "answer": 21237,
-            "state": 20681,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.04
         }
     },
     {
@@ -4778,7 +4799,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20701,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.06
         }
     },
     {
@@ -5183,7 +5204,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5189,
             "candidate": 201,
-            "answer_feedback": "The left alone cannot make victory."
+            "answer_feedback": "It is difficult to imagine defeating Phil Scott with a portion of your own party behind him."
         }
     },
     {
@@ -5633,7 +5654,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5231,
             "candidate": 201,
-            "answer_feedback": "When you call Joe, he’s happy to hear from you and wishes you luck but candidly informs you that there is practically zero interest with the Never-Trumper organization to help take down one of the last meaningfully anti-Trump Republican elected officials. You ask him if he could come in as an adviser, but he says he needs to focus on his current position and the national election. “Bigger fish to fry right now.” You’re left in the dust."
+            "answer_feedback": "When you call Joe, he wishes you luck but candidly informs you that there is practically zero interest with the organization to help take down one of the last meaningfully anti-Trump Republican elected officials. You ask him to join the campaign as a consultant, but he declines, “bigger fish to fry right now.” You’re left in the dust."
         }
     },
     {
@@ -6184,9 +6205,19 @@ Progs -= 1;
 }
 
 if (ans == 1891) {
-campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/P2zRPSf.png"   
 campaignTrail_temp.candidate_json[2]["fields"].color_hex = "#a52a2a";
 updateAdvisorImage(20, "https://i.imgur.com/j7e89JI.png");
+window.setTimeout(e.vpSwitcher, 20)
+campaignTrail_temp.running_mate_json = campaignTrail_temp.running_mate_json.filter(f => !(f.fields.candidate === 201 && f.fields.running_mate === 1004));
+campaignTrail_temp.running_mate_json.push({
+    "model":"campaign_trail.running_mate",
+    "pk": 6,
+    "fields" : {
+        "candidate": 201,
+        "running_mate": 1005
+     }
+ }
+)
 }
 //Direct Question Replacement for Question eight
 if (Dem_Donors == -1 && Progs >= 0) {
@@ -6204,7 +6235,6 @@ campaignTrail_temp.questions_json[7] =  {
     }
 
 }
-
 if (Dem_Donors >= 0 && Progs == -1) {
 campaignTrail_temp.questions_json[7] =  {
  "model": "campaign_trail.question",
@@ -6250,7 +6280,7 @@ campaignTrail_temp.questions_json[7] =  {
     "pk": 1053,
     "fields": {
         "priority": 7,
-        "description": "In light of your enthusiastic support for the right of the VTDP, your historic rivalry, and your lack of outreach to the left, the Progressive Party has decided not to endorse your campaign for Governor, instead opting to support a write-in campaign for Zoraya Hightower. On the other hand, the Democratic Party leadership and their powerful donor allies have promised enthusiastic support for the length of your campaign.",
+        "description": "In light of your enthusiastic support for the right of the VDP, your historic rivalry, and your lack of outreach to the left, the Progressive Party has decided not to endorse your campaign for Governor, instead opting to support a write-in campaign for Zoraya Hightower. On the other hand, the Democratic Party leadership and their powerful donor allies have promised enthusiastic support for the length of your campaign.",
         "likelihood": 1
     }
 
@@ -6379,7 +6409,103 @@ campaignTrail_temp.questions_json[24] = {
 }
 }
 }
+var changeGameDisp = (hide) => {
+    disp = "";
+    if (hide) {
+      disp = "none";
+    }
+    Array.from(gameWindow.children).forEach(f=>{
+        if(!f.classList.contains("game_header") && (f.id != "main_content_area" || !$("#campaign_sign")[0])) 
+            f.style.display = disp
+    });
+};
 
+e.vpSwitcher = () => {
+    let potential_running_mate_pks = e.running_mate_json.filter(f=>f.fields.candidate == e.candidate_id).map(f=>f.fields.running_mate);
+    let pot_run_mat = potential_running_mate_pks.map(f=>e.candidate_json.find(_f=>_f.pk===f));
+    let running_mate_options = ``;
+    pot_run_mat.forEach(f=> {
+        running_mate_options += `<option value="${f.pk}">${f.fields.first_name} ${f.fields.last_name}</option>\n`
+    });
+  
+    let vp_html = `
+        <div id="running_mate_form">
+            <form name="running mate">
+                <p></p>
+                <h3>Please select your running mate:</h3> 
+                <select name="running_mate_id" id="running_mate_id">
+                    ${running_mate_options}
+                </select>
+                <p></p>
+            </form>
+        </div>
+        <div class="person_description_window" id="running_mate_description_window">
+            <div class="person_image" id="running_mate_image"> <img src="${pot_run_mat[0].fields.image_url}" width="210" height="250"> </div>
+            <div class="person_summary" id="running_mate_summary">
+                <ul>
+                    <li>Name: ${pot_run_mat[0].fields.first_name} ${pot_run_mat[0].fields.last_name}</li>
+                    <li>Party: ${pot_run_mat[0].fields.party}</li>
+                    <li>Home State: ${pot_run_mat[0].fields.state}</li>
+                </ul>
+                ${pot_run_mat[0].fields.description_as_running_mate}
+            </div>
+        </div>
+        <p> <button class="person_button" id="running_mate_id_button">Continue</button> </p>
+    `
+  
+    let vp_screen = document.createElement("div");
+    vp_screen.classList.add("inner_window_w_desc");
+    vp_screen.id = "inner_window_4";
+    vp_screen.innerHTML = vp_html;
+  
+    changeGameDisp(true);
+  
+    gameWindow.appendChild(vp_screen);
+  
+    // now we make the stuff do stuff!
+  
+    $("#running_mate_id").change((_e)=>{
+        _e.preventDefault()
+  
+        let value = Number($("#running_mate_id").val());
+        let i = potential_running_mate_pks.findIndex(f=>f === value);
+  
+        let screen_html = `
+            <div class="person_image" id="running_mate_image"> <img src="${pot_run_mat[i].fields.image_url}" width="210" height="250"> </div>
+            <div class="person_summary" id="running_mate_summary">
+                <ul>
+                    <li>Name: ${pot_run_mat[i].fields.first_name} ${pot_run_mat[i].fields.last_name}</li>
+                    <li>Party: ${pot_run_mat[i].fields.party}</li>
+                    <li>Home State: ${pot_run_mat[i].fields.state}</li>
+                </ul>
+                ${pot_run_mat[i].fields.description_as_running_mate}
+            </div>
+        `
+  
+        $("#running_mate_description_window").html(screen_html);
+  
+    });
+    // VP selected!
+  
+    $("#running_mate_id_button").click((_e)=>{
+        _e.preventDefault();
+  
+        let value = Number($("#running_mate_id").val());
+        let i = potential_running_mate_pks.findIndex(f=>f === value);
+  
+        e.running_mate_last_name = pot_run_mat[i].fields.last_name;
+        e.running_mate_last_name = ""
+        e.running_mate_image_url = pot_run_mat[i].fields.image_url;
+        e.selected_running_mate = pot_run_mat[i];
+  
+        if ($("#campaign_sign")[0]) {
+            $("#campaign_sign").html(`<p>${e.candidate_last_name}</p><p>${e.running_mate_last_name}</p>`);
+            $("#running_mate_pic").attr("src", e.running_mate_image_url)
+        }
+         $("#inner_window_4").remove();
+        changeGameDisp(false);
+    })
+}
 
 campaignTrail_temp.jet_data = [{
     "mapping_enabled": true,
