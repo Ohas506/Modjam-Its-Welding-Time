@@ -783,7 +783,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20980,
         "fields": {
             "question": 1073,
-            "description": "This is, while unfortunate, just part of the education funding system we have. If voters want less taxes they should approve smaller school budgets."
+            "description": "It’s time for some straight talk. This is, while unfortunate, just part of the education funding system we have. If voters want less taxes they should approve smaller school budgets."
         }
     },
     {
@@ -799,7 +799,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20989,
         "fields": {
             "question": 1075,
-            "description": "What about the Vice Presidential nominee? He’d make a great addition to our campaign."
+            "description": "Vice President Harris is no doubt too busy to make a stop in Vermont, but what about Governor Walz? He is a really lovely guy. He’d make a great addition to our campaign."
         }
     },
     {
@@ -1071,7 +1071,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21253,
         "fields": {
             "question": 21170,
-            "description": "Goddamnit! Do they have any idea what the hell they’re doing? Well, I guess there’s not much I can change, just got to run my campaign the best I can. I just need something to take the edge off, I think my friends at Tilray sent me a care package a while back. I don’t usually partake but this might be what I need right now before I blow a gasket."
+            "description": "Goddamnit! Well, I guess there’s not much I can change, just got to run my campaign the best I can. I just need something to take the edge off, I think my friends at Tilray sent me a care package a while back. I don’t usually partake but this might be what I need right now before I blow a gasket."
         }
     },
     {
@@ -1103,7 +1103,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21266,
         "fields": {
             "question": 21265,
-            "description": "Goddamnit! Do they have any idea what the hell they’re doing? Well, I guess there’s not much I can change, just got to run my campaign the best I can. I just need something to take the edge off, I think my friends at Tilray sent me a care package a while back. I don’t usually partake but this might be what I need right now before I blow a gasket."
+            "description": "Goddamnit! Well, I guess there’s not much I can change, just got to run my campaign the best I can. I just need something to take the edge off, I think my friends at Tilray sent me a care package a while back. I don’t usually partake but this might be what I need right now before I blow a gasket."
         }
     },
     {
@@ -3142,7 +3142,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5185,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.4
+            "global_multiplier": 0.04
         }
     },
     {
@@ -3699,7 +3699,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.16
+            "state_multiplier": 0.14
         }
     },
     {
@@ -3721,7 +3721,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.42
+            "state_multiplier": 0.36
         }
     },
     {
@@ -3743,7 +3743,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20801,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.08
         }
     },
     {
@@ -3754,7 +3754,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20751,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.14
+            "state_multiplier": 0.20
         }
     },
     {
@@ -3765,7 +3765,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20721,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.08
         }
     },
     {
@@ -5384,7 +5384,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5233,
             "candidate": 201,
-            "answer_feedback": "Scott shrugs off these attacks and mentions his vote for Joe Biden in 2020, and people believe him. He says he’s disappointed in you, that you know better, and you soon pull the ads."
+            "answer_feedback": "Scott shrugs off these attacks and mentions his vote for Joe Biden in 2020, and people believe him. He says he’s disappointed in you, that you know better, and you soon pull the talking points comparing him to McConnell from your stump speech."
         }
     },
     {
@@ -5492,7 +5492,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20989,
             "candidate": 201,
-            "answer_feedback": "Governor Walz agrees to make a brief stop while in nearby New Hampshire. The event feels rushed, but nonetheless there is a healthy crowd. \n"
+            "answer_feedback": "Governor Walz agrees to make a brief stop while in nearby New Hampshire. The event feels rushed, but nonetheless there is a healthy crowd and Walz is at ease."
         }
     },
     {
@@ -5852,7 +5852,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21257,
             "candidate": 201,
-            "answer_feedback": "And all night, it does indeed take. Your old friends solemnly respond to your frustrated calls with sympathy and shared disappointment. To your dismay though, none of them reveal any secret ace in the hole. As you talk with Trippi, you heatedly ask him “How can you let this happen!?” “We’re trying Howard.” he replies, before politely ending the call. As your phone notifies you of 10% battery remaining you look outside your window to see dawn breaking through the trees. You sigh as you remember your campaign event in the North End in four hours. "
+            "answer_feedback": "It takes all night. Your old friends tell you they share your concerns. To your dismay though, none of them reveal any secret ace in the hole. As you talk with Trippi, you ask him “How can you let this happen!?” “We’re trying Howard.” he replies, before politely ending the call. You look outside your window to see dawn breaking through the trees. You sigh."
         }
     },
     {
@@ -5879,7 +5879,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21266,
             "candidate": 201,
-            "answer_feedback": "At a campaign event with Lt. Governor David Zuckerman the next day, a reporter makes note of your “red eyes” on (so-called) X. The replies deride the two of you as “Cheech & Chong”. "
+            "answer_feedback": "At a campaign event with Lt. Governor David Zuckerman the next day, a reporter makes note of your “red eyes” on (so-called) X. The replies deride the two of you as “Cheech & Chong”."
         }
     },
     {
@@ -5888,7 +5888,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21270,
             "candidate": 201,
-            "answer_feedback": "And all night, it does indeed take. Your old friends solemnly respond to your frustrated calls with sympathy and shared disappointment. To your dismay though, none of them reveal any secret ace in the hole. As you talk with Trippi, you heatedly ask him “How can you let this happen!?” “We’re trying Howard.” he replies, before politely ending the call. As your phone notifies you of 10% battery remaining you look outside your window to see dawn breaking through the trees. You sigh as you remember your campaign event in the North End in four hours. "
+            "answer_feedback": "It takes all night. Your old friends tell you they share your concerns. To your dismay though, none of them reveal any secret ace in the hole. As you talk with Trippi, you ask him “How can you let this happen!?” “We’re trying Howard.” he replies, before politely ending the call. You look outside your window to see dawn breaking through the trees. You sigh."
         }
     },
     {
@@ -6151,6 +6151,10 @@ ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length
 if (ans == 5184) {
 updateCandidateName(201, "Howard", "Dean");
 }
+if (ans == 5185) { 
+campaignTrail_temp.question_number=24
+updateCandidateName(201, "Miro", "Weinberger");
+}
 //Dean Dem v Prog
 
 if (ans == 5147) {
@@ -6287,9 +6291,7 @@ campaignTrail_temp.questions_json[7] =  {
 }
 }
 
-if (ans == 5185) { 
-campaignTrail_temp.question_number=24
-}
+
 
 
 
@@ -6672,7 +6674,7 @@ construct = (a = 1) => {
     e.header = "";
     e.executable = []
 
-    if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean") { // Normal Dean Win
+    if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean" && campaignTrail_temp.candidate_json[2]["fields"].color_hex == "#0000ff") { // Normal Dean Win
     e.pages.push(`<p>Polls in Vermont close early. So by 8, when you’ve made it to the VDP Election Event in Burlington, results are already trickling in. At first it’s too early to see anything, of course you’re overperforming Siegel by leaps and bounds, but everyone expected that. The only certainty it seems, is that it will be a close one. Other candidates have no such difficulties. Sanders, Zuckerman, and Balint deliver their victory speeches to great applause in the main hall while you and your staff over-analyze returns from small towns with 200 votes. But you’re not even looking at that, you’re checking the initial results from Pennsylvania. That race too, will be close.<br><br>But with time, there’s a change. You take the lead, and you hold the lead. With every return the window for Governor Scott to win the day grows smaller and smaller. Eventually, it’s all over. When the AP calls the race, there’s a great cheer from the hall, and within your private room, it’s all hugs and shaking hands.</p>
                 <p>You will indeed return to the high office you first entered upon the death of Governor Snelling in 1991. You will have the opportunity to craft major reforms on healthcare, education, and more, and shape the future of the state you love. You have the opportunity to serve as a transitional figure to the next generation of Democratic leaders, you may even get to pick those leaders. Your exuberant victory speech that declares “change begins now!” sends the crowd into a frenzy. Governor Scott’s call to you is gracious, you even sense a hint of relief in his voice.</p>
                 <p>You can hardly sleep that night, despite the victory, thinking only of the presidential race, which is too close to call. Despite your worries, you will soon be called to the service of Vermont, and win or lose you know you will do your best to make them proud.</p>
@@ -6700,7 +6702,7 @@ construct = (a = 1) => {
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/e42thiM.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/4kQSSES.jpeg'})])
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/ZgkvVsJ.png'})])
-    } else if(quickstats[1] > 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean") { // close loss
+    } else if(quickstats[1] > 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean" && campaignTrail_temp.candidate_json[2]["fields"].color_hex == "#0000ff") { // close loss
     e.pages.push(`
                 <p>Polls in Vermont close early. So by 8, when you’ve made it to the VDP Election Event in Burlington, results are already trickling in. At first it’s too early to see anything, of course you’re overperforming Siegel by leaps and bounds, but everyone expected that. The only certainty it seems, is that it will be a close one. Other candidates have no such difficulties. Sanders, Zuckerman, and Balint deliver their victory speeches to great applause in the main hall while you and your staff over-analyze returns from small towns with 200 votes. But you’re not even looking at that, you’re checking the initial results from Pennsylvania. That race too, will be close.</p>
                 <p>Hours later, it’s still unclear what will happen in the race for Vermont Governor. You and Phil have exchanged leads for hours. As midnight approaches, the event space clears out, and you trail Phil Scott by a few points with 90% of the vote in. As you prepare to head home, you chat with Molly Gray, discussing her children, her plans for the future, and so on. You make nods to your plans as well, and you know they aren’t on the Fifth Floor. The race is called shortly after midnight. When you make it home, you’re very disappointed, but heartened by the fact that the Democratic supermajority was able to stand.</p>
@@ -6723,7 +6725,7 @@ construct = (a = 1) => {
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/d6tJNNn.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/4MckskN.png'})])
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/wyZF1Pz.jpeg'})])
-    } else if(quickstats[1] < 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean") { // Decsive loss
+    } else if(quickstats[1] < 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean" && campaignTrail_temp.candidate_json[2]["fields"].color_hex == "#0000ff") { // Decsive loss
     e.pages.push(`
                 <p>Polls in Vermont close early. So by 8, when you’ve made it to the VDP Election Event in Burlington, results are already trickling in. At first it’s too early to see anything, of course you’re overperforming Siegel by leaps and bounds, but everyone expected that. The only certainty it seems, is that it will be a close one. Other candidates have no such difficulties. Sanders, Zuckerman, and Balint deliver their victory speeches to great applause in the main hall while you and your staff over-analyze returns from small towns with 200 votes. But you’re not even looking at that, you’re checking the initial results from Pennsylvania. That race too, will be close.</p>
                 <p>But with time, there’s change, and it’s not the change you sought. Phil Scott retains a stubborn lead, and though your staff points to unreported results in Chittenden county that will no doubt save the day, there is no savior coming. Phil Scott has won this election, and it’s not particularly close. Not only that, but Democrats have lost their legislative supermajority. There is a sense of great deflation, all that work, all that effort, waging a negative campaign that Vermont did not care to see, all to just be the next man to lose to Phil Scott. With your humor and charm, you cheer up your staffers, but their disappointment is clear.</p>
@@ -6750,7 +6752,7 @@ construct = (a = 1) => {
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/8qRKc2r.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ZE0LjZ4.png'})])
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/dI7I21b.png'})])
-    } else if (campaignTrail_temp.candidate_json[2]["fields"].last_name == "Charlestin") { // Dean chooses not to run
+    } else if (campaignTrail_temp.candidate_json[2]["fields"].last_name == "Weinberger") { // Dean chooses not to run
     e.pages.push(`
                 <p>When you went down to Waterbury to tell folks you wouldn’t run for Governor, the disappointment in the room was palpable. But you never regretted your decision, not for a moment. It would never have been worth it to force Vermont into a negative campaign so you could be Governor again, and Phil Scott is hardly the biggest issue this country faces. That would be the wrong thing to do. Besides, you’ve been saying for years that the next generation needs to take over, and this would be the very opposite of that. You spent the summer BBQing and campaigning for a few state legislative candidates instead, even hosting a fundraiser for Mayor Weinberger, it was a lot more relaxing than running a campaign.</p>
                 <p>As you attempt to relax while watching the MSNBC broadcast of the election results, you get a mobile phone reminder indicating that Governor Scott has won a landslide re-election. It’s no surprise of course, you knew when you passed on the race it would be effectively conceding it for the party. But that was a deliberate choice. A negative campaign would have been bad for the state, bad for Vermonters. Would that really have been the best use of resources? No, it would not have been. Not with democracy itself on the ballot.</p>
@@ -6780,6 +6782,22 @@ construct = (a = 1) => {
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/hnDHPaT.png'})])
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/xjM4txK.png'})])
     } 
+    else if (campaignTrail_temp.candidate_json[2]["fields"].last_name == "Weinberger" && aa[0].candidate == 201) { //Miro Secreat Ending
+        e.pages.push(`
+        <h2><b>2012 AND WE WERE ON THIN ICE. WEIGHED DOWN BY DEBT AND COULDN’T PAY THE PRICE. NO FUTURE FOR OUR CITY’S INTERNET. BUT THEN THE PEOPLE MADE A SMARTER BET.</b></h2>
+        <h2><b>WE’RE ON A ROLL OH OH /b></h2>
+        <h2><b>THE ENERGY’S SHOWING </b></h2>
+        <h2><b>WE’RE VOTING MIRO OH OH </b></h2>\
+        <h2><b>TO KEEP THE BALL ROLLING</b></h2>
+        <h2><b>WE’RE ON A ROLL OH OH </b></h2>
+        <h2><b>WE’RE KNOW WHERE WE’RE GOING</b></h2>
+        <h2><b>WE’RE VOTING MIRO OH OH</b></h2>
+        <h2><b>TO KEEP THE BALL ROLLING</b></h2>
+        `)
+        autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+        //e.image = ""
+        e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/9gX0SKe.png'})])
+        } 
     
   //Dean Prog Endings  
     
@@ -6791,7 +6809,8 @@ else if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"
                 <p>When you step out of your team’s chambers, you see the shocked look on the face of Democratic Party insiders, they can’t believe what’s happened. The first Progressive governor in state history, and it was someone who until this year was a machine Democrat, it is nothing short of inconceivable. You see their shock, and you relish in it, you see the astonished looks on the faces of those you know were privately supporting Scott while lambasting you for betraying the party. It’s euphoric. Your speech lights up the hall despite the shock of insiders. It’s like 2004 all over again. When Phil Scott calls you to concede, you can hear the utter shock in his voice.</p>
                 <p>But the party doesn’t stop, as Vice President Harris crosses 270 electoral votes with ease in what seems like the final glorious triumph over Donald Trump. There are some in your circle who worry about navigating the newfound split you’ve drawn into Vermont politics, but it’s not important. This isn’t about the VDP or the VPP. You sleep soundly, knowing that all may yet be well, and you will have the great opportunity to serve Vermont yet again.</p>
                 `)
-                e.pages.push(`<h2><b>Socialist Forum - A Democratic Socialists of America Publication 
+                e.pages.push(`<img src=https://i.imgur.com/NMjedeT.png width="600" height="200">
+                <h2><b>Socialist Forum - A Democratic Socialists of America Publication 
                 The Progressive Party Experiment has Failed</b></h2>
                 <p>April 22nd, 2026</p>
                 <p>Vermont is a very unique place in the American political landscape. It is the only state where the neoliberal Democratic Party faces organized party opposition to its left, the Progressive Party. The Progressive Party is not a socialist party, but it has advanced serious criticisms of the police state and the corporate party duopoly, and in some ways has provided a model for what many DSA members hope to achieve, a real break from the Democratic Party. In recent years, we socialists in Vermont have attempted to build socialist hegemony within the Progressive Party, with goodwill, solidarity, and respect towards non-socialist leftists in that movement. Unfortunately, at this point we can only resolve that these efforts have failed.</p>
@@ -6809,22 +6828,66 @@ else if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"
                 autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/Rk35ZQY.png'})])
-    e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/9znhDT1.png'})])
-    e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/9znhDT1.png'})])
+    e.executable.push([1, (() => {e.image = e.image = ''})])
+    e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/qxRX61J.png'})])
     
-} 
-    
-    
-    else if (quickstats[0] < 270 && campaignTrail_temp.candidate_json[1]["fields"].last_name == "Giuliani") { // Giuliani loss
-    e.pages.push(`<h2>''It seems like the polls were dead wrong! John Kerry has managed to win!''</h2>
-                <p>Well, that’s a shock. When the President ruined the economy, most people called the election for the Republicans. That made sense - elections were decided by the economy, and Kerry screwed up as bad as Herbert Hoover. It was a done deal!</p>
-                <p>Maybe riding in that tank was a bad idea. Or promising to tax the 1% to balance the budget ended up backfiring. In all likelihood, it was probably that hot mic, and what they said about women and minorities that ended up really dooming the campaign.</p>
-                <p>Ron Paul felt guilty for being relieved. Things were going to be bad. Outright dire, even. But that left the field wide open - after the traditional Neo-Conservatives managed to mess up <i>royally</i>, the Republicans would be outright eager to listen to him. Probably.</p>
+} else if (quickstats[1] < 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean" && campaignTrail_temp.candidate_json[2]["fields"].color_hex == "#a52a2a") { // Dean Prog loss
+    e.pages.push(`
+                <p>Polls in Vermont close early. So by 8, when you’ve made it to the VDP Election Event in Burlington, results are already trickling in. At first it’s too early to see anything, of course you’re overperforming Siegel by leaps and bounds, but everyone expected that. The only certainty it seems, is that it will be a close one. Other candidates have no such difficulties. Sanders, Zuckerman, and Balint deliver their victory speeches to great applause in the main hall while you and your staff over-analyze returns from small towns with 200 votes. But you’re not even looking at that, you’re checking the initial results from Pennsylvania. That race too, will be close.</p>
+                <p>But with time, there’s change, and it’s not the change you sought. Phil Scott retains a stubborn lead, and though your staff points to unreported results in Chittenden county that will no doubt save the day, there is no savior coming. Phil Scott has won this election. There is a sense of great deflation, all that work, all that effort, waging a negative campaign that Vermont did not care to see, all to just be the next man to lose to Phil Scott. With your humor and charm, you cheer up your staffers, but their disappointment is clear.</p>
+                <p>But their disappointment does not hurt nearly as much as the smirks from the Democratic Party insiders you so scorned by taking up the auburn moose banner of the Progressive Party. They are so pleased with themselves. Of course you would fail, it serves you right, you abandoned the party for your ego trip. Your rebellion was pointless, doomed to fail. You are furious inside as you watch them tout the value of party unity while you know they voted for Scott behind your back.</p>
+                <p>When you call Governor Scott himself, he’s gracious and polite, and you share a brief chat. Your concession speech is brief, and ends with an urge to continue the fight for a better future. Ending your career this way was probably not the most dignified way, but you can’t think of that. You’re only thinking of the presidential race, which is razor-thin. You’re unable to sleep that night. But there is one thing keeping you calm, you know that Vermont is a good state with good people, and with a Governor like Phil Scott, surely it will remain the brave little state you love, and not become the victim of encroaching tyranny or cynical politics. When the sun rises in the morning, your faith in the future, in the next generation, feels renewed.</p>
                 `)
+    e.pages.push(`<h2><b>Democratic Left - A Publication of the Democratic Socialists of America Vermont Progressives say YES to Socialism!</b></h2>
+                <p>June 15th, 2027</p>
+                <p>Vermont, land of Bernie Sanders and Murray Bookchin, has always been somewhat of an idealized socialist utopia. This, of course, has never been true, what with its politics controlled by real estate lobbies, corporate Democratic Party, and love for electing “moderate” Republican Governors. But socialists in Vermont have made a major breakthrough!</p>
+                <p>The Progressive Party is a non-socialist hippie-ish left-wing party that has the unique distinction of being the only organized party opposition to the Democratic Party in the United States. The Party is on the whole a good one, with a record of standing up for organized labor, the unemployed, the disabled, and queer people against the real estate dominated two party duopoly. It however, is not a socialist party. Or shall I say was, because times are changing!</p>
+                <p>The Champlain Valley DSA and other local DSA organizations have worked hard to make the case for socialism to the Vermont Progressive Party as the best tool for organizational opposition to the Democratic Party and the best program for class politics in Vermont. After the disastrous decision by party leaders to let Former Governor Howard Dean to take up the progressive banner in his egotistical crusade for Governor in 2024, and subsequent demolition of the VPP by the Democratic Party in 2026, party members have agreed with the argument for radical class politics!</p>
+                <p>Members of the Champlain Valley DSA have been elected to the party Coordinating Committee, now holding a majority position, as well as taking the position of Executive Director and Party Chair. Make no mistake comrades, the United States now has an organized, capable, and popular working class party! This is a great win.</p>
+                `)
+    e.pages.push(`<h2><b>VTDigger - Commentary</b></h2>
+                <p>David Zuckerman: The Progressive Party has Changed</p>
+                <p>July 29th, 2028</p>
+                <p>For all my political life, I have been a proud member of the Vermont Progressive Party. I was proud that our Brave Little State had a party that stood outside the two-party system, a system that too often ignored average people in favor of special interest money. A party with a rich history of change-makers including Bernie Sanders, Anthony Pollina, Peter Clavelle, and Martha Abbott. I served in the State House for 14 years and the State Senate for 4 years under the Progressive Party label, not to mention 8 years as your Lieutenant Governor. I was proud to be the only third party statewide office holder in the country.</p>
+                <p>However, I have become concerned about the direction of my longtime political home. In the past year, the party has taken a concerning turn towards the fringe. Now, I’m no stranger to being labelled an extremist, or a radical. There’s no crime in standing for what’s right, even if its unpopular. Reaganomics was popular, the Iraq War was popular, and often those who stand alone on principle end up being vindicated. But I am concerned about the Progressive Party’s turn towards dogmatism, and shutting down alternative viewpoints in the party. </p>
+                <p>The VPP elected to embrace a “Democratic Socialist” platform, I am not a member of the DSA nor am I a socialist, I’m a farmer first and foremost. I did not, however, necessarily reject this decision, even if I disagreed. There are many strong and decent advocates in the DSA, who I have met in the Vermont AFL-CIO and on my campaigns. But what I strongly rejected is the sidelining of longtime party stalwarts like Brian Cina and Martha Abbott who expressed concerns about the direction of the party, or the decision of the Progressive Party to refuse endorsing Governor Newsom in this year’s election, or the Executive Committee statement supporting withdrawal from NATO. These choices range from disrespectful, to deeply dangerous, to downright wrong. These choices will marginalize the Progressive Party, and reduce our ability to gain the trust of voters.</p>
+                <p>There’s been a lot of soul-searching in the party since Governor Dean’s defeat in 2024. At the time I was a loud voice in favor of embracing Governor Dean’s turn towards our party, and I worked hard to elect him, and was saddened when he was defeated. I was hopeful that this was a gesture towards unity, and one that could move Progressive ideas into the mainstream. I know many Progressives, including former Representative Brian Cina, strongly agreed with me. The party’s new leaders view this decision, a welcoming, open decision, as a terrible mistake. It’s no surprise therefore that Governor Dean, one of the greatest statesmen our state has produced, has once again distanced himself from the VPP. I find that I must as well, while I am no longer directly involved in state politics, I find myself more than ever an independent progressive Vermonter, much like Senator Sanders.</p>
+                `)
+
                 autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
     //e.image = ""
-    e.executable.push([0, (() => {e.image = e.image = 'https://imgur.com/0hiO0Jk.jpg'})])
-    }
+    e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/6Ab129h.jpeg'})])
+    e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/sxfR2eQ.jpeg'})])
+    e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/QHx4Ywp.jpeg'})])
+    } else if (quickstats[1] > 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean" && campaignTrail_temp.candidate_json[2]["fields"].color_hex == "#a52a2a") { // Dean Prog loss
+        e.pages.push(`
+                    <p>Polls in Vermont close early. So by 8, when you’ve made it to the VDP Election Event in Burlington, results are already trickling in. At first it’s too early to see anything, of course you’re overperforming Siegel by leaps and bounds, but everyone expected that. The only certainty it seems, is that it will be a close one. Other candidates have no such difficulties. Sanders, Zuckerman, and Balint deliver their victory speeches to great applause in the main hall while you and your staff over-analyze returns from small towns with 200 votes. But you’re not even looking at that, you’re checking the initial results from Pennsylvania. That race too, will be close.</p>
+                    <p>But with time, there’s change, and it’s not the change you sought. Phil Scott retains a stubborn lead, and though your staff points to unreported results in Chittenden county that will no doubt save the day, there is no savior coming. Phil Scott has won this election. There is a sense of great deflation, all that work, all that effort, waging a negative campaign that Vermont did not care to see, all to just be the next man to lose to Phil Scott. With your humor and charm, you cheer up your staffers, but their disappointment is clear.</p>
+                    <p>But their disappointment does not hurt nearly as much as the smirks from the Democratic Party insiders you so scorned by taking up the auburn moose banner of the Progressive Party. They are so pleased with themselves. Of course you would fail, it serves you right, you abandoned the party for your ego trip. Your rebellion was pointless, doomed to fail. You are furious inside as you watch them tout the value of party unity while you know they voted for Scott behind your back.</p>
+                    <p>When you call Governor Scott himself, he’s gracious and polite, and you share a brief chat. Your concession speech is brief, and ends with an urge to continue the fight for a better future. Ending your career this way was probably not the most dignified way, but you can’t think of that. You’re only thinking of the presidential race, which is razor-thin. You’re unable to sleep that night. But there is one thing keeping you calm, you know that Vermont is a good state with good people, and with a Governor like Phil Scott, surely it will remain the brave little state you love, and not become the victim of encroaching tyranny or cynical politics. When the sun rises in the morning, your faith in the future, in the next generation, feels renewed.</p>
+                    `)
+        e.pages.push(`<h2><b>Democratic Left - A Publication of the Democratic Socialists of America Vermont Progressives say YES to Socialism!</b></h2>
+                    <p>June 15th, 2027</p>
+                    <p>Vermont, land of Bernie Sanders and Murray Bookchin, has always been somewhat of an idealized socialist utopia. This, of course, has never been true, what with its politics controlled by real estate lobbies, corporate Democratic Party, and love for electing “moderate” Republican Governors. But socialists in Vermont have made a major breakthrough!</p>
+                    <p>The Progressive Party is a non-socialist hippie-ish left-wing party that has the unique distinction of being the only organized party opposition to the Democratic Party in the United States. The Party is on the whole a good one, with a record of standing up for organized labor, the unemployed, the disabled, and queer people against the real estate dominated two party duopoly. It however, is not a socialist party. Or shall I say was, because times are changing!</p>
+                    <p>The Champlain Valley DSA and other local DSA organizations have worked hard to make the case for socialism to the Vermont Progressive Party as the best tool for organizational opposition to the Democratic Party and the best program for class politics in Vermont. After the disastrous decision by party leaders to let Former Governor Howard Dean to take up the progressive banner in his egotistical crusade for Governor in 2024, and subsequent demolition of the VPP by the Democratic Party in 2026, party members have agreed with the argument for radical class politics!</p>
+                    <p>Members of the Champlain Valley DSA have been elected to the party Coordinating Committee, now holding a majority position, as well as taking the position of Executive Director and Party Chair. Make no mistake comrades, the United States now has an organized, capable, and popular working class party! This is a great win.</p>
+                    `)
+        e.pages.push(`<h2><b>VTDigger - Commentary</b></h2>
+                    <p>David Zuckerman: The Progressive Party has Changed</p>
+                    <p>July 29th, 2028</p>
+                    <p>For all my political life, I have been a proud member of the Vermont Progressive Party. I was proud that our Brave Little State had a party that stood outside the two-party system, a system that too often ignored average people in favor of special interest money. A party with a rich history of change-makers including Bernie Sanders, Anthony Pollina, Peter Clavelle, and Martha Abbott. I served in the State House for 14 years and the State Senate for 4 years under the Progressive Party label, not to mention 8 years as your Lieutenant Governor. I was proud to be the only third party statewide office holder in the country.</p>
+                    <p>However, I have become concerned about the direction of my longtime political home. In the past year, the party has taken a concerning turn towards the fringe. Now, I’m no stranger to being labelled an extremist, or a radical. There’s no crime in standing for what’s right, even if its unpopular. Reaganomics was popular, the Iraq War was popular, and often those who stand alone on principle end up being vindicated. But I am concerned about the Progressive Party’s turn towards dogmatism, and shutting down alternative viewpoints in the party. </p>
+                    <p>The VPP elected to embrace a “Democratic Socialist” platform, I am not a member of the DSA nor am I a socialist, I’m a farmer first and foremost. I did not, however, necessarily reject this decision, even if I disagreed. There are many strong and decent advocates in the DSA, who I have met in the Vermont AFL-CIO and on my campaigns. But what I strongly rejected is the sidelining of longtime party stalwarts like Brian Cina and Martha Abbott who expressed concerns about the direction of the party, or the decision of the Progressive Party to refuse endorsing Governor Newsom in this year’s election, or the Executive Committee statement supporting withdrawal from NATO. These choices range from disrespectful, to deeply dangerous, to downright wrong. These choices will marginalize the Progressive Party, and reduce our ability to gain the trust of voters.</p>
+                    <p>There’s been a lot of soul-searching in the party since Governor Dean’s defeat in 2024. At the time I was a loud voice in favor of embracing Governor Dean’s turn towards our party, and I worked hard to elect him, and was saddened when he was defeated. I was hopeful that this was a gesture towards unity, and one that could move Progressive ideas into the mainstream. I know many Progressives, including former Representative Brian Cina, strongly agreed with me. The party’s new leaders view this decision, a welcoming, open decision, as a terrible mistake. It’s no surprise therefore that Governor Dean, one of the greatest statesmen our state has produced, has once again distanced himself from the VPP. I find that I must as well, while I am no longer directly involved in state politics, I find myself more than ever an independent progressive Vermonter, much like Senator Sanders.</p>
+                    `)
+    
+                    autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+        //e.image = ""
+        e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/6Ab129h.jpeg'})])
+        e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/sxfR2eQ.jpeg'})])
+        e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/QHx4Ywp.jpeg'})])
+        }
     return construct(0);
 }
 
