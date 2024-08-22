@@ -927,7 +927,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21145,
         "fields": {
             "question": 21018,
-            "description": "As Governor, I’ll do everything possible to cut income taxes further.\n"
+            "description": "I actually have plans to reduce the tax burden substantially on all Vermonters. Governor Scott has made big promises on this but with my relationships I’ll deliver for taxpayers"
         }
     },
     {
@@ -2762,7 +2762,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5201,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.04
         }
     },
     {
@@ -3212,7 +3212,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5200,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.02
         }
     },
     {
@@ -3222,7 +3222,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5202,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.01
         }
     },
     {
@@ -3232,7 +3232,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21082,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.06
         }
     },
     {
@@ -3282,7 +3282,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5242,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.25
+            "global_multiplier": -0.20
         }
     },
     {
@@ -3515,36 +3515,6 @@ campaignTrail_temp.answer_score_global_json = [
             "global_multiplier": -0.05
         }
     },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 21295,
-        "fields": {
-            "answer": 5200,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 21298,
-        "fields": {
-            "answer": 5201,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 21304,
-        "fields": {
-            "answer": 5202,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.2
-        }
-    }
 ]
 
 campaignTrail_temp.answer_score_state_json = [
@@ -3699,7 +3669,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.14
+            "state_multiplier": 0.12
         }
     },
     {
@@ -3710,7 +3680,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.15
         }
     },
     {
@@ -3721,7 +3691,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.36
+            "state_multiplier": 0.33
         }
     },
     {
@@ -3776,7 +3746,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 202,
             "affected_candidate": 201,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.4
         }
     },
     {
@@ -3787,7 +3757,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20681,
             "candidate": 202,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
+            "state_multiplier": 0.2
         }
     },
     {
@@ -3798,7 +3768,40 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20711,
             "candidate": 202,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
+            "state_multiplier": 0.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 211873,
+        "fields": {
+            "answer": 5201,
+            "state": 20801,
+            "candidate": 202,
+            "affected_candidate": 201,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2118743,
+        "fields": {
+            "answer": 5201,
+            "state": 20791,
+            "candidate": 202,
+            "affected_candidate": 201,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 232273,
+        "fields": {
+            "answer": 5201,
+            "state": 20771,
+            "candidate": 202,
+            "affected_candidate": 201,
+            "state_multiplier": -0.05
         }
     },
     {
@@ -4810,28 +4813,6 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21291,
-        "fields": {
-            "answer": 5200,
-            "state": 20681,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21292,
-        "fields": {
-            "answer": 5200,
-            "state": 20711,
-            "candidate": 201,
-            "affected_candidate": 201,
             "state_multiplier": 0.06
         }
     },
@@ -4843,18 +4824,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20701,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21294,
-        "fields": {
-            "answer": 5200,
-            "state": 20801,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.01
         }
     },
     {
@@ -4887,51 +4857,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 202,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21300,
-        "fields": {
-            "answer": 5202,
-            "state": 20681,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21301,
-        "fields": {
-            "answer": 5202,
-            "state": 20711,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.6
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21302,
-        "fields": {
-            "answer": 5202,
-            "state": 20701,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21303,
-        "fields": {
-            "answer": 5202,
-            "state": 20801,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.4
         }
     },
     {
@@ -4942,53 +4868,9 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 202,
             "affected_candidate": 201,
-            "state_multiplier": 0.18
+            "state_multiplier": 0.008
         }
     },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21307,
-        "fields": {
-            "answer": 21082,
-            "state": 20681,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21308,
-        "fields": {
-            "answer": 21082,
-            "state": 20711,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.6
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21309,
-        "fields": {
-            "answer": 21082,
-            "state": 20701,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 21310,
-        "fields": {
-            "answer": 21082,
-            "state": 20801,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "state_multiplier": 0.03
-        }
-    }
 ]
 campaignTrail_temp.answer_feedback_json = [
     {
@@ -5681,7 +5563,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21145,
             "candidate": 201,
-            "answer_feedback": "More income tax cuts are not part of Democratic orthodoxy at this time. "
+            "answer_feedback": "Not only does this contradict the position of your party, it makes your proposals for new programs fiscally preposterous, which Scott points out at every occasion."
         }
     },
     {
@@ -6416,6 +6298,16 @@ campaignTrail_temp.questions_json[24] = {
     }
 }
 }
+//Achievements
+
+if (ans == 5235) { // Go across the pond
+    ctsAchievement("A Hop Across the Pond");  
+    }
+
+
+
+
+
 }
 var changeGameDisp = (hide) => {
     disp = "";
@@ -6680,7 +6572,9 @@ construct = (a = 1) => {
                 <p>You can hardly sleep that night, despite the victory, thinking only of the presidential race, which is too close to call. Despite your worries, you will soon be called to the service of Vermont, and win or lose you know you will do your best to make them proud.</p>
                 `)
                 e.pages.push 
-                (`<p>Oliver: So to get back to our main subject, in the absence of federal action, what is the solution for states to fix their healthcare systems? Obviously it would be great if every state expanded medicaid right now, but considering we’ve been waiting for 16 years on some of them, the outlook is not great. But on a deeper level than that, states can take action right now to move their healthcare systems into the future. In fact the man with the answers might be Howard Dean. 
+                (`<h2><b>Last Week Tonight with John Oliver Season 13, Episode 18 “Medicaid Part 2”</b></h2>
+                <p>Aired August 9, 2026</p> 
+                <p>Oliver: So to get back to our main subject, in the absence of federal action, what is the solution for states to fix their healthcare systems? Obviously it would be great if every state expanded medicaid right now, but considering we’ve been waiting for 16 years on some of them, the outlook is not great. But on a deeper level than that, states can take action right now to move their healthcare systems into the future. In fact the man with the answers might be Howard Dean. 
                 <p>[laughter]</p> 
                 <p>Yes that’s right, this man. Now, to my younger viewers, if you’re confused at why everyone’s laughing, just let me show you this clip from the 2004 presidential campaign.</p>
                 <p>[Dean Scream thirty-second clip]</p>
@@ -6693,11 +6587,11 @@ construct = (a = 1) => {
                 <p>“Today Governor Dean signed S. 24 into law funding the creation of an expansive new statewide healthcare program, reviving Act 48, an act to establish universal health care, this time with more direct and precise aims to provide low or no cost healthcare to poor and middle class residents, funded by a new payroll tax.”</p>
                 <p>That’s right. The state just did that. It’s a thing they can do! applause I know! And just think, Vermont could be a model for the rest of the nation. Which I don’t think is a statement that’s ever been made outside of an L.L Bean marketing strategy meeting. laughter So to that Howard Dean I say [imitates Dean scream several times to laughter and applause]</p>
                 </div>`)
-                e.pages.push(`<h2><b>CNN - Vermont Governor Molly Gray announces bid for Democratic Presidential Nomination</b></h2>
+                e.pages.push(`<h2><b><p style="text-align: center">CNN - Vermont Governor Molly Gray announces bid for Democratic Presidential Nomination</p></b></h2>
                 <p>Governor Molly Gray (D-Vermont) has released a brief statement announcing her intention to pursue the Democratic nomination for President, and has set up a website for that purpose. In her statement, the Governor announced a launch event to be held in Burlington, Vermont on the 18th of March to officially launch the campaign. Gray was elected Governor of Vermont in 2028 after previously serving as Lieutenant Governor from 2021-2023.</p>
                 <p>The Governor is the 12th Democrat to join the rapidly-growing field teeing up to take on President Hawley next year. The field already includes such names as Former Maryland Governor Wes Moore, Former Kentucky Governor Andy Beshear, Former Pennsylvania Governor Josh Shapiro, U.S. Senator for New York Alexandria Ocasio-Cortez, Former Virginia Governor Abigail Spanberger, and actor Dwayne Johnson.</p>
                 <p>Initial public polling puts Governor Gray at 2%.</p>`)
-                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/VMOY1VruWUCSBWXvwRySrNpheGh2wrz2.mp3"));
+                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/eWmKx8JKArUvRMTbaQ2w6VJd7lVOb4iy"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/e42thiM.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/4kQSSES.jpeg'})])
@@ -6709,10 +6603,10 @@ construct = (a = 1) => {
                 <p>When you call Governor Scott, he’s gracious and polite, and you share a brief chat. You wish you weren’t ending your career this way, but at least you gave it your all. Still, your mind dwells on the presidential race, which is razor-thin. You’re unable to sleep that night. But there is one thing keeping you calm, you know that Vermont is a good state with good people, and with a Governor like Phil Scott, surely it will remain the brave little state you love, and not become the victim of encroaching tyranny or cynical politics. When the sun rises in the morning, your faith in the future, in the next generation, feels renewed.</p>
                 `)
                 e.pages.push 
-                (`<h2><b>VTDigger - Jason Gibbs, Chief of Staff to Governor, to resign</b></h2>
+                (`<h2><b><p style="text-align: center">VTDigger - Jason Gibbs, Chief of Staff to Governor, to resign</p></b></h2>
                 <p>Jason Gibbs, who has served as Chief of Staff to Governor Phil Scott since 2017, has resigned from his position effective immediately, citing a “respectful difference of perspective” with Governor Scott, while wishing the Governor and his team “whom I respect immensely” the best going forward.</p>
                 <p>Jason Gibbs has been known for his combative personality, prodigious intelligence, small government ideas, and willingness to directly and sharply respond to critics of the Governor, many in Montpelier have cited the “abrasive” Chief of Staff’s attitude as one of the reasons for rocky relations between the Governor and the legislature. </p>
-                <p>Governor Scott wished Gibbs the best, thanking him for 8 years of “diligent and thoughtful” service. /p>
+                <p>Governor Scott wished Gibbs the best, thanking him for 8 years of “diligent and thoughtful” service. </p>
                 <p>Sources in Montpelier indicated that the Governor and his Chief of Staff had a strong difference of opinion over strategy entering the new legislative biennium, considering having seen the Governor nearly defeated in 2024 and the Democratic legislative supermajority still intact.</p>
                 <p>Democratic leaders have yet to comment but anonymous Democratic sources indicated their pleasure at the news.</p>
                 `)
@@ -6720,7 +6614,7 @@ construct = (a = 1) => {
                 <p>In a statement today, President Gavin Newsom announced a dozen new recipients of the Presidential Medal of Freedom including transgender Montana state lawmaker Zooey Zephyr, gun control activist David Hogg and former Governor of Vermont Howard Dean. In his statement Newsom highlighted Dean for his “decades of advocacy for a fairer and freer democracy”. Dean previously made a bid for President in 2004 before being undone by the well known “Dean Scream” [link to video]. He went on to serve as chairman of the Democratic National Committee for four years before fading into political obscurity, save for a failed attempt at reclaiming his former office of Governor in 2024.</p>
                 <p>Newsom’s honorees have been lambasted by Republicans as some of the most partisan to date, while his allies have praised the picks as part of Newsom’s “redemocratization” agenda. California Senator Adam Schiff spoke to NBC News saying “What President Newsom is doing now is honoring those who have fought for what our country was always supposed to stand for.” When reached for comment, Governor Dean gave a brief statement thanking the President.</p>
                 `)
-                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/VMOY1VruWUCSBWXvwRySrNpheGh2wrz2.mp3"));
+                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/kORqIcpUm2mpmVAsZxGYrBxqmcFFytRl"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/d6tJNNn.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/4MckskN.png'})])
@@ -6741,13 +6635,14 @@ construct = (a = 1) => {
                 <p>ANA: That's exciting.</p>
                 <p>CENK: I fully expect this guy to win in a landslide in November. What we’re seeing all around the country in this election is that people don't want this neoliberal corporate bullshit, we lost with that with Harris, they want real change, this is real change. Look out for David Zuckerman folks. The revolution is coming.</p>
                 `)
-                e.pages.push(`<h2><b>VTDigger- UNH Poll: Close race for Governor (May 2028)</b></h2>
+                e.pages.push(`<h2><b><p style="text-align: center">VTDigger- UNH Poll: Close race for Governor (May 2028)</p></b></h2>
                 <p>If polls are any indication, Governor Zuckerman may be in trouble.</p>
                 <p>According to recently released results from polling conducted by the University of New Hampshire for WCAX, Zuckerman holds only a single-digit lead over his prospective Republican challenger Caledonia Senator Scott Beck in the gubernatorial race. Of those polled, 42% said that if the election were held today they would vote for Zuckerman, while 36% said they would support Beck, giving Zuckerman a 6-point lead with decided voters</p>
                 <p>Independent candidates H. Brook Paige and Peter Duval each polled in the single digits. Currently undecided voters made up 20% percent of those polled.</p>
                 <p>The poll was conducted online between May 5. and May. 9, and 768 Vermonters participated. The margin of error is 3.5%.</p>
                 <p>Governor Zuckerman has struggled to move his agenda through the legislature and it has been reflected in his approval rating, with the same poll putting Governor Zuckerman at 47% favorable and 39% unfavorable, with 14% unsure.</p>
                 `)
+                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/FxJum5cgahiiFfmAY0m0zWqFsOxhQ24y"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/8qRKc2r.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ZE0LjZ4.png'})])
@@ -6760,7 +6655,7 @@ construct = (a = 1) => {
                 <p>Phil Scott and you have your disagreements, you sincerely believe he has disappointed as Governor. But he’s a good man, and in times of crisis he showed his worth as a leader, and he has always opposed the cynical, divisive, dangerous politics of the national Republican Party. Even if, God forbid, Trump triumphs, you’re reassured knowing Phil Scott will defend Vermont. And you will be there to support him.</p>
                 `)
                 e.pages.push(`
-                <p>MSNBC Broadcast - March 2nd, 2025</p>
+                <p><b>MSNBC Broadcast - March 2nd, 2025</b></p>
                 <p>Chris Hayes: With us now is former DNC Chairman and Vermont Governor Howard Dean, to discuss President Trump’s new tariffs.</p>
                 <p>Howard Dean: Thanks Chris.</p>
                 <p>Chris Hayes: So Governor, Trump campaigned on a whole slate of new trade policies, now he’s implementing them, what’s your reaction?</p>
@@ -6776,7 +6671,7 @@ construct = (a = 1) => {
                 <p>Senator Sanders will be succeeded by Senator-elect Becca Balint next month. </p>
                 <p>You can watch the entire speech <p style="color:blue;"><u>HERE.</u></p></p>
                 `)
-                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/vYu1RwEB1CcMLkcjgTGRsg7pJCATozDJ"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/z3nFl3L.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/hnDHPaT.png'})])
@@ -6794,7 +6689,7 @@ construct = (a = 1) => {
         <h2><b>WE’RE VOTING MIRO OH OH</b></h2>
         <h2><b>TO KEEP THE BALL ROLLING</b></h2>
         `)
-        autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+        autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/0up2vMM9ECXpfXsf1Jlil2xwW5xMLv5Z"));
         //e.image = ""
         e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/9gX0SKe.png'})])
         } 
@@ -6825,10 +6720,10 @@ else if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"
                 <p>Governor Dean was a longtime leader of the state Democratic Party, including leading the Democratic National Committee, but changed his public affiliation in Summer 2024 (Vermont has no partisan registration) after a breakdown in relations with party insiders, shifting support to the Progressive Party in what was considered a highly shocking move. Senator Baruth is affiliated with the Democratic Party, but runs as a Progressive as well, and has always been considered an advocate for a more cooperative relationship between the two parties. </p>
                 <p>Senator Baruth’s victory party was characterized by visible surprise and shock from attendants. Senator Baruth said in brief celebratory remarks that he hopes to “take the fight” to Republican nominee for Governor Mark Coester, and “deliver a mandate for more change for working Vermonters.” </p>
                 `)
-                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/MGgxkXRrSq6tjmqdgMfR60InHojBrn2b"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/Rk35ZQY.png'})])
-    e.executable.push([1, (() => {e.image = e.image = ''})])
+    e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/WuYJXES.png'})])
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/qxRX61J.png'})])
     
 } else if (quickstats[1] < 44 && campaignTrail_temp.candidate_json[2]["fields"].last_name == "Dean" && campaignTrail_temp.candidate_json[2]["fields"].color_hex == "#a52a2a") { // Dean Prog loss
@@ -6854,7 +6749,7 @@ else if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"
                 <p>There’s been a lot of soul-searching in the party since Governor Dean’s defeat in 2024. At the time I was a loud voice in favor of embracing Governor Dean’s turn towards our party, and I worked hard to elect him, and was saddened when he was defeated. I was hopeful that this was a gesture towards unity, and one that could move Progressive ideas into the mainstream. I know many Progressives, including former Representative Brian Cina, strongly agreed with me. The party’s new leaders view this decision, a welcoming, open decision, as a terrible mistake. It’s no surprise therefore that Governor Dean, one of the greatest statesmen our state has produced, has once again distanced himself from the VPP. I find that I must as well, while I am no longer directly involved in state politics, I find myself more than ever an independent progressive Vermonter, much like Senator Sanders.</p>
                 `)
 
-                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+                autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/0CaE44J45I3TjgW2ksOZGCtjxz3Kh17O"));
     //e.image = ""
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/6Ab129h.jpeg'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/sxfR2eQ.jpeg'})])
@@ -6882,7 +6777,7 @@ else if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"
                     <p>There’s been a lot of soul-searching in the party since Governor Dean’s defeat in 2024. At the time I was a loud voice in favor of embracing Governor Dean’s turn towards our party, and I worked hard to elect him, and was saddened when he was defeated. I was hopeful that this was a gesture towards unity, and one that could move Progressive ideas into the mainstream. I know many Progressives, including former Representative Brian Cina, strongly agreed with me. The party’s new leaders view this decision, a welcoming, open decision, as a terrible mistake. It’s no surprise therefore that Governor Dean, one of the greatest statesmen our state has produced, has once again distanced himself from the VPP. I find that I must as well, while I am no longer directly involved in state politics, I find myself more than ever an independent progressive Vermonter, much like Senator Sanders.</p>
                     `)
     
-                    autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/WkRKo3YgZkVKrVBpWPlpzFmkNbeUV6xD.mp3"));
+                    autoHalveVolumeOnce(setMusic("https://audio.jukehost.co.uk/0CaE44J45I3TjgW2ksOZGCtjxz3Kh17O"));
         //e.image = ""
         e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/6Ab129h.jpeg'})])
         e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/sxfR2eQ.jpeg'})])
@@ -6925,5 +6820,11 @@ document.getElementById("overall_vote_statistics").innerHTML=overallthing
 }
 window.setInterval(changechart,200)
 
+function ctsAchievement(achievement, difficultyChecker = true){
+    if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker)
+        if(campaignTrail_temp.CTS){
+        unlockAchievement(achievement);
+    }
+}
 
 
