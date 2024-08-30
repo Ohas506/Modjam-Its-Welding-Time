@@ -740,6 +740,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 52345,
+        "fields": {
+            "question": 18547,
+            "description": "Vice President Harris is no doubt too busy to make a stop in Vermont, but what about Governor Walz? He is a really lovely guy. He’d make a great addition to our campaign."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 8696,
         "fields": {
             "question": 18547,
@@ -1064,7 +1072,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21216,
         "fields": {
             "question": 21169,
-            "description": "Our brave little state is not free from the influence of Trump and his ilk. The Republican candidate for U.S. Senate spoke at the RNC, Republican state legislators are calling for an insurrection. Phil Scott is a nice man, but he can’t, or won’t, stop them, I will."
+            "description": "Our brave little state is not free from the influence of Trump and his ilk. The Republican nominee for Lieutenant Governor was at January 6th, Republican state legislators are calling for an insurrection. Phil Scott is a nice man, but he can’t, or won’t, stop them, I will."
         }
     },
     {
@@ -1096,7 +1104,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21250,
         "fields": {
             "question": 21232,
-            "description": "Our brave little state is not free from the influence of Trump and his ilk. The Republican candidate for U.S. Senate spoke at the RNC, Republican state legislators are calling for an insurrection. Phil Scott is a nice man, but he can’t, or won’t, stop them, I will."
+            "description": "Our brave little state is not free from the influence of Trump and his ilk. The Republican nominee for Lieutenant Governor was at January 6th, Republican state legislators are calling for an insurrection. Phil Scott is a nice man, but he can’t, or won’t, stop them, I will."
         }
     },
     {
@@ -2776,7 +2784,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5252,
             "candidate": 201,
-            "affected_candidate": 201,
+            "affected_candidate": 200,
             "global_multiplier": 0.06
         }
     },
@@ -2817,7 +2825,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1891,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.34
+            "global_multiplier": -0.38
         }
     },
     {
@@ -4209,33 +4217,11 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 211180,
         "fields": {
-            "answer": 20989,
-            "state": 20721,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 211180,
-        "fields": {
             "answer": 8698,
             "state": 20711,
             "candidate": 201,
             "affected_candidate": 201,
             "state_multiplier": 0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2111800,
-        "fields": {
-            "answer": 8698,
-            "state": 20721,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "state_multiplier": 0.01
         }
     },
     {
@@ -4730,7 +4716,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 20811,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.06
+            "state_multiplier": -0.03
         }
     },
     {
@@ -5587,7 +5573,7 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 209900,
+        "pk": 2342134,
         "fields": {
             "answer": 8698,
             "candidate": 201,
@@ -6589,10 +6575,6 @@ campaignTrail_temp.questions_json[24] = {
 }
 //Achievements
 
-if (ans == 5235) { // Go across the pond
-    ctsAchievement("A Hop Across the Pond");  
-    }
-
 
 }
 
@@ -6936,7 +6918,7 @@ construct = (a = 1) => {
     e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/8qRKc2r.png'})])
     e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ZE0LjZ4.png'})])
     e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/dI7I21b.png'})])
-    } else if (campaignTrail_temp.candidate_json[2]["fields"].last_name == "Weinberger" && aa[0].candidate != 201) { // Dean chooses not to run
+    } else if (campaignTrail_temp.candidate_json[2]["fields"].last_name == "Weinberger") { // Dean chooses not to run
     e.pages.push(`
                 <p>When you went down to Waterbury to tell folks you wouldn’t run for Governor, the disappointment in the room was palpable. But you never regretted your decision, not for a moment. It would never have been worth it to force Vermont into a negative campaign so you could be Governor again, and Phil Scott is hardly the biggest issue this country faces. That would be the wrong thing to do. Besides, you’ve been saying for years that the next generation needs to take over, and this would be the very opposite of that. You spent the summer BBQing and campaigning for a few state legislative candidates instead, even hosting a fundraiser for Mayor Weinberger, it was a lot more relaxing than running a campaign.</p>
                 <p>As you attempt to relax while watching the MSNBC broadcast of the election results, you get a mobile phone reminder indicating that Governor Scott has won a landslide re-election. It’s no surprise of course, you knew when you passed on the race it would be effectively conceding it for the party. But that was a deliberate choice. A negative campaign would have been bad for the state, bad for Vermonters. Would that really have been the best use of resources? No, it would not have been. Not with democracy itself on the ballot.</p>
@@ -7004,6 +6986,7 @@ else if (aa[0].candidate == 201 && campaignTrail_temp.candidate_json[2]["fields"
                 e.pages.push(`<h2><b>VTDigger - Senator Phil Baruth wins Democratic primary for Governor </b></h2>
                 <p>August 18th, 2028</p>
                 <p>Senator Phil Baruth of Burlington has won the tightly contested contest for the Democratic nomination for Governor of Vermont. The longtime State Senator and UVM English Professor was considered an unlikely contender for the Democratic nomination, especially considering the overwhelming fundraising advantage held by State Treasurer Mike Pieciak, but nevertheless Senator Baruth has won the nomination by a narrow 2 percentage points.</p>
+                <p>Governor Howard Dean, who despite his unearned national reputation as a leftist firebrand is best known in Vermont as a fiscally conservative moderate, having burned his bridges with the Democratic Party over personal factional spats, was welcomed into the Progressive Party with open arms. We, the DSA, were always strenuously opposed to this development, viewing the rank self-interested entryism for what it was. We correctly predicted that welcoming this opportunism would weaken the party. Dean was not interested in building VPP power, just getting back at his rivals in the Democratic Party. And it has, Howard Dean has not governed as anything other than a center-left technocrat, and he has dragged the party along with him, which has essentially transformed into a liberal party with occasional performative disagreements with only the most right-wing Democrats. More than anything, it has become a vessel for Howard Dean to increase his influence in the Democratic Party, funneling money and energy back into the VDP, leaving the VPP in ruin. </p>
                 <p>Senator Baruth was not considered a likely candidate for statewide office, let alone the governorship, but reportedly ran at the strong encouragement of Governor Howard Dean, whom he enjoyed strong support from during the primary process, especially after Dean formerly re-affiliated with the Democratic Party in the fall after the VPP controlled Burlington City Council voted to cut the police budget by half, in a repeat of a 2020 experiment that was considered a failure.</p>
                 <p>Governor Dean was a longtime leader of the state Democratic Party, including leading the Democratic National Committee, but changed his public affiliation in Summer 2024 (Vermont has no partisan registration) after a breakdown in relations with party insiders, shifting support to the Progressive Party in what was considered a highly shocking move. Senator Baruth is affiliated with the Democratic Party, but runs as a Progressive as well, and has always been considered an advocate for a more cooperative relationship between the two parties. </p>
                 <p>Senator Baruth’s victory party was characterized by visible surprise and shock from attendants. Senator Baruth said in brief celebratory remarks that he hopes to “take the fight” to Republican nominee for Governor Mark Coester, and “deliver a mandate for more change for working Vermonters.” </p>
@@ -7108,11 +7091,5 @@ document.getElementById("overall_vote_statistics").innerHTML=overallthing
 }
 window.setInterval(changechart,200)
 
-function ctsAchievement(achievement, difficultyChecker = true){
-    if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker)
-        if(campaignTrail_temp.CTS){
-        unlockAchievement(achievement);
-    }
-}
 
 
