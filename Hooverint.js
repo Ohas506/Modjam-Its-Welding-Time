@@ -1,0 +1,24 @@
+e = campaignTrail_temp;
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#7c2a00";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#831100";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#173373";
+
+document.getElementById("header").src = "https://i.imgur.com/UTxa3fZ.jpeg";
+
+document.body.background = "https://live.staticflickr.com/4091/4845184552_e180c2fd9d_b.jpg";
+
+e.election_json = [{"model":"campaign_trail.election","pk":11,"fields":{"year":1960,"summary":"In the wake of President Kennedy's assassination, the nation stands bitterly divided over Civil Rights and the Invasion of Vietnam. <br><br>Lyndon Baines Johnson, Kennedys vice president and successor, must stand strong in defending his choice to intervene in Vietnam and his continuation of the late president's Civil Rights initiatives.<br><br>In a shock to the nation, a divided and deadlocked GOP convention has drafted former president, Herbert Hoover, to be the party's nominee. The elderly Hoover will have to establish himself to an American electorate deeply unfamiliar with this relic of the past.<br>","image_url":"https://i.imgur.com/wySFG7X.jpeg","winning_electoral_vote_number":270,"advisor_url":"","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":11,"year":1960,"is_premium":0,"display_year":"1964"}];e.credits = "Ohas";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":25,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Herbert","last_name":"Hoover","election":11,"party":"Republican","state":"Iowa","priority":1,"description":"Herbert Clark Hoover. That's a name the nation hasn't heard in a very long time. Those who do remember it associate it with the worst of times. Since leaving office thirty odd years ago you've kept a low profile, making sharp critiques of FDR'S New Deal Policies and developing a friendship with President Truman, under whom you toured war torn Europe directing food aid, the great humanitarians true area of expertise. You've kept a cordial relationship with Kennedy, his assassination leaving you distraught.<br><br>But all of that is in the past now. You've always been eager to prove the New Dealers wrong, show the nation that arch Conservatism is the way, and to vindicate yourself for the History books. Thus you announced your willingness to accept the Republican nomination if offered it, a decision that you quite honestly thought you'd never have to entertain. <br><br>But here you are now. At 90 years of age and in ill health, many have already written you off.<br>","color_hex":"#ff2600","secondary_color_hex":null,"is_active":1,"image_url":"https://i.imgur.com/Ztz1Yer.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}}];e.running_mate_json = [];
+styling = document.createElement("style");
+document.head.appendChild(styling);          
+styling.innerHTML = `
+body {
+background-size: cover;
+}
+`

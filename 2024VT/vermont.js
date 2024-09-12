@@ -373,7 +373,7 @@ var soundtracks = {
     name: "Vermont",
     tracklist: [
       {
-        "name": "The Divided Sky",
+        "name": "The Divided Sky - Phish",
         "url": "https://audio.jukehost.co.uk/rfe4G8dLKLMIkEOA7YtxmjnjcEEzwXgp"
       },
       {
@@ -381,15 +381,15 @@ var soundtracks = {
         "url": "https://audio.jukehost.co.uk/pkxTtLz4unBykxGyGJC5ytUcT9SFobKC"
       },
       {
-        "name": "Hail! Vermont",
+        "name": "Hail! Vermont - Rick Pickren",
         "url": "https://audio.jukehost.co.uk/XWdphfTiFJzfoFPmXinT3KPWcEEb5g1u"
       },
       {
-        "name": "Ballad of the Green Mountaineer",
+        "name": "Ballad of the Green Mountaineer - Jim Knable",
         "url": "https://audio.jukehost.co.uk/yQ5IgLOiOQZoHHOEV6howjH5PKX6qfUU"
       },
       {
-        "name": "Stick Season",
+        "name": "Stick Season - Noah Kahan",
         "url": "https://audio.jukehost.co.uk/X6GEoAcnwHBtbPsRBEMw2rzBGxz3yYEl"
       },
 
@@ -424,23 +424,23 @@ var soundtracks = {
     name: "Dean",
     tracklist: [
       {
-        "name": "Bob Dylan - All Along the Watchtower",
+        "name": "All Along the Watchtower - Bob Dylan",
         "url": "https://audio.jukehost.co.uk/EGyGLRIvhz5IR9Hgd2f9yBMEZs4ARw30"
       },
       {
-        "name": "Arcade Fire - Culture War",
+        "name": "Culture War - Arcade Fire",
         "url": "https://audio.jukehost.co.uk/RhtuRlzsvBxm4eLoUPiAysQT1FfnIdM3"
       },
       {
-        "name": "Mr. November",
+        "name": "Mr. November - The National",
         "url": "https://audio.jukehost.co.uk/NvZjEsU0zzF38iKXJEC2nLlyh4eLXMQ7"
       },
       {
-        "name": "Dirty Harry",
+        "name": "Dirty Harry - Gorillaz",
         "url": "https://audio.jukehost.co.uk/g309kEETfxUYJHuKvmLGgkK2Wq31U4MD"
       },
       {
-        "name": "Howard Dean Yell Remix",
+        "name": "Howard Dean Yell Remix - Unknown",
         "url": "https://audio.jukehost.co.uk/9P6eqKrSp2KhP7PKoYaANFhTMPMH6aqv"
       },
    ]
