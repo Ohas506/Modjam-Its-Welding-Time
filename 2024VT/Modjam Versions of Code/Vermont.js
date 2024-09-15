@@ -59,8 +59,8 @@ function addDynamicCSS() {
             border-radius: 6px;
             padding: 10px;
             position: absolute;
-            z-index: 99;
-            bottom: 20%;
+            z-index: 9999; 
+            bottom: 50%; 
             left: 20%;
             margin-left: -90px;
             opacity: 0;
@@ -211,16 +211,20 @@ function applyTooltips(str) {
   return result;
 }
 
+
 function applyTooltipsToObject(obj) {
   for (let key in obj) {
       if (typeof obj[key] === 'string') {
           obj[key] = applyTooltips(obj[key]);
       } else if (typeof obj[key] === 'object') {
-          applyTooltipsToObject(obj[key]); // Recursive call
+          applyTooltipsToObject(obj[key]); // Recursive call for nested objects
       }
   }
 }
 
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
 applyTooltipsToObject(e.election_json);
 applyTooltipsToObject(campaignTrail_temp.election_json);
 applyTooltipsToObject(campaignTrail_temp.candidate_json);
