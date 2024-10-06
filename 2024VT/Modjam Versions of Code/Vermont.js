@@ -225,9 +225,7 @@ function applyTooltipsToObject(obj) {
 applyTooltipsToObject(campaignTrail_temp.questions_json);
 applyTooltipsToObject(campaignTrail_temp.answers_json);
 applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
-applyTooltipsToObject(e.election_json);
-applyTooltipsToObject(campaignTrail_temp.election_json);
-applyTooltipsToObject(campaignTrail_temp.candidate_json);
+
 
 $("#music_player")[0].children[0].style.display="none"
 $("#music_player")[0].children[1].style.display="none"

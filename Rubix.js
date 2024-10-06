@@ -4284,6 +4284,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 201314,
+        "fields": {
+            "question": 2031,
+            "description": "This is one hell of an October Surprise, and we gotta treat it the right way. I wanna stay focused and on message, but our surrogates, Kamala and the others, they need to be making clear just how earth shaking this is and why we can’t let him back in the White House."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 260122,
         "fields": {
             "question": 60121,
@@ -4645,6 +4653,14 @@ campaignTrail_temp.answers_json = [
     {
         "model": "campaign_trail.answer",
         "pk": 601421,
+        "fields": {
+            "question": 6014,
+            "description": "This isn’t a disastrous recession, but I still want some targeted intervention right now–focus on the small companies most vulnerable and those laid off–to prevent a spiral from forming and a vortex consuming the economy. Get it done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 601422,
         "fields": {
             "question": 60141,
             "description": "This isn’t a disastrous recession, but I still want some targeted intervention right now–focus on the small companies most vulnerable and those laid off–to prevent a spiral from forming and a vortex consuming the economy. Get it done."
@@ -12285,392 +12301,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543072,
+        "pk": 112379837997243000,
         "fields": {
-            "answer": 400311,
+            "answer": 11004,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.0134
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543073,
-        "fields": {
-            "answer": 400312,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0245
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543074,
-        "fields": {
-            "answer": 400313,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.02678
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543075,
-        "fields": {
-            "answer": 400421,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0287
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543076,
-        "fields": {
-            "answer": 400422,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0345
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543077,
-        "fields": {
-            "answer": 400423,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543078,
-        "fields": {
-            "answer": 400511,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.02456
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543079,
-        "fields": {
-            "answer": 400512,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543080,
-        "fields": {
-            "answer": 40061,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.01256
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543081,
-        "fields": {
-            "answer": 40062,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0231
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543082,
-        "fields": {
-            "answer": 40063,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0476
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543083,
-        "fields": {
-            "answer": 40064,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0165
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543084,
-        "fields": {
-            "answer": 40071,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0256
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543085,
-        "fields": {
-            "answer": 40072,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543086,
-        "fields": {
-            "answer": 40073,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.02456
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543087,
-        "fields": {
-            "answer": 40074,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543088,
-        "fields": {
-            "answer": 40091,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0567
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543089,
-        "fields": {
-            "answer": 31001,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543090,
-        "fields": {
-            "answer": 31002,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0256
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543091,
-        "fields": {
-            "answer": 31003,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0323
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543092,
-        "fields": {
-            "answer": 31004,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543093,
-        "fields": {
-            "answer": 6001121,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0123
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543094,
-        "fields": {
-            "answer": 6001123,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543095,
-        "fields": {
-            "answer": 6001124,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0123
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543096,
-        "fields": {
-            "answer": 6001111,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0123
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543097,
-        "fields": {
-            "answer": 6001112,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0123
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543098,
-        "fields": {
-            "answer": 6001113,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0124
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543099,
-        "fields": {
-            "answer": 6001114,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543100,
-        "fields": {
-            "answer": 60021,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0212
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543101,
-        "fields": {
-            "answer": 60022,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03678
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543102,
-        "fields": {
-            "answer": 60023,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.02789
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543103,
-        "fields": {
-            "answer": 60024,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543104,
-        "fields": {
-            "answer": 60031,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0123
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543105,
-        "fields": {
-            "answer": 60032,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0213
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543106,
-        "fields": {
-            "answer": 60033,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0245
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543107,
-        "fields": {
-            "answer": 60034,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.0224
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543108,
-        "fields": {
-            "answer": 601540721,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0212
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543109,
-        "fields": {
-            "answer": 60012342371,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0234
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 6014256543110,
-        "fields": {
-            "answer": 6014256543071,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.0245
+            "global_multiplier": 0.02345
         }
     }
 ]
@@ -15832,303 +15468,6 @@ campaignTrail_temp.answer_score_state_json = [
 campaignTrail_temp.answer_feedback_json = [
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2620,
-        "fields": {
-            "answer": 20321,
-            "candidate": 201,
-            "answer_feedback": "The week is spent rallying on almost every city with almost every elected Democrat in the state, Shapiro, Casey, all of them appear with you for one final rally in Scranton. You can only pray it stays with you one more time."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2621,
-        "fields": {
-            "answer": 5001,
-            "candidate": 201,
-            "answer_feedback": "The chaos within the Republican Party isn’t liked by anyone, and comparatively, your nomination and party have seemed—-"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2622,
-        "fields": {
-            "answer": 5002,
-            "candidate": 201,
-            "answer_feedback": "It’s true that the youth wing of the Democratic Party has been in outright rebellion following the war in Gaza, but maybe this will be a good first—-"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2623,
-        "fields": {
-            "answer": 5003,
-            "candidate": 201,
-            "answer_feedback": "Foreign policy is a situation where Trump has had a minor lead, likely due to his strongman persona. Highlting your administrations—-"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2624,
-        "fields": {
-            "answer": 5143,
-            "candidate": 201,
-            "answer_feedback": "It's good to hit back hard, even if a few bloviators question how this affects your \"likeability\"."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2625,
-        "fields": {
-            "answer": 5144,
-            "candidate": 201,
-            "answer_feedback": "Maybe your best bet here is to turn this into a \"both sides\" partisan story. And it's not as if you're wrong about Bush."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2626,
-        "fields": {
-            "answer": 5145,
-            "candidate": 201,
-            "answer_feedback": "This story is having a definite effect on your campaign, unfortunately."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2627,
-        "fields": {
-            "answer": 5146,
-            "candidate": 201,
-            "answer_feedback": "Jackson: So help you God?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2628,
-        "fields": {
-            "answer": 5147,
-            "candidate": 201,
-            "answer_feedback": "The sheer weight of the moment seems to crush you, but it’s true. You are now the President of the United States, Mr. Secretary–yet only a mere fraction of the country even knows your name."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2629,
-        "fields": {
-            "answer": 5148,
-            "candidate": 201,
-            "answer_feedback": "This answer appeals to your core voters."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2630,
-        "fields": {
-            "answer": 5149,
-            "candidate": 201,
-            "answer_feedback": "This is a standard, non-political response to any tragic event."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2631,
-        "fields": {
-            "answer": 5150,
-            "candidate": 201,
-            "answer_feedback": "It's not yet clear whether this attack was actually terrorism. Both you and Trump are coming under some criticism for jumping to that conclusion."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2632,
-        "fields": {
-            "answer": 5151,
-            "candidate": 201,
-            "answer_feedback": " However brief, you have a good conversation with all three, especially Moore. All three quickly pledge to support you and begin deploying their respective National Guards both into the city and establish a surrounding perimeter."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2633,
-        "fields": {
-            "answer": 5152,
-            "candidate": 201,
-            "answer_feedback": "Sullivan hurries in, and begins to call as many regular and irregular attendees as possible. Though eight perished in the blast, the rest look at your history with foreign affairs and wonder what your Presidency will hold."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2634,
-        "fields": {
-            "answer": 5153,
-            "candidate": 201,
-            "answer_feedback": "You’re hurried to a safe location with a suitable backdrop–American flags standing in the background. You have no prepared notes, and little time to think of what you’ll say.."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2635,
-        "fields": {
-            "answer": 5154,
-            "candidate": 201,
-            "answer_feedback": "You are, well, were, well-known among congressional circles–but now, many of those faces are gone. However, Senators McConnell and Warren as well as Representatives Hern and Aguilar–who you strike up a good rapport with–are alive, and come to your disposal fairly quickly."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2636,
-        "fields": {
-            "answer": 51552,
-            "candidate": 201,
-            "answer_feedback": "America won’t forget this, not easily. The country will want vengeance and blood soon enough, and why shouldn’t they?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2637,
-        "fields": {
-            "answer": 5156,
-            "candidate": 201,
-            "answer_feedback": "Rebuilding from this destruction seems a lifetime away and almost impossible to believe as a possibility–but it can only be done with your stewardship. Godspeed, Mr. President."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2638,
-        "fields": {
-            "answer": 5157,
-            "candidate": 201,
-            "answer_feedback": "Do you seem strong to the world? No. Have you shown your face,, explained the horror that has just unfolded, and calmed tensions? Yes."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2651,
-        "fields": {
-            "answer": 5170,
-            "candidate": 201,
-            "answer_feedback": "Barack gives you his thoughts, and says he’ll be with you no matter what. Clinton, Bush, and Carter send their prayers–and though you stumble through an awkward conversation with Dick Cheney, Al Gore gives you wisdom and pledges to be with you, whatever it is you need."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2652,
-        "fields": {
-            "answer": 5171,
-            "candidate": 201,
-            "answer_feedback": "Biden’s staff and advisors are in shock–but they’ve known you since the Obama years. They’re resolute in their duty, and honored to work with you to uphold Biden’s legacy."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2653,
-        "fields": {
-            "answer": 51721,
-            "candidate": 201,
-            "answer_feedback": "All 50 Governors are ready and willing to talk–presenting you with almost too many options for how to proceed in your requests for aid."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2654,
-        "fields": {
-            "answer": 5173,
-            "candidate": 201,
-            "answer_feedback": "Mark Milley, along with many ex-Generals and Homeland Security officials, are ready to get back into duty at the drop of a hat to serve their country in it’s time of need."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2655,
-        "fields": {
-            "answer": 51741,
-            "candidate": 201,
-            "answer_feedback": "Russia and Israel’s troop movements are normal, the Taiwan strait remains inactive, and North Korea and Afghanistan seem relatively quiet. Iran however, sees the IRGC in full mobilization–you think you know why."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2656,
-        "fields": {
-            "answer": 5175,
-            "candidate": 201,
-            "answer_feedback": "The Proud Boys, the Klan, and the bulk of terrorist organizations stand quiet–the consensus among the assorted members of the council being that the bombing was likely not perpetrated by a domestic organization."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2657,
-        "fields": {
-            "answer": 5176,
-            "candidate": 201,
-            "answer_feedback": "It's fine to bring the attack to Trump. Just make sure to mention what you have to offer as well."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2658,
-        "fields": {
-            "answer": 5177,
-            "candidate": 201,
-            "answer_feedback": "Your best bet is to focus both on Trump's behavior, along with other economic and social issues that Americans and Democrats find important."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2659,
-        "fields": {
-            "answer": 5178,
-            "candidate": 201,
-            "answer_feedback": "You should definitely be discussing pocketbook issues on the trail, but don't forget how unpopular Trump is as well."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2660,
-        "fields": {
-            "answer": 5179,
-            "candidate": 201,
-            "answer_feedback": "No. But you must try to set things straight."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2661,
-        "fields": {
-            "answer": 5180,
-            "candidate": 201,
-            "answer_feedback": "TThe Supreme Court was 6-3 before, and it looks to be 6-3 again. While you refrain from nominating arch-conservatives, Alito, Thomas, and Barrett still hold the Court in lockstep even as the left gets three new justices."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2662,
-        "fields": {
-            "answer": 5181,
-            "candidate": 201,
-            "answer_feedback": "Your political power in this moment is immense, but McConnell won’t risk the Dobbs decision and even Trump’s ballot eligibility by letting you make the Court so close–and with Thomas and Alito nowhere near spring chickens. After weeks of negotiation, plans stall, and the 6-3 court is reinstated."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2663,
-        "fields": {
-            "answer": 5182,
-            "candidate": 201,
-            "answer_feedback": "McConnell flatly refuses–he’s kept the Court in conservative hands in the face of opposition before, and he’ll do it again. Word of your plan reaches the press, and you’re begrudgingly forced to re-appoint a 6-3 court before the public firestorm grows too large."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2664,
-        "fields": {
-            "answer": 5183,
-            "candidate": 201,
-            "answer_feedback": "Some are calling your decision unifying, some are calling it insane, but you’ve upped the stakes of the election maddeningly. Republicans seem poised to keep the Senate either way–so with little to lose, McConnell agrees."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 2665,
         "fields": {
             "answer": 51851,
@@ -16156,272 +15495,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2670,
-        "fields": {
-            "answer": 5191,
-            "candidate": 201,
-            "answer_feedback": "Don’t underestimate the willpower of the left wing of the party, especially on Gaza. However, they are willing to lay down their arms, briefly, while you consolidate political strength and are in dire need of aid."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2674,
-        "fields": {
-            "answer": 5196,
-            "candidate": 201,
-            "answer_feedback": "There's nothing wrong with embracing Barack Obama this fall."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2675,
-        "fields": {
-            "answer": 5197,
-            "candidate": 201,
-            "answer_feedback": "Obama emphasizes turnout repeatedly in his speeches across these areas."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2676,
-        "fields": {
-            "answer": 5198,
-            "candidate": 201,
-            "answer_feedback": "There are a few unwanted rumors out there that you and Obama don't totally get along. Unless you wanted those to leak out?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2677,
-        "fields": {
-            "answer": 5199,
-            "candidate": 201,
-            "answer_feedback": "You can run a more assertively populist campaign without completely throwing Obama overboard."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 2681,
         "fields": {
             "answer": 5204,
             "candidate": 201,
             "answer_feedback": "While this causes some to start another round of recession fear-mongering, your targeted action is working to stem the bleeding that the market is feeling."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2682,
-        "fields": {
-            "answer": 5206,
-            "candidate": 201,
-            "answer_feedback": "The issue is that many still feel prices are too high and that many still can’t afford a bag of groceries. While the Democrats cheer your praise, the Dow drops another 350 points."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2683,
-        "fields": {
-            "answer": 52071,
-            "candidate": 201,
-            "answer_feedback": "Though investors remain skittish, your work in national security begins to restore consumer confidence within a matter of days–as well as voter confidence in your administration."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2684,
-        "fields": {
-            "answer": 5227,
-            "candidate": 201,
-            "answer_feedback": "Unfortunately, an ill-timed health issue has cost you several days of appearances during a critical part of the campaign."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2685,
-        "fields": {
-            "answer": 5228,
-            "candidate": 201,
-            "answer_feedback": "After a couple of days, the health issue recedes to the background."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2686,
-        "fields": {
-            "answer": 5229,
-            "candidate": 201,
-            "answer_feedback": "You are campaigning hard, but several times you break out into uncontrolled coughing fits that don't escape public notice."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2687,
-        "fields": {
-            "answer": 5230,
-            "candidate": 201,
-            "answer_feedback": "Unfortunately, your decision to keep campaigning has really backfired. Your health issue has gotten worse, forcing you to take a significant break from the campaign in October."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2688,
-        "fields": {
-            "answer": 5242,
-            "candidate": 201,
-            "answer_feedback": "Your 30-minute TV spots have terrible ratings, and Trump doesn't hesitate to mock you for it on Twitter."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2689,
-        "fields": {
-            "answer": 5243,
-            "candidate": 201,
-            "answer_feedback": "Pundits seem to think that you did surprisingly poorly against Trump, even if he was his usual wild self."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2690,
-        "fields": {
-            "answer": 5244,
-            "candidate": 201,
-            "answer_feedback": "Your debate performances are widely praised, especially compared to Trump. Will it matter with the voters?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2691,
-        "fields": {
-            "answer": 5245,
-            "candidate": 201,
-            "answer_feedback": "Your debate performances are widely praised, especially compared to Trump. Will it matter with the voters?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2692,
-        "fields": {
-            "answer": 5246,
-            "candidate": 201,
-            "answer_feedback": "Trump's comments dominate the airwaves for several days, and even bring some condemnation from notable conservatives."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2693,
-        "fields": {
-            "answer": 5247,
-            "candidate": 201,
-            "answer_feedback": "Trump's comments dominate the airwaves for several days, and even bring some condemnation from notable conservatives."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2694,
-        "fields": {
-            "answer": 5248,
-            "candidate": 201,
-            "answer_feedback": "Trump's comments dominate the airwaves for several days, and even bring some condemnation from notable conservatives."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2695,
-        "fields": {
-            "answer": 5249,
-            "candidate": 201,
-            "answer_feedback": "Trump's comments dominate the airwaves for several days, and even bring some condemnation from notable conservatives."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2696,
-        "fields": {
-            "answer": 5250,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2697,
-        "fields": {
-            "answer": 5251,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2698,
-        "fields": {
-            "answer": 5252,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2699,
-        "fields": {
-            "answer": 5253,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2700,
-        "fields": {
-            "answer": 5254,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2701,
-        "fields": {
-            "answer": 5255,
-            "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2702,
-        "fields": {
-            "answer": 5256,
-            "candidate": 201,
-            "answer_feedback": "After a few days, Comey does announce that no new evidence was found. Unfortunately for you, there was a definite effect on the polls as early voting began."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2703,
-        "fields": {
-            "answer": 5257,
-            "candidate": 201,
-            "answer_feedback": "After a few days, Comey does announce that no new evidence was found. Unfortunately for you, there was a definite effect on the polls as early voting began."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2711,
-        "fields": {
-            "answer": 5220,
-            "candidate": 201,
-            "answer_feedback": "Rice at State, Ridge at Homeland Security, Mattis at Defense– while moderate republicans nod along at your willingness to work with them, liberals can only feel bitter contempt."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2712,
-        "fields": {
-            "answer": 5221,
-            "candidate": 201,
-            "answer_feedback": "As John Kerry takes command of the State Department, Tom Harkin seizes Agriculture, and Doug Jones takes the mantle as Attorney General, the rosters of ex-Democrats without a job precipitously sinks."
         }
     },
     {
@@ -16435,56 +15513,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2714,
-        "fields": {
-            "answer": 5224,
-            "candidate": 201,
-            "answer_feedback": "It may have been an off-the-cuff statement, but it has erupted onto the headlines, likely to your detriment."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2715,
-        "fields": {
-            "answer": 5225,
-            "candidate": 201,
-            "answer_feedback": "It may have been an off-the-cuff statement, but it has erupted onto the headlines, likely to your detriment."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2716,
-        "fields": {
-            "answer": 5226,
-            "candidate": 201,
-            "answer_feedback": "Whatever else people can say about this campaign, it certainly hasn't lacked in verbal combat between you and Mr. Trump."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2717,
-        "fields": {
-            "answer": 5234,
-            "candidate": 201,
-            "answer_feedback": "People are in shock and disbelief, and many in the GOP pull their confidence from your administration as your approval ratings take a sizable hit from your decision to stand. The road to the election will not be easy, Mr. President. Good luck."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 2718,
         "fields": {
-            "answer": 52351,
+            "answer": 5235,
             "candidate": 201,
-            "answer_feedback": "With your allies and administration officials corroborating the evidence, you make an Oval Office speech laying out the facts. The eyes of the world point to Iran with fury, and the drums of war begin to beat."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 2719,
-        "fields": {
-            "answer": 523711,
-            "candidate": 201,
-            "answer_feedback": "Sullivan shakes his head–our allies and NSC officials have already backed up the evidence that you see within the document. It’s now only a matter of what will be done."
+            "answer_feedback": "Not much is known at the moment, Brown cautions you–and it could cause an international firestorm if a single statement you make is erroneous. The U.S. remains quiet, for now. "
         }
     },
     {
@@ -16507,47 +15540,20 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 19881,
-        "fields": {
-            "answer": 20322,
-            "candidate": 201,
-            "answer_feedback": "On the same day, Kemp and Scott host a joint Trump rally in his stead while you, Warnock, and Ossoff hold a stadium appearance in Atlanta. Jimmy Carter’s endorsement is with you here, and you believe you can feel the momentum on the ground. You just hope it is enough."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 19882,
-        "fields": {
-            "answer": 20323,
-            "candidate": 201,
-            "answer_feedback": "You, Cooper, and Stein join together, decrying the radical tyranny that Robinson and Trump wish to impose onto the country. You feel the same fear in your heart as the crowd does. You can’t imagine what will happen if you lose"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 19883,
         "fields": {
-            "answer": 20324,
+            "answer": 20264,
             "candidate": 201,
-            "answer_feedback": "Gallego, Hobbs, and Kelly appear at a rally with you in Phoenix. The crowd clamors to a frenzy as you pound the podium and invoke the name of John McCain to claim victory here once more."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 26621,
-        "fields": {
-            "answer": 51811,
-            "candidate": 201,
-            "answer_feedback": "McConnell doesn’t like this, but as public pressure for the court to be filled mounts, as moderate republicans come out in favor of your plan, and your nominees all receive positive praise, he relents. A 5-4 Supreme Court it is."
+            "answer_feedback": "Mitt Romney and some undecideds applaud your decision, but it is met with dropped jaws from every corner of the party. Uncommitted reaches 20% in Maryland’s May 14th primary, but your renomination has already been secured."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 27131,
         "fields": {
-            "answer": 52052,
+            "answer": 5205,
             "candidate": 201,
-            "answer_feedback": "Geithner has experience with panicky markets, and quickly issues and publicizes a report about good economic indicators for the next quarter–ignoring the bombing. The Dow creeps upwards in the following days."
+            "answer_feedback": "Brainard has experience from the Fed that comes in handy here–she’s able to coordinate with a strike force of economic advisors to stabilize the markets. After a few days, the market plateaus."
         }
     },
     {
@@ -16930,15 +15936,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 112001,
-        "fields": {
-            "answer": 20253,
-            "candidate": 201,
-            "answer_feedback": "The news media is clearly enamored by Trump’s trials, alerlty covering even his motorcade as it approaches the courtroom. It’s clear it will continue with or without your comment, but whether it will benefit you is still unclear."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 112002,
         "fields": {
             "answer": 12036,
@@ -16948,74 +15945,20 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 112003,
+        "pk": 119820,
         "fields": {
-            "answer": 12003,
+            "answer": 12024,
             "candidate": 201,
-            "answer_feedback": "Your quip against Phillip’s goes viral, and he seizes the moment to broadside you once more. His support is still nil among the base, but this has helped you little."
+            "answer_feedback": "Canegallo begins to revamp the Homeland Security efforts on the border to try and get the issue under control. Her systematic overhaul will take time though, and the crisis only get worse every day."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 112004,
+        "pk": 123683,
         "fields": {
-            "answer": 12004,
+            "answer": 52071,
             "candidate": 201,
-            "answer_feedback": "Already in states like Nebraska, an unconventional base is beginning to emerge--a volunteer organization ready to support you. It’s hard to compete against the machines mobilizing behind the others, but it’s not nothing."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 112007,
-        "fields": {
-            "answer": 12007,
-            "candidate": 201,
-            "answer_feedback": "Republican personalities seize on this to attack you for weakening America’s national security, and even Newsom notes your “naivity” in forthrightly threatening a veto."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 112008,
-        "fields": {
-            "answer": 12008,
-            "candidate": 201,
-            "answer_feedback": "Stuck in limbo as Warren mounts a powerful opposition front, the bill never reaches your desk. Clips of her passionately speaking about memories of the war on terror blanket the nation in her ads."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 112015,
-        "fields": {
-            "answer": 12019,
-            "candidate": 201,
-            "answer_feedback": "Discussions begin promisingly, but falter as McConnell pushes for military aid for Israel and your administration is unable to present a fruitful counteroffer. After painful weeks, enough GOP opposition mounts to force McConnell to abandon his efforts, a major blow for your Presidency."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 112016,
-        "fields": {
-            "answer": 120191,
-            "candidate": 201,
-            "answer_feedback": "Though major sticking points over Israel present potential pitfalls, you quickly are able to hash out an agreement that leaves both sides with something to walk away with–a positive development indeed."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 112020,
-        "fields": {
-            "answer": 12024111,
-            "candidate": 201,
-            "answer_feedback": "Canegallo is reticent to take such a delicate matter into her departments hands, but is emboldened by the Shield Liberty Act and the sheer magnitude of the crisis. After a few weeks of increased border patrol activity, illegal immigration numbers begin to drop off–all while Polis protests your draconian methods."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 112022,
-        "fields": {
-            "answer": 8602,
-            "candidate": 201,
-            "answer_feedback": "The hypocrisy is stark, but only Chris Christie is willing to call it out–the GOP is in line with Trump, and even the moderates approve of Haley’s selection. Fighting back any way you can, though, will help."
+            "answer_feedback": "Though investors remain skittish, your work in national security begins to restore consumer confidence within a matter of days–as well as voter confidence in your administration."
         }
     },
     {
@@ -17034,6 +15977,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 30012372,
             "candidate": 201,
             "answer_feedback": "Student groups are bewildered, as is the vast populous. After trying to bring them in line, signing in aid to Israel, and then cutting off said shipments, many are unsure where you land on the important issues of the time. Not a good look."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 187651,
+        "fields": {
+            "answer": 12026,
+            "candidate": 201,
+            "answer_feedback": "Do we really want the Pocahontas mess dragged up again, your surrogates ask. Do you know how old she’ll be if she runs for re-election? Do we want our next president mocked for her age, just like Biden? Her numbers begin to dip. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 213712,
+        "fields": {
+            "answer": 5221,
+            "candidate": 201,
+            "answer_feedback": "As John Kerry takes command of the State Department, Tom Harkin seizes Agriculture, and Doug Jones takes the mantle as Attorney General, the rosters of ex-Democrats without a job precipitously sinks."
         }
     },
     {
@@ -17074,6 +16035,15 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 223669,
+        "fields": {
+            "answer": 5189,
+            "candidate": 201,
+            "answer_feedback": "Cooper and Beshear, being term-limited, are willing to help you full stop–with Beshear especially energetic. The rest of the blue dogs though, are a dying breed, albeit one that is willing to join you for the moment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 230112,
         "fields": {
             "answer": 23011,
@@ -17083,11 +16053,128 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 245665,
+        "fields": {
+            "answer": 5185,
+            "candidate": 201,
+            "answer_feedback": "It’s an interesting tack to take–and certainly the leaders of American Samoa and the other islands are happy to see you care–but many feel as if you’re leaving the America that votes in the gutter when you need to be there for them the most."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 260621,
+        "fields": {
+            "answer": 51811,
+            "candidate": 201,
+            "answer_feedback": "McConnell doesn’t like this, but as public pressure for the court to be filled mounts, as moderate republicans come out in favor of your plan, and your nominees all receive positive praise, he relents. A 5-4 Supreme Court it is."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 261120,
         "fields": {
             "answer": 400311,
             "candidate": 201,
             "answer_feedback": "Trying to rehabilitate Yang among the party and public may be a lost cause—but keeping your ticket from being too unpopular may be for the best."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 261252,
+        "fields": {
+            "answer": 5171,
+            "candidate": 201,
+            "answer_feedback": "Biden’s staff and advisors are in shock–but they’ve known you since the Obama years. They’re resolute in their duty, and honored to work with you to uphold Biden’s legacy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 261253,
+        "fields": {
+            "answer": 5172,
+            "candidate": 201,
+            "answer_feedback": "It’s the wee morning hours in Europe–but the President’s and Prime Ministers are well awake. They give their condolences vow to support you and America."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 261335,
+        "fields": {
+            "answer": 5154,
+            "candidate": 201,
+            "answer_feedback": "You are, well, were, well-known among congressional circles–but now, many of those faces are gone. However, Senators McConnell and Warren as well as Representatives Hern and Aguilar–who you strike up a good rapport with–are alive, and come to your disposal fairly quickly."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 262235,
+        "fields": {
+            "answer": 5144,
+            "candidate": 201,
+            "answer_feedback": "Maybe your best bet here is to turn this into a \"both sides\" partisan story. And it's not as if you're wrong about Bush."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 263351,
+        "fields": {
+            "answer": 5170,
+            "candidate": 201,
+            "answer_feedback": "Barack gives you his thoughts, and says he’ll be with you no matter what. Clinton, Bush, and Carter send their prayers–and though you stumble through an awkward conversation with Dick Cheney, Al Gore gives you wisdom and pledges to be with you, whatever it is you need."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 263676,
+        "fields": {
+            "answer": 51552,
+            "candidate": 201,
+            "answer_feedback": "America won’t forget this, not easily. The country will want vengeance and blood soon enough, and why shouldn’t they?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 265138,
+        "fields": {
+            "answer": 5157,
+            "candidate": 201,
+            "answer_feedback": "Do you seem strong to the world? No. Have you shown your face,, explained the horror that has just unfolded, and calmed tensions? Yes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 266370,
+        "fields": {
+            "answer": 5191,
+            "candidate": 201,
+            "answer_feedback": "Don’t underestimate the willpower of the left wing of the party, especially on Gaza. However, they are willing to lay down their arms, briefly, while you consolidate political strength and are in dire need of aid."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 268223,
+        "fields": {
+            "answer": 5207,
+            "candidate": 201,
+            "answer_feedback": "For many, this is the first they’ve ever heard you even discuss National Security in this light. With nothing to back up your claims of progress, investors panic further, signaling a looming recession."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 271138,
+        "fields": {
+            "answer": 52351,
+            "candidate": 201,
+            "answer_feedback": "With your allies and administration officials corroborating the evidence, you make an Oval Office speech laying out the facts. The eyes of the world point to Iran with fury, and the drums of war begin to beat."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 274674,
+        "fields": {
+            "answer": 5196,
+            "candidate": 201,
+            "answer_feedback": "There's nothing wrong with embracing Barack Obama this fall."
         }
     },
     {
@@ -17119,29 +16206,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 301222,
-        "fields": {
-            "answer": 301221,
-            "candidate": 201,
-            "answer_feedback": "Lawmakers are well aware that this bill will pass with a supermajority, and don’t care to make any amendments to make it more palatable to you. You’re forced to sign it as is, with an accompanying Chinese denunciation."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 301233,
         "fields": {
             "answer": 30123,
             "candidate": 201,
             "answer_feedback": "These tariffs, though cheered by unions, incite yet more conflict with China. As some postulate a looming trade war between the two of you, the domestic economy contracts due to uncertainty."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 301244,
-        "fields": {
-            "answer": 301241,
-            "candidate": 201,
-            "answer_feedback": "Though congress members are hesitant to kill a bill that has widespread bipartisan approval, your ties with House leadership are able to shuffle it out of the spotlight and quietly prevent it from coming to the floor."
         }
     },
     {
@@ -17227,15 +16296,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 400423,
-        "fields": {
-            "answer": 40053,
-            "candidate": 201,
-            "answer_feedback": "Denis lets you in, but it is only a few minutes before a screaming match begins between the two of you over you “goddamn forfeiting” this election. After he orders the Secret Service to throw you out, you wisen up enough to leave before they can."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 421534,
         "fields": {
             "answer": 10003,
@@ -17259,15 +16319,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 43011,
             "candidate": 201,
             "answer_feedback": "Bringing intentional attention to the border crisis is perhaps not the smartest move for your first international trip--even though Lopez Obrador is more than happy to have you."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 529342,
-        "fields": {
-            "answer": 40074,
-            "candidate": 201,
-            "answer_feedback": "Your practiced lines always came across better in prep, and though they aren’t a failure on line, attacking Trump by calling his moral compass “like an alley cats” just doesn’t have the charm you’d think it does."
         }
     },
     {
@@ -17506,11 +16557,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 1102016,
+        "pk": 1096201,
         "fields": {
-            "answer": 12016,
+            "answer": 6001142,
             "candidate": 201,
-            "answer_feedback": "Obama tells you that you have his vote--but that he doesn’t want to put his finger on the scale with an endorsement, that the party will find the best and strongest nominee to beat Trump with or without his involvement. It’s crushing."
+            "answer_feedback": "He thanks you for your words, but this only hammers home what he believes. He can govern and work to help this country without having to run an electoral campaign–and the next day, he makes that clear to reporters in a press conference, leaving you with a choice to make."
         }
     },
     {
@@ -17614,11 +16665,11 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 1120011,
+        "pk": 1123749,
         "fields": {
-            "answer": 120211,
+            "answer": 6001144,
             "candidate": 201,
-            "answer_feedback": "Grisham takes the lead here, and begins to contact Newsom and Hobbs to get a tri-state system for managing border crossings put in place. Texas remains the largest crossing point, but part of the crisis has now been mitigated."
+            "answer_feedback": "Gore knows that your words are kind, and to some degree, true, but he feels that 2024 is not the time for noble causes–he feels it’s the time for victory, something he can’t provide. In a statement released the next morning, he expresses that sentiment once more."
         }
     },
     {
@@ -17637,6 +16688,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 300712,
             "candidate": 201,
             "answer_feedback": "A repeated appeal to unity, after your previous attempts to bring this faction in line, is enough to quench the worst of their fires. Gaza, though, is still an issue where you have very few degrees of freedom"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1261376,
+        "fields": {
+            "answer": 5198,
+            "candidate": 201,
+            "answer_feedback": "There are a few unwanted rumors out there that you and Obama don't totally get along. Unless you wanted those to leak out?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1271085,
+        "fields": {
+            "answer": 5225,
+            "candidate": 201,
+            "answer_feedback": "It may have been an off-the-cuff statement, but it has erupted onto the headlines, likely to your detriment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1342086,
+        "fields": {
+            "answer": 12024112,
+            "candidate": 201,
+            "answer_feedback": "Ridge, empowered by the Shield Liberty Act, begins an aggressive crackdown of the border–with the state Governors reluctantly towed along by the emergency powers his department has. The issue is nowhere near fixed, but immigration numbers begin to steeply drop––all while Polis protests your draconian methods."
         }
     },
     {
@@ -17704,11 +16782,47 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 1876501,
+        "fields": {
+            "answer": 600212,
+            "candidate": 201,
+            "answer_feedback": "Governor Polis is surprised by your overtures, but recognizes the importance of party unity and a vigorous ticket that will be able to defeat Trump. He accepts, and the ticket is finalized."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1935882,
+        "fields": {
+            "answer": 19882,
+            "candidate": 201,
+            "answer_feedback": "It’s true that the youth wing of the Democratic Party has been in outright rebellion following the war in Gaza, but maybe this will be a good first step in winning back their loyalty come election day."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 1984382,
         "fields": {
             "answer": 400313,
             "candidate": 201,
             "answer_feedback": "What may have started as an appeal to bipartisanship has quickly turned into a dialogue about whether or not you’re endorsing the Forward party rather than the Democratic party–which has further incensed a base already raving about your undemocratic nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1991881,
+        "fields": {
+            "answer": 20322,
+            "candidate": 201,
+            "answer_feedback": "On the same day, Kemp and Scott host a joint Trump rally in his stead while you, Warnock, and Ossoff hold a stadium appearance in Atlanta. Jimmy Carter’s endorsement is with you here, and you believe you can feel the momentum on the ground. You just hope it is enough."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2116233,
+        "fields": {
+            "answer": 5003,
+            "candidate": 201,
+            "answer_feedback": "Foreign policy is a situation where Trump has had a minor lead, likely due to his strongman persona. Highlting your administrations—-"
         }
     },
     {
@@ -17731,11 +16845,20 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2309223,
+        "pk": 2267261,
         "fields": {
-            "answer": 40073,
+            "answer": 5180,
             "candidate": 201,
-            "answer_feedback": "While Trump launches volleys, you are able to get in some good points about how you’ll keep unions strong if you’re elected President. Not many care, but for those who do, you seem the winner."
+            "answer_feedback": "TThe Supreme Court was 6-3 before, and it looks to be 6-3 again. While you refrain from nominating arch-conservatives, Alito, Thomas, and Barrett still hold the Court in lockstep even as the left gets three new justices."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2608601,
+        "fields": {
+            "answer": 5179,
+            "candidate": 201,
+            "answer_feedback": "No. But you must try to set things straight."
         }
     },
     {
@@ -17745,6 +16868,123 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 400421,
             "candidate": 201,
             "answer_feedback": "This is an abject lie–you spent all of January trying to say that she rigged the primary system against Bernie Sanders. Needless to say, this falls totally flat."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2621359,
+        "fields": {
+            "answer": 5148,
+            "candidate": 201,
+            "answer_feedback": "This answer appeals to your core voters."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2623520,
+        "fields": {
+            "answer": 1988,
+            "candidate": 201,
+            "answer_feedback": "It’s been the same for the past year or so: The economic good news isn’t being felt by the public at large. Hopefully giving it a spotlight on such a large scale will pay dividends in the long run for your administration."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2623563,
+        "fields": {
+            "answer": 5182,
+            "candidate": 201,
+            "answer_feedback": "McConnell flatly refuses–he’s kept the Court in conservative hands in the face of opposition before, and he’ll do it again. Word of your plan reaches the press, and you’re begrudgingly forced to re-appoint a 6-3 court before the public firestorm grows too large."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2623564,
+        "fields": {
+            "answer": 5183,
+            "candidate": 201,
+            "answer_feedback": "Some are calling your decision unifying, some are calling it insane, but you’ve upped the stakes of the election maddeningly. Republicans seem poised to keep the Senate either way–so with little to lose, McConnell agrees."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2626320,
+        "fields": {
+            "answer": 5000,
+            "candidate": 201,
+            "answer_feedback": "It’s been the same for the past year or so: The economic good news isn’t being felt by the public at. Hopefully giving it a spotlight on such a large scale will—-"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2637644,
+        "fields": {
+            "answer": 5153,
+            "candidate": 201,
+            "answer_feedback": "You’re hurried to a safe location with a suitable backdrop–American flags standing in the background. You have no prepared notes, and little time to think of what you’ll say.."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2637650,
+        "fields": {
+            "answer": 5149,
+            "candidate": 201,
+            "answer_feedback": "This is a standard, non-political response to any tragic event."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2652353,
+        "fields": {
+            "answer": 51721,
+            "candidate": 201,
+            "answer_feedback": "All 50 Governors are ready and willing to talk–presenting you with almost too many options for how to proceed in your requests for aid."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2664137,
+        "fields": {
+            "answer": 5156,
+            "candidate": 201,
+            "answer_feedback": "Rebuilding from this destruction seems a lifetime away and almost impossible to believe as a possibility–but it can only be done with your stewardship. Godspeed, Mr. President."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2664226,
+        "fields": {
+            "answer": 5145,
+            "candidate": 201,
+            "answer_feedback": "This story is having a definite effect on your campaign, unfortunately."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2664365,
+        "fields": {
+            "answer": 51841,
+            "candidate": 201,
+            "answer_feedback": "Youngkin and Lombardo are less open than the rest–likely owing to their support of Trump. Cox and Scott you have fruitful discussions with, but Sununu is the most amiable to your outreach by far, probably due to his imminent retirement."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2675431,
+        "fields": {
+            "answer": 5150,
+            "candidate": 201,
+            "answer_feedback": "It's not yet clear whether this attack was actually terrorism. Both you and Trump are coming under some criticism for jumping to that conclusion."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2676565,
+        "fields": {
+            "answer": 5184,
+            "candidate": 201,
+            "answer_feedback": "Shapiro, Walz, Evers, and Pritzker are receptive–and efforts to quell domestic turmoil are already well underway. Whitmer is more eager than the rest, though, pledging her political support to you unasked."
         }
     },
     {
@@ -17767,15 +17007,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 3013441,
-        "fields": {
-            "answer": 301341,
-            "candidate": 201,
-            "answer_feedback": "Wally attempts to push the FED for more aggressive policies, but the minor cuts to interest rates are disappointing to both the market an the administration. While not actively harmful, it’s not much of a victory to trumpet."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 3013442,
         "fields": {
             "answer": 301342,
@@ -17794,6 +17025,15 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 3139881,
+        "fields": {
+            "answer": 19881,
+            "candidate": 201,
+            "answer_feedback": "The chaos within the Republican Party isn’t liked by anyone, and comparatively, your nomination and party have seemed stately, competent, and capable of governing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 3301142,
         "fields": {
             "answer": 33011,
@@ -17808,24 +17048,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 400422,
             "candidate": 201,
             "answer_feedback": "Hillary and Bill won’t have this. They believe that they can win this and get back in the White House, and enough delegates are with them that you ploy becomes a catastrophic failure."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 4004233,
-        "fields": {
-            "answer": 4005122,
-            "candidate": 201,
-            "answer_feedback": "Through the loose network that connects you two, Hillary gets word of your request. On her own accord, she arranges a meeting and is able to get McDonough to throw her support behind her as Vice President… implying an endorsement for you."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 4004422,
-        "fields": {
-            "answer": 400512,
-            "candidate": 201,
-            "answer_feedback": "Yang is unable to even arrange an appointment with McDonough, leading to almost a week of rallies in DC before he abandons the pursuit."
         }
     },
     {
@@ -18082,6 +17304,24 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 6312711,
+        "fields": {
+            "answer": 5220,
+            "candidate": 201,
+            "answer_feedback": "Rice at State, Ridge at Homeland Security, Mattis at Defense– while moderate republicans nod along at your willingness to work with them, liberals can only feel bitter contempt."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 7410987,
+        "fields": {
+            "answer": 5233,
+            "candidate": 201,
+            "answer_feedback": "The wheels of a suddenly open primary are thrust into motion faster than many could have predicted. Let’s hope you can steward this country well enough to "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 8304627,
         "fields": {
             "answer": 12024,
@@ -18091,20 +17331,182 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 11202120,
+        "pk": 9982002,
         "fields": {
-            "answer": 1201241,
+            "answer": 12018,
             "candidate": 201,
-            "answer_feedback": "Thoiugh they’re unsure about whether they’re fully behind you staying as the nominee, their early endorsements are forthcoming and stem the flow of Democrts coming out against you long enough to keep you the nomination."
+            "answer_feedback": "McConnell wants to work with you, but this would be ambitious even if the Congress was Democratic. Negotiations begin to falter only hours in, and you’re forced to abandon your pursuits here–with pro-Israel Democrats castigating you for the effort."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 12458041,
+        "pk": 10739001,
         "fields": {
-            "answer": 142017,
+            "answer": 6001141,
             "candidate": 201,
-            "answer_feedback": "While the President doesn’t make any major gaffes during your Pittsburgh rally, the man looks ancient and is still deeply unpopular. Tying himself to you may not be to your advantage."
+            "answer_feedback": "Vice President Gore thanks you, and leaves as you prepare the next stages of the campaign. The next day he makes his speech announcing his intention not to stand for the Vice Presidency leaving you with a choice to make."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11119720,
+        "fields": {
+            "answer": 120241,
+            "candidate": 201,
+            "answer_feedback": "Ridge has experience, but not of this scale. While the border patrol does what it can, and Ridge even employs emergency efforts, the crisis still mounts."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11201304,
+        "fields": {
+            "answer": 12004,
+            "candidate": 201,
+            "answer_feedback": "Already in states like Nebraska, an unconventional base is beginning to emerge--a volunteer organization ready to support you. It’s hard to compete against the machines mobilizing behind the others, but it’s not nothing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11203402,
+        "fields": {
+            "answer": 12028,
+            "candidate": 201,
+            "answer_feedback": "Whispers about the homelessness rate and the ways Newsom stands with corporations begin to dominate the news cycles. He stands with the billionaires, the talking heads say, not with you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11204101,
+        "fields": {
+            "answer": 12005,
+            "candidate": 201,
+            "answer_feedback": "As you sign the legislation, you see video of Governor Polis excoriating the law’s ability to spy on and help persecute everyday Americans--likening it to Ron DeSantis’s anti-gay legislation in Florida. Your poll numbers sag across the nation while your popularity with the left dips."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11204802,
+        "fields": {
+            "answer": 12023,
+            "candidate": 201,
+            "answer_feedback": "The pressure from Trump to fail the bill is simply too large, and the legislation, despite warm feelings among many in the GOP caucus, is shot down before it can come to the floor. The media, and Senator Warren, continue to hound you for your failure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11209701,
+        "fields": {
+            "answer": 90013,
+            "candidate": 201,
+            "answer_feedback": "The party apparatus plods along, and after a few tense days of high profile endorsements and backroom wheeling and dealing, Newsom emerges on top, scarred and bruised by his victory. As the divided party settles on a nominee, you can’t help but lament. Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11231231,
+        "fields": {
+            "answer": 600211,
+            "candidate": 201,
+            "answer_feedback": "Newsom, eager for his flailing political futures to have a rebound, heartily accepts your offer. His announcement speech is laden with praise of you and vicious attacks on Trump, though some question how sincere it really is."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11253001,
+        "fields": {
+            "answer": 90092,
+            "candidate": 201,
+            "answer_feedback": "Polis is amicable, and recognizes the bad situation his campaign is in. After a few days of intense negotiations between the two of you, he agrees to endorse your campaign–giving you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11266558,
+        "fields": {
+            "answer": 5177,
+            "candidate": 201,
+            "answer_feedback": "Your best bet is to focus both on Trump's behavior, along with other economic and social issues that Americans and Democrats find important."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11297235,
+        "fields": {
+            "answer": 120181,
+            "candidate": 201,
+            "answer_feedback": "The Senator from Kentucky is taken aback, but after numerous assurances are provided that aid for Israel will be debated again–and with a surprisingly positive relationship so far–he agrees to your version. The bill passes, to much acclaim from progressives, and some minor blowback by pro-Israel democrats like Polis."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11298001,
+        "fields": {
+            "answer": 90084,
+            "candidate": 201,
+            "answer_feedback": "Newsom relishes your abdication of choie and begins gathering endorsements before you can outpace him, soon eclipsing you and pushing past Warren towards his own nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11352022,
+        "fields": {
+            "answer": 12035,
+            "candidate": 201,
+            "answer_feedback": "Everyone in this race supports the same policies, that’s the issue. Even as Warren is a bit of an outlier to the left, few genuinely disagree with her and agree enough with you to want to change their votes, rendering this a failure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11669881,
+        "fields": {
+            "answer": 20262,
+            "candidate": 201,
+            "answer_feedback": "Your announcement is met with abject fury from Prime Minister Netanyahu, accusations of treason from the right, and nearly nothing from the left. The New York times publishes an editorial calling for you to stop pandering to the far left and support a balanced budget."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11739801,
+        "fields": {
+            "answer": 12025,
+            "candidate": 201,
+            "answer_feedback": "The new Senate and still uncooperative House will make passing your agenda far harder–but if public opinion swings your way, you may win a convincing House majority in June."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11762001,
+        "fields": {
+            "answer": 90042,
+            "candidate": 201,
+            "answer_feedback": "It’s crude, especially the attacks on her age, and certainly creates some hard feelings between you and the progressive wing of the party, but it serves you well enough and gives you the victory over Warren."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11772001,
+        "fields": {
+            "answer": 12001,
+            "candidate": 201,
+            "answer_feedback": "The issue here is that you have no money, no organization, nothing at all to support your bid. Small TV spots are able to go out, but not enough to cover 6 states or compete with the big dogs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11988881,
+        "fields": {
+            "answer": 20302,
+            "candidate": 201,
+            "answer_feedback": "Fighting back hard against Trump may be the best thing you can do here, but polls show voters trust him more on the issue. It seems they just don’t care about the wall."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12456662,
+        "fields": {
+            "answer": 5181,
+            "candidate": 201,
+            "answer_feedback": "Your political power in this moment is immense, but McConnell won’t risk the Dobbs decision and even Trump’s ballot eligibility by letting you make the Court so close–and with Thomas and Alito nowhere near spring chickens. After weeks of negotiation, plans stall, and the 6-3 court is reinstated."
         }
     },
     {
@@ -18172,11 +17574,218 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 16349883,
+        "fields": {
+            "answer": 20274,
+            "candidate": 201,
+            "answer_feedback": "The debate is a nightmare, and polls show that nearly 7 in 10 voters disliked both you and Trump’s performance. Democrats panic about the fate of your capaign, while GOP partisans shrug it off."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 18762301,
+        "fields": {
+            "answer": 600214,
+            "candidate": 201,
+            "answer_feedback": "Governor Walz’s wide grin and enthusiasm aren’t to be underestimated, and the party base is placated, but the media undercurrent is apparent. He’s too friendly, too much of a dad for 2024. America needs a fighter."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 19652022,
+        "fields": {
+            "answer": 8503,
+            "candidate": 201,
+            "answer_feedback": "People scoff–it’s not that your criticism is wrong or misplaced, it’s that nobody is or will be voting for Tulsi Gabbard this election on your own merits. This election is about Trump, the pundits opine, not Gabbard."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 19833812,
+        "fields": {
+            "answer": 20323,
+            "candidate": 201,
+            "answer_feedback": "You, Cooper, and Stein join together, decrying the radical tyranny that Robinson and Trump wish to impose onto the country. You feel the same fear in your heart as the crowd does. You can’t imagine what will happen if you lose"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 19863483,
+        "fields": {
+            "answer": 20284,
+            "candidate": 201,
+            "answer_feedback": "Bringing together your coalition will help, but rallying together against Trump has had diminishing returns each times. While Bernie appears with you for yet another special video message, the left is still reluctant to rejoin you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 19865383,
+        "fields": {
+            "answer": 19883,
+            "candidate": 201,
+            "answer_feedback": "Foreign policy is a situation where Trump has had a minor lead, likely due to his strongman persona. Highlighting your administrations successes on this front can help you win this battle."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 19887681,
+        "fields": {
+            "answer": 20302,
+            "candidate": 201,
+            "answer_feedback": "Keeping your side of the aisle mum has let the GOP consume a lot of the early coverage. Poll numbers show a small plurality believe this imprisonment to be wholly unfair to Trump, yet Independents still show a marked shift away from Trump."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21246545,
+        "fields": {
+            "answer": 5173,
+            "candidate": 201,
+            "answer_feedback": "Mark Milley, along with many ex-Generals and Homeland Security officials, are ready to get back into duty at the drop of a hat to serve their country in it’s time of need."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21324714,
+        "fields": {
+            "answer": 5224,
+            "candidate": 201,
+            "answer_feedback": "It may have been an off-the-cuff statement, but it has erupted onto the headlines, likely to your detriment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22362758,
+        "fields": {
+            "answer": 5147,
+            "candidate": 201,
+            "answer_feedback": "The sheer weight of the moment seems to crush you, but it’s true. You are now the President of the United States, Mr. Secretary–yet only a mere fraction of the country even knows your name."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22376720,
+        "fields": {
+            "answer": 20271,
+            "candidate": 201,
+            "answer_feedback": "Trump looks haggard on the camera, his harrowed shouting about the 2020 election confusing even the moderators. The issue though, is that you look worse. It’s a crushing defeat."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 26012221,
         "fields": {
             "answer": 260122,
             "candidate": 201,
             "answer_feedback": "Liz Cheney joins you on the trail to defend you against the allegations, but there’s only a sliver of Republicans with enough loyalty to her for it to matter. It’s marginally effective, but still."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 26352322,
+        "fields": {
+            "answer": 5002,
+            "candidate": 201,
+            "answer_feedback": "It’s true that the youth wing of the Democratic Party has been in outright rebellion following the war in Gaza, but maybe this will be a good first—-"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 26387646,
+        "fields": {
+            "answer": 5155,
+            "candidate": 201,
+            "answer_feedback": "This moment will never be forgotten, and as America holds it’s breath and bows its head in prayer, the eyes of all the nation rest upon you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 26751234,
+        "fields": {
+            "answer": 5197,
+            "candidate": 201,
+            "answer_feedback": "Obama emphasizes turnout repeatedly in his speeches across these areas."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 26767778,
+        "fields": {
+            "answer": 5199,
+            "candidate": 201,
+            "answer_feedback": "You can run a more assertively populist campaign without completely throwing Obama overboard."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 27175429,
+        "fields": {
+            "answer": 5237,
+            "candidate": 201,
+            "answer_feedback": "You see stone cold faces and reactions of horror as you explain Iran’s involvement to the assorted national leaders. Each of them vows that they will be with you, whatever action you take."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 27326131,
+        "fields": {
+            "answer": 52051,
+            "candidate": 201,
+            "answer_feedback": "Wally moves quickly to issue bonds and seeks out reassurance from overseas investors and Governments. Less comfort is given than expected, but the stock market begins to change course after a week."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 27654656,
+        "fields": {
+            "answer": 5175,
+            "candidate": 201,
+            "answer_feedback": "The Proud Boys, the Klan, and the bulk of terrorist organizations stand quiet–the consensus among the assorted members of the council being that the bombing was likely not perpetrated by a domestic organization."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 27788719,
+        "fields": {
+            "answer": 52371,
+            "candidate": 201,
+            "answer_feedback": "Sullivan agrees–this would be devastating if wrong, and needs to be checked before any action is taken. He says he’ll get back to you shortly."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 27888131,
+        "fields": {
+            "answer": 52052,
+            "candidate": 201,
+            "answer_feedback": "Geithner has experience with panicky markets, and quickly issues and publicizes a report about good economic indicators for the next quarter–ignoring the bombing. The Dow creeps upwards in the following days."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 27976113,
+        "fields": {
+            "answer": 5223,
+            "candidate": 201,
+            "answer_feedback": "Forming your own “team of rivals”, eh? When all-stars like Robert Reich and Robert Gates head out of retirement to head their Departments once more, Washington is hit with several blasts from the past."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 30121244,
+        "fields": {
+            "answer": 301241,
+            "candidate": 201,
+            "answer_feedback": "Though congress members are hesitant to kill a bill that has widespread bipartisan approval, your ties with House leadership are able to shuffle it out of the spotlight and quietly prevent it from coming to the floor."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 30124964,
+        "fields": {
+            "answer": 30124,
+            "candidate": 201,
+            "answer_feedback": "Pointing to your history helps rally some who still had yet to learn about you as a nominee--but it does raise more questions about your time in the Liberty Caucus and your wealth as potential blotches to the lefts support of you."
         }
     },
     {
@@ -18201,18 +17810,9 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 40041211,
         "fields": {
-            "answer": 400511,
+            "answer": 400411,
             "candidate": 201,
-            "answer_feedback": "Remember the campaign you ran in the primaries? The few voters you courted were those against McDonough, and his forthcoming endorsement is overshadowed in the news by this flip-flop."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 40203211,
-        "fields": {
-            "answer": 40071,
-            "candidate": 201,
-            "answer_feedback": "There’s not an opening statement at the debate–meaning you waste the entire question time about the Capitol Bombing talking about your Gelato company. From there, you can’t recover."
+            "answer_feedback": "Advisors and operatives breathe a sigh of relief upon hearing this–things are bad, but this gives you a fighting chance. After some apprehension, all three Governors agree to hold rallies with you, each putting their name above yours on the headline."
         }
     },
     {
@@ -18235,6 +17835,24 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 52911342,
+        "fields": {
+            "answer": 40074,
+            "candidate": 201,
+            "answer_feedback": "Winning female voters is key to any democratic coalition, and with abortion this salient, many think campaigning on this will help mobilize voters. Many undecided though, feel too inundated with this attack over all the years to hear it out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 52954342,
+        "fields": {
+            "answer": 40074,
+            "candidate": 201,
+            "answer_feedback": "Your practiced lines always came across better in prep, and though they aren’t a failure on line, attacking Trump by calling his moral compass “like an alley cats” just doesn’t have the charm you’d think it does."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 60094411,
         "fields": {
             "answer": 600941,
@@ -18253,20 +17871,20 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 83013556,
+        "pk": 64263113,
         "fields": {
-            "answer": 122017,
+            "answer": 5152,
             "candidate": 201,
-            "answer_feedback": "President Biden is furious, but holds his tongue. While a few feel you’re too harsh on your former ticket mate, some Biden-critical moderates nod along to this rhetoric."
+            "answer_feedback": "Sullivan hurries in, and begins to call as many regular and irregular attendees as possible. Though eight perished in the blast, the rest look at your history with foreign affairs and wonder what your Presidency will hold."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 84102413,
+        "pk": 78263322,
         "fields": {
-            "answer": 132017,
+            "answer": 5151,
             "candidate": 201,
-            "answer_feedback": "This is about the theme you’ve been hitting on these past few months. While it doesn’t end the talk, putting the narrative back on your record has dispelled the worst edges of this attack"
+            "answer_feedback": " However brief, you have a good conversation with all three, especially Moore. All three quickly pledge to support you and begin deploying their respective National Guards both into the city and establish a surrounding perimeter."
         }
     },
     {
@@ -18280,11 +17898,182 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 111202333,
+        "pk": 111352002,
         "fields": {
-            "answer": 60103,
+            "answer": 12014,
             "candidate": 201,
-            "answer_feedback": "Florida, Arizona, and Nevada will each have initiatives, ones that you’re happy to appear on behalf of their supporters. It makes a lot of local headlines, and could well boost your fortunes in each state."
+            "answer_feedback": "Reframing your time as Chief of Staff into a progressive crusade is a bold tactic, but old editorials and descriptions of your policy shouting matches serve well to paint you in that light and drag over wary Warren supporters. However, your legacy as Obama’s top man on foreign policy has served to push some populists into the Polis camp."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112000981,
+        "fields": {
+            "answer": 8301,
+            "candidate": 201,
+            "answer_feedback": "He’s all the headlines talk about for weeks afterwards–even the New York Times revokes it’s statement that the running mate doesn’t have an effect on the election. Ramaswamy relishes the spotlight though, and it’s unknown how Trump will be hit in the polls"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112006658,
+        "fields": {
+            "answer": 12008,
+            "candidate": 201,
+            "answer_feedback": "Stuck in limbo as Warren mounts a powerful opposition front, the bill never reaches your desk. Clips of her passionately speaking about memories of the war on terror blanket the nation in her ads."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112012301,
+        "fields": {
+            "answer": 8801,
+            "candidate": 201,
+            "answer_feedback": "This is fair–Burgum is inoffensive, bland, and unlikely to change anything about the state of this race. Not commenting on him won’t hurt you any more than commenting would help. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112013403,
+        "fields": {
+            "answer": 12003,
+            "candidate": 201,
+            "answer_feedback": "Your quip against Phillip’s goes viral, and he seizes the moment to broadside you once more. His support is still nil among the base, but this has helped you little."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112053102,
+        "fields": {
+            "answer": 120061,
+            "candidate": 201,
+            "answer_feedback": "The bill wasn’t near passing yet, and McConnell and Lee are eager to see it passed before leftist opposition grows too strong. After a bitter round of negotiations, a palatable version comes to your desk–building rapport with this Congress."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112053201,
+        "fields": {
+            "answer": 12021,
+            "candidate": 201,
+            "answer_feedback": "While your efforts are initially met with some reception, the states have already been trying to get it under control. Newsom is unhelpful, and Hobbs and Grisham are unable to get a solution together on their own, leaving your whole initiative a failure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112076202,
+        "fields": {
+            "answer": 12002,
+            "candidate": 201,
+            "answer_feedback": "This is reasonable, but puts you at a starting disadvantage against the rest of the field. If you can get the country in order over the next two months, it may pay off.."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112076501,
+        "fields": {
+            "answer": 120371,
+            "candidate": 201,
+            "answer_feedback": "Voters across the nation begin flocking to your campaign, rallying around their President, but will it be enough? Only time will tell."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112098701,
+        "fields": {
+            "answer": 90094,
+            "candidate": 201,
+            "answer_feedback": "Attacking Warren only strengthens her movement, and with Polis behind her, the news leak that your campaign is courting Republicans is enough to sink you below the waves and give her the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112105222,
+        "fields": {
+            "answer": 8602,
+            "candidate": 201,
+            "answer_feedback": "The hypocrisy is stark, but only Chris Christie is willing to call it out–the GOP is in line with Trump, and even the moderates approve of Haley’s selection. Fighting back any way you can, though, will help."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112412007,
+        "fields": {
+            "answer": 12007,
+            "candidate": 201,
+            "answer_feedback": "Republican personalities seize on this to attack you for weakening America’s national security, and even Newsom notes your “naivity” in forthrightly threatening a veto."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112661001,
+        "fields": {
+            "answer": 120251,
+            "candidate": 201,
+            "answer_feedback": "The new Senate and still uncooperative House will make passing your agenda far harder–but if public opinion swings your way, you may win a convincing House majority in June."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112734001,
+        "fields": {
+            "answer": 8701,
+            "candidate": 201,
+            "answer_feedback": "This is an interesting tack to take–people worry about Trump’s health and at the very least speculate that Vance will be a major contender for President in 2028. Making people worry about a President Vance is a good step to pushing off some moderates. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112879001,
+        "fields": {
+            "answer": 90152,
+            "candidate": 201,
+            "answer_feedback": "The primary was bruising, but Warren’s ability to hang in combined with your endorsement has left the party leaders recognizing that it simply isn’t feasible to try and stop her. With the nominee now settled, you can’t help but lament? Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112986001,
+        "fields": {
+            "answer": 90082,
+            "candidate": 201,
+            "answer_feedback": "Newsom sits down with you, but is unreceptive towards making a deal. As your negotiations stall day after day, Warren gathers Polis’s endorsement and takes the nomination for herself."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 113271319,
+        "fields": {
+            "answer": 523711,
+            "candidate": 201,
+            "answer_feedback": "Sullivan shakes his head–our allies and NSC officials have already backed up the evidence that you see within the document. It’s now only a matter of what will be done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 120341329,
+        "fields": {
+            "answer": 12029,
+            "candidate": 201,
+            "answer_feedback": "Phillips is a sideshow, a comical farce to the real primary at play. Attacking him just gives him a tiny shred of oxygen with which he can peel away a dozen or so voters from you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 122626430,
+        "fields": {
+            "answer": 20261,
+            "candidate": 201,
+            "answer_feedback": "The protests continue, and state and local authorities remained overwhelmed and unable to formulate a coherent response. The only upside, if it can be claimed there is one, is that the anger of the crowd seems to be avoiding you, for now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 127321566,
+        "fields": {
+            "answer": 5226,
+            "candidate": 201,
+            "answer_feedback": "Whatever else people can say about this campaign, it certainly hasn't lacked in verbal combat between you and Mr. Trump."
         }
     },
     {
@@ -18294,6 +18083,60 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 30091,
             "candidate": 201,
             "answer_feedback": "Only a handful of republicans speak out against your supposed ‘anti-business’ policies, but the pressure at the pump is felt by many Americans, even as the NSA applauds your move."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 131297001,
+        "fields": {
+            "answer": 8701,
+            "candidate": 201,
+            "answer_feedback": "Noem is not without her scandals, but trying to define her as equally scandalous as Trump will be a tall task. Noem vehemently denies the affair, yet memories of her dentist trip are dredged up for several weeks. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 134512016,
+        "fields": {
+            "answer": 120161,
+            "candidate": 201,
+            "answer_feedback": "Obama sighs, but remembering your sanguine conversation, releases a statement issuing his support of you. Obama is a titan in the party and his support has a notable effect, but your three opponents continue to campaign undeterred."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 135312001,
+        "fields": {
+            "answer": 8501,
+            "candidate": 201,
+            "answer_feedback": "She tried to censure him, the MSNBC, and now he thinks she’s loyal enough to be his VP? Donald Trump isn’t just a con artist, he’s being conned."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 187612001,
+        "fields": {
+            "answer": 90064,
+            "candidate": 201,
+            "answer_feedback": "The party apparatus plods along, and after a few tense days of high profile endorsements and backroom wheeling and dealing, Newsom emerges on top, scarred and bruised by his victory. As the divided party settles on a nominee, you can’t help but lament. Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 191144881,
+        "fields": {
+            "answer": 20292,
+            "candidate": 201,
+            "answer_feedback": "Keeping the focus of your speech on your successes and economic vitality is generally a good message, but viewership numbers are lower than you would have liked. Democrats clap, as expected."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 196688331,
+        "fields": {
+            "answer": 20282,
+            "candidate": 201,
+            "answer_feedback": "Public opinion grows ever fuzzier on whether or not Trump’s trials are fair, even if a majority do think he should stand trial before the election. Aileen Cannon delays Trump’s classified documents trial yet again."
         }
     },
     {
@@ -18316,6 +18159,132 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 198765881,
+        "fields": {
+            "answer": 20272,
+            "candidate": 201,
+            "answer_feedback": "The cut mics do nothing to stop the verbal frenzy between the two of you, and Trump is relentless. It only takes one tripped over word, relegislating, for Trump to seize the moment and dominate the ensuing coverage."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 198786882,
+        "fields": {
+            "answer": 20293,
+            "candidate": 201,
+            "answer_feedback": "Trump is repugnant to American ideals, you shout into the microphone. We can’t allow him a second term, for the damage may be irreparable. You can only hope people are listening."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 198864112,
+        "fields": {
+            "answer": 20263,
+            "candidate": 201,
+            "answer_feedback": "You’re correct, beyond any sense of doubt. The issue though, is that to them, you two are interchangeable when it comes to Gaza, and nothing seems poised to abate their anger."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 212365954,
+        "fields": {
+            "answer": 5178,
+            "candidate": 201,
+            "answer_feedback": "You should definitely be discussing pocketbook issues on the trail, but don't forget how unpopular Trump is as well."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 212462540,
+        "fields": {
+            "answer": 20281,
+            "candidate": 201,
+            "answer_feedback": "Harris makes a major speech the next day, decrying Trump, Scott, Ramaswamy, and all the rest. Pundits praise her fiery spirit, calling it a sign of the Kamala to come in 2028, yet her favorability numbers take a dip the next day."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 213776517,
+        "fields": {
+            "answer": 5234,
+            "candidate": 201,
+            "answer_feedback": "People are in shock and disbelief, and many in the GOP pull their confidence from your administration as your approval ratings take a sizable hit from your decision to stand. The road to the election will not be easy, Mr. President. Good luck."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 216321624,
+        "fields": {
+            "answer": 5143,
+            "candidate": 201,
+            "answer_feedback": "It's good to hit back hard, even if a few bloviators question how this affects your \"likeability\"."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 223566657,
+        "fields": {
+            "answer": 5176,
+            "candidate": 201,
+            "answer_feedback": "It's fine to bring the attack to Trump. Just make sure to mention what you have to offer as well."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 230928723,
+        "fields": {
+            "answer": 40073,
+            "candidate": 201,
+            "answer_feedback": "While Trump launches volleys, you are able to get in some good points about how you’ll keep unions strong if you’re elected President. Not many care, but for those who do, you seem the winner."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 231526719,
+        "fields": {
+            "answer": 5236,
+            "candidate": 201,
+            "answer_feedback": "The Gang of Eight is down one–with no Republican Senator left alive from the Intelligence Committee. Either way, the seven members sit solemnly as you explain the information, and nod silently when you tell them that they may have to authorize force."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 236261382,
+        "fields": {
+            "answer": 5206,
+            "candidate": 201,
+            "answer_feedback": "The issue is that many still feel prices are too high and that many still can’t afford a bag of groceries. While the Democrats cheer your praise, the Dow drops another 350 points."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 267521123,
+        "fields": {
+            "answer": 5001,
+            "candidate": 201,
+            "answer_feedback": "The chaos within the Republican Party isn’t liked by anyone, and comparatively, your nomination and party have seemed—-"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 268765455,
+        "fields": {
+            "answer": 51741,
+            "candidate": 201,
+            "answer_feedback": "Russia and Israel’s troop movements are normal, the Taiwan strait remains inactive, and North Korea and Afghanistan seem relatively quiet. Iran however, sees the IRGC in full mobilization–you think you know why."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 297556551,
+        "fields": {
+            "answer": 5174,
+            "candidate": 201,
+            "answer_feedback": "The NSC has little go on, but they recognize the importance of your order. The CIA and FBI begin a nationwide manhunt–though for who, they don’t yet know."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 300123311,
         "fields": {
             "answer": 30013,
@@ -18325,11 +18294,65 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 302341222,
+        "fields": {
+            "answer": 30122,
+            "candidate": 201,
+            "answer_feedback": "Congress groans at removing language from the bill, but with small sustained pressure they drop the terms about TikTok. While still unpopular with Beijing, the laws domestic passage remains very popular."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 351983826,
+        "fields": {
+            "answer": 20273,
+            "candidate": 201,
+            "answer_feedback": "The debate is a disaster, nearly unparalled in modern history. You can’t keep your train of thought and your throat aches the entire debate, with almost 70% of respondents saying Trump won."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 398013441,
+        "fields": {
+            "answer": 301341,
+            "candidate": 201,
+            "answer_feedback": "Wally attempts to push the FED for more aggressive policies, but the minor cuts to interest rates are disappointing to both the market an the administration. While not actively harmful, it’s not much of a victory to trumpet."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 400123423,
         "fields": {
             "answer": 40063,
             "candidate": 201,
             "answer_feedback": "This sentiment is widely condemned by everyone except the fringe left—the few prominent Governors of such a dovish persuasion are cowed into silence by circumstance."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 400445222,
+        "fields": {
+            "answer": 400512,
+            "candidate": 201,
+            "answer_feedback": "Yang is unable to even arrange an appointment with McDonough, leading to almost a week of rallies in DC before he abandons the pursuit."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 400521423,
+        "fields": {
+            "answer": 40043,
+            "candidate": 201,
+            "answer_feedback": "Pundits had been foreclosing on these states even before the disaster that was your nomination. Though Roy Cooper comes out to rally with you in North Carolina, there’s a depressing lack of energy and weary eyes in the crowd. They know you’re going to lose."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 400544422,
+        "fields": {
+            "answer": 40042,
+            "candidate": 201,
+            "answer_feedback": "Nevada and Arizona both look rocky, and visiting there only heightens the question of border security. An angry woman throws a milkshake at you and shouts that a migrant blew up the capitol while you stump about abortion."
         }
     },
     {
@@ -18370,20 +18393,20 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 973001213,
-        "fields": {
-            "answer": 300931,
-            "candidate": 201,
-            "answer_feedback": "Your work with the NGA pays dividends here. Though at first hesitant to colloborate on a national policy, a quick convention of Governrors results in state-by-state regulation that lessens the burden on businesses."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 1098715511,
         "fields": {
             "answer": 300941,
             "candidate": 201,
             "answer_feedback": "Trudeau, facing a landslide loss and remembering your conversation, spearheads an initiative between the three of you to quickly find an agreement on trilateral trade regulations and bring prices down across the continent."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1102066616,
+        "fields": {
+            "answer": 12016,
+            "candidate": 201,
+            "answer_feedback": "Obama tells you that you have his vote--but that he doesn’t want to put his finger on the scale with an endorsement, that the party will find the best and strongest nominee to beat Trump with or without his involvement. It’s crushing."
         }
     },
     {
@@ -18415,6 +18438,393 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 1110922001,
+        "fields": {
+            "answer": 90091,
+            "candidate": 201,
+            "answer_feedback": "While progressive unity is attempted and breached in meetings throughout the next few weeks, your commanding lead becomes too much for them to surmount–leaving you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1115562001,
+        "fields": {
+            "answer": 90063,
+            "candidate": 201,
+            "answer_feedback": "Many were worried about a Newsom–Warren throwdown at the convention, and your endorsement of Polis has given them the out they needed. As the Governor takes his mantle, you can’t help but lament? Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1119896682,
+        "fields": {
+            "answer": 20283,
+            "candidate": 201,
+            "answer_feedback": "Pivoting to the center on foreign policy raises another beacon of alarm from the left flank, but you garner praise from mainstream outlets by adopting a unifying persona. Haley, for her part, still believes you to be a failure of a President."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1119898683,
+        "fields": {
+            "answer": 20304,
+            "candidate": 201,
+            "answer_feedback": "The media is more than eager to track every possible twist and turn in this story, but your own personal silence diminishes the effects of this just a little. The polls begin to swing, but it’s not as major as you’d like."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120065311,
+        "fields": {
+            "answer": 120211,
+            "candidate": 201,
+            "answer_feedback": "Grisham takes the lead here, and begins to contact Newsom and Hobbs to get a tri-state system for managing border crossings put in place. Texas remains the largest crossing point, but part of the crisis has now been mitigated."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120164355,
+        "fields": {
+            "answer": 12019,
+            "candidate": 201,
+            "answer_feedback": "Discussions begin promisingly, but falter as McConnell pushes for military aid for Israel and your administration is unable to present a fruitful counteroffer. After painful weeks, enough GOP opposition mounts to force McConnell to abandon his efforts, a major blow for your Presidency."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120234501,
+        "fields": {
+            "answer": 12034,
+            "candidate": 201,
+            "answer_feedback": "Montana, Nebraska, and South Dakota have small Democratic bases, and each have Haley voters and slices of Indepednets who could be persuaded to try and get you to stay as President. CNN begins to report on relatively large numbers of voters changing their registration to support you. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120237001,
+        "fields": {
+            "answer": 6001131,
+            "candidate": 201,
+            "answer_feedback": "Cheney nods, and later announces her intention not to run on your ticket, leaving progressives sighing with relief."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120374001,
+        "fields": {
+            "answer": 6001132,
+            "candidate": 201,
+            "answer_feedback": "She thanks you, but tells you that it’s simply too large of a risk for her to stay, especially when so much is at stake this election. The headlines leak her announcement the next morning."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120375802,
+        "fields": {
+            "answer": 120231,
+            "candidate": 201,
+            "answer_feedback": "Though Trump attempts to rally the Republican caucus against it, the pressing public demand for national security develops into a flood of media attention that forces their capitulation–meaning the border bill is passed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120379801,
+        "fields": {
+            "answer": 90093,
+            "candidate": 201,
+            "answer_feedback": "You’re able to tank Warren, but her supporters, embittered, flock to Polis, who has been taking this time to weaken your coalition with targeted attacks on your flanks, catapulting him to the nomination"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120654220,
+        "fields": {
+            "answer": 12024111,
+            "candidate": 201,
+            "answer_feedback": "Canegallo is reticent to take such a delicate matter into her departments hands, but is emboldened by the Shield Liberty Act and the sheer magnitude of the crisis. After a few weeks of increased border patrol activity, illegal immigration numbers begin to drop off–all while Polis protests your draconian methods."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120987601,
+        "fields": {
+            "answer": 90012,
+            "candidate": 201,
+            "answer_feedback": "Warren’s progressives were already bolting towards Polis, and your endorsement was the tip of the iceberg for many moderates–throwing the nomination his way. As the Governor of Colorado takes his mantle, you can’t help but lament? Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1121202972,
+        "fields": {
+            "answer": 8303,
+            "candidate": 201,
+            "answer_feedback": "Is Ramaswamy spineless and fake? Yes. Is he a dangerous radical? Yes. Is that any different than Trump? No."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1122345022,
+        "fields": {
+            "answer": 12019,
+            "candidate": 201,
+            "answer_feedback": "It’s impossible to just ignore the disaster that is the situation on the border, but while Trump continues to rave about the open border and Fox News keeps putting out it’s attack pieces, the inflation rate finally dips below 2%, "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1123479001,
+        "fields": {
+            "answer": 600213,
+            "candidate": 201,
+            "answer_feedback": "Senator Warren sees the potential for the opportunity, and the progress she could make for liberal ideas as a progressive on the ticket. She accepts."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127237916,
+        "fields": {
+            "answer": 120191,
+            "candidate": 201,
+            "answer_feedback": "Though major sticking points over Israel present potential pitfalls, you quickly are able to hash out an agreement that leaves both sides with something to walk away with–a positive development indeed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127349001,
+        "fields": {
+            "answer": 9111,
+            "candidate": 201,
+            "answer_feedback": "As the California Governor relishes in the crowd, you can’t help but lament. Is this to be your legacy? One of a failed bid for President and a disastrous loss?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127778001,
+        "fields": {
+            "answer": 40023,
+            "candidate": 201,
+            "answer_feedback": "You give a rollicking speech, and one that Democrats around the nation nod their heads to. While the fringes and the moderates drift away, you’ve reconciled the base."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127879001,
+        "fields": {
+            "answer": 90071,
+            "candidate": 201,
+            "answer_feedback": "Newsom feels victory is in his grasp, and is more than reluctant to relent. While your negotiations stall, Polis grabs Warren’s support and consolidates a large enough base to take the nomination on his own."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1129612001,
+        "fields": {
+            "answer": 2030,
+            "candidate": 201,
+            "answer_feedback": "As the final returns from the last batch of states come in, the results come into focus… "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1132611120,
+        "fields": {
+            "answer": 20301,
+            "candidate": 201,
+            "answer_feedback": "You make a major speech on the 20th, the Lincoln Memorial resolute behind you. The New York Times calls it “fiery”, “passionate”, and a “broadside on Trump”, but you know it to be one thing above all else: True. Your approval rating jumps 3 points in the next week."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1144200111,
+        "fields": {
+            "answer": 9013,
+            "candidate": 201,
+            "answer_feedback": "The Democratic Party now has it’s nominee, but you can’t help but feel crushed inside. Is this to be your legacy? Will you be remembered for anything beyond this failed bid."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1176542001,
+        "fields": {
+            "answer": 90011,
+            "candidate": 201,
+            "answer_feedback": "The party is happy to go with Newsom, the stamp of approval from the President as the cherry on top. As the Governor receives the fanfare, you can’t help but lament. Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1199312001,
+        "fields": {
+            "answer": 90162,
+            "candidate": 201,
+            "answer_feedback": "Newsom thanks you, profusely. The gridlock breaks and the delegates stampede to Newsom, giving the corpse of a party a nominee just in time for the convention."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1232412001,
+        "fields": {
+            "answer": 12013,
+            "candidate": 201,
+            "answer_feedback": "Newsom, now being challenged among his base of party loyal Democrats, begins to falter under the pressure as you begin to rise. For those with less inherent support of the party, Warren grows more and more appealing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1245898041,
+        "fields": {
+            "answer": 42024,
+            "candidate": 201,
+            "answer_feedback": "It isn’t going to go away. More Representatives and Senators jump ship, irregardless of your rallies, and once Barack even tells you it’s time to step aside, you know it’s over."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1326122640,
+        "fields": {
+            "answer": 20321,
+            "candidate": 201,
+            "answer_feedback": "The week is spent rallying on almost every city with almost every elected Democrat in the state, Shapiro, Casey, all of them appear with you for one final rally in Scranton. You can only pray it stays with you one more time."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1398749001,
+        "fields": {
+            "answer": 90041,
+            "candidate": 201,
+            "answer_feedback": "Warren tries as she might to make entreaties into your base, but she just doesn’t have enough time as more and more delegates break for you–giving you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1532387951,
+        "fields": {
+            "answer": 90101,
+            "candidate": 201,
+            "answer_feedback": "The progressive wing is fractured and worried about a Newsom victory, and your concessions are valuable. After a few days of negotiation, Polis comes out behind you and the domino effect starts–giving you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1621202512,
+        "fields": {
+            "answer": 8703,
+            "candidate": 201,
+            "answer_feedback": "SNL mocks Vance on Weekend Update, a viral “whichever way the wind blows” ad about Vance is authored by the Lincoln Project, and Trump himself posts an angry Truth Social rant proclaiming Vance’s total loyalty to the MAGA movement."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1936397883,
+        "fields": {
+            "answer": 20304,
+            "candidate": 201,
+            "answer_feedback": "Calling illegal immigration a real crisis nets some ire from the left, and your rhetoric on what you’ve gotten done lands with a dud–people still see it as a failure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1965488311,
+        "fields": {
+            "answer": 20294,
+            "candidate": 201,
+            "answer_feedback": "The crowd erupts in cheers, glad for a fighting spirit for their key issues. According to CNN though, you’ve lost major ground with moderates around the nation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1971398831,
+        "fields": {
+            "answer": 20324,
+            "candidate": 201,
+            "answer_feedback": "Gallego, Hobbs, and Kelly appear at a rally with you in Phoenix. The crowd clamors to a frenzy as you pound the podium and invoke the name of John McCain to claim victory here once more."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1979872001,
+        "fields": {
+            "answer": 90102,
+            "candidate": 201,
+            "answer_feedback": "Warren and Polis aren’t dupes, and they know they each have significant support. The meeting quickly develops into each side offering extensively larger positions in exchange for an endorsement, and Newsom’s support eclipses all three before any deal is reached."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1982898762,
+        "fields": {
+            "answer": 20303,
+            "candidate": 201,
+            "answer_feedback": "Pivoting back to the left on immigration has been met with cheers by some who felt you abandoned your campaign promises of 2020, but it feeds into the rhetoric of the right which pushes forth unabated."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2050352771,
+        "fields": {
+            "answer": 6001143,
+            "candidate": 201,
+            "answer_feedback": "Al thinks for a moment–he hadn’t considered the downsides of his leaving, and your words are true about his experience running a national race. After considering for a few hours, he agrees to stay on your ticket."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2123626547,
+        "fields": {
+            "answer": 5146,
+            "candidate": 201,
+            "answer_feedback": "Jackson: So help you God?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2226552660,
+        "fields": {
+            "answer": 20201,
+            "candidate": 201,
+            "answer_feedback": "There is no silver lining to be found: Trump will likely not face any of his trials before the election–though the hush money retrial still technically could be scheduled quickly enough–and he may be elected in time to pardon himself even if convicted."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2334663420,
+        "fields": {
+            "answer": 20301,
+            "candidate": 201,
+            "answer_feedback": "MSNBC is more than willing to harp on the excesses and the logical issues within the report, but the larger political debate has now turned to the border, hurting you nonetheless."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2697021105,
+        "fields": {
+            "answer": 20291,
+            "candidate": 201,
+            "answer_feedback": "This appeal seems handpicked to win over reluctant moderates and Haley voters, and keeping it vague has prevented too much backlash on the Gaza war. How many will be swayed, though, is unknown."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 3012987622,
+        "fields": {
+            "answer": 301221,
+            "candidate": 201,
+            "answer_feedback": "Lawmakers are well aware that this bill will pass with a supermajority, and don’t care to make any amendments to make it more palatable to you. You’re forced to sign it as is, with an accompanying Chinese denunciation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 3511120252,
+        "fields": {
+            "answer": 8702,
+            "candidate": 201,
+            "answer_feedback": "The far right and the freedom caucus are certainly not in the political mainstream–even for the GOP– but with Trump at the head of the ballot, many are already willing to vote the far right into power.."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 4012041211,
         "fields": {
             "answer": 40061,
@@ -18442,6 +18852,15 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 4098604233,
+        "fields": {
+            "answer": 4005122,
+            "candidate": 201,
+            "answer_feedback": "Through the loose network that connects you two, Hillary gets word of your request. On her own accord, she arranges a meeting and is able to get McDonough to throw her support behind her as Vice President… implying an endorsement for you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 4212453282,
         "fields": {
             "answer": 10005,
@@ -18451,11 +18870,623 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 4238408422,
+        "pk": 11207654302,
+        "fields": {
+            "answer": 12006,
+            "candidate": 201,
+            "answer_feedback": "Though there’s a general senimtnet towards increased security measures, your support within this rump congress is still practically nonexistent–meaning no agreement can be hashed out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11631662015,
+        "fields": {
+            "answer": 12015,
+            "candidate": 201,
+            "answer_feedback": "The high-profile slapfights in the media between Newsom and Warren had been funnelling voters into the Polis camp, but working here has helped to consolidate your unusual base and leave you still in high regard. The one downside, though, is that Newsom’s prolific campaigning has moved him to an early frontrunner state."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11206017654,
+        "fields": {
+            "answer": 12017,
+            "candidate": 201,
+            "answer_feedback": "McConnell is eager to take the lead on this as he rounds out his term as Senate Majority Leader. As a bill authorizing extensive arms shipments to both countries passes, your newfound Capitol Hill goodwill is excoriated by Warren and the progressive left for the legislations support of Israel."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127498729720,
+        "fields": {
+            "answer": 12020,
+            "candidate": 201,
+            "answer_feedback": "In the 15 person large Senate, refusing to negotiate is a death sentence. Casey’s bill never gets called to the floor, and Newsom makes an ensuing trip to Ukraine that is well received by President Zelensky."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112026773120,
+        "fields": {
+            "answer": 1201241,
+            "candidate": 201,
+            "answer_feedback": "Thoiugh they’re unsure about whether they’re fully behind you staying as the nominee, their early endorsements are forthcoming and stem the flow of Democrts coming out against you long enough to keep you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11205316322,
+        "fields": {
+            "answer": 12027,
+            "candidate": 201,
+            "answer_feedback": "What if Polis can’t handle the heat of the campaign, what if he’s got some scandal, what if he’s just too fresh to jump into a Presidential election this late? Voter confidence in the Governor, already low, plunges further."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 111210222532,
+        "fields": {
+            "answer": 8802,
+            "candidate": 201,
+            "answer_feedback": "While some in the GOP question the wisdom of choosing the Governor of North Dakota over the far more enigmatic Noem in South Dakota, nobody is going to abandon Trump due to him picking Burgum."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112279029872,
+        "fields": {
+            "answer": 8702,
+            "candidate": 201,
+            "answer_feedback": "The far right and the freedom caucus are certainly not in the political mainstream–even for the GOP– but with Trump at the head of the ballot, many are already willing to vote the far right into power."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11209761101,
+        "fields": {
+            "answer": 8101,
+            "candidate": 201,
+            "answer_feedback": "Inexperience should work as an attack, but not in these times. If Trump could be elected while never serving as anything, few bat an eye at Sanders as a running mate after having been a full-blown Governor."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11231202542,
+        "fields": {
+            "answer": 8102,
+            "candidate": 201,
+            "answer_feedback": "An ad is created–splicing together every time a famous Republican rejects being Trump’s VP, including Sanders. She’s thusly wheeled out by Trump to proclaim her undying loyalty and enthusiasm to the ticket, and falls flat."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 114206672211,
+        "fields": {
+            "answer": 8103,
+            "candidate": 201,
+            "answer_feedback": "Turning into her into a full on joke will take time, but it is true that the word banning is beyond silly. A Sarah Huckabee Sanders autocorrect skit goes viral on X, while she issues a strongly worded denial and attack on the woke agenda."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11263125001,
+        "fields": {
+            "answer": 8401,
+            "candidate": 201,
+            "answer_feedback": "SNL jokes that the Trump/Carson ticket may not be able to stay awake long enough to watch the election results–even Haley and DeSantis are caught making offhand comments about how a younger ticket would have been better."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11212029872,
+        "fields": {
+            "answer": 8402,
+            "candidate": 201,
+            "answer_feedback": " “The question,” Nate Silver tweets, “shouldn’t be can you trust Ben Carson with the Presidency–it should be can you trust Donald Trump with the Presidency. People just don’t care that much about the #2.”."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 111122202552,
+        "fields": {
+            "answer": 8302,
+            "candidate": 201,
+            "answer_feedback": "Moderate Republicans are a dying breed, but they still have tongues that can lash. Haley stays silent, but Romney, Collins, Murkowski, and Sununu all issue strongly worded objections."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 132512022123,
+        "fields": {
+            "answer": 8502,
+            "candidate": 201,
+            "answer_feedback": "Hardline conservatives publicly demand Gabbard retract her statements on abortion, which she dutifly proceeds to do, but the damage has been done both to Trump and Gabbard as the Dobbs decision re-emerges into the headlines."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11287965001,
+        "fields": {
+            "answer": 8601,
+            "candidate": 201,
+            "answer_feedback": "Trump is a radical has been the headline for so long now that it’s weight is massively diminished. The fact of the matter is, Haley sounds imminently reasonable to many, and puts a nice sheen on the Trump ticket."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120079885611,
+        "fields": {
+            "answer": 9011,
+            "candidate": 201,
+            "answer_feedback": "The Democratic Party now has it’s nominee, but you can’t help but feel crushed inside. Is this to be your legacy? Will you be remembered for anything beyond this failed bid."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112441666001,
+        "fields": {
+            "answer": 9012,
+            "candidate": 201,
+            "answer_feedback": "The Democratic Party now has it’s nominee, but you can’t help but feel crushed inside. Is this to be your legacy? Will you be remembered for anything beyond this failed bid."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11208976801,
+        "fields": {
+            "answer": 90061,
+            "candidate": 201,
+            "answer_feedback": "The party is happy to go with Newsom, the stamp of approval from the President as the cherry on top. As the Governor receives the fanfare, you can’t help but lament. Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11209876501,
+        "fields": {
+            "answer": 90062,
+            "candidate": 201,
+            "answer_feedback": "The primary was bruising, but Warren’s ability to hang in combined with your endorsement has left the party leaders recognizing that it simply isn’t feasible to try and stop her. With the nominee now settled, you can’t help but lament? Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 133150982001,
+        "fields": {
+            "answer": 90154,
+            "candidate": 201,
+            "answer_feedback": "The party apparatus is wounded, not having expected Newsom to flail so massively. Faced with few choices and only one face they trust to run a national campaign, Warren is settled on as the nominee. With the divided party now having a nominee, you can’t help but lament. Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1557120098761,
+        "fields": {
+            "answer": 90153,
+            "candidate": 201,
+            "answer_feedback": "Many of Newsom’s supporters were too embittered to ever consider bolting to Warren, and Polis’s stature as a younger face combined with your endorsement has put him over the top. As the Governor takes his mantle, you can’t help but lament. Is this to be your legacy?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 338023948071,
+        "fields": {
+            "answer": 90141,
+            "candidate": 201,
+            "answer_feedback": "It’s an exhilarating and wonderful feeling, to be standing before the crowd and accepting your parties nomination, but it reminds you just how much has gone wrong for you to be standing here and not Joe Biden."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 7983791111,
+        "fields": {
+            "answer": 90102,
+            "candidate": 201,
+            "answer_feedback": "Newsom won’t give up. He believes this nomination is his to lose, and while the two of you bicker, Polis endorses Warren and starts a groundswell of support for the Senator–spiraling into her victory."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11200712001,
+        "fields": {
+            "answer": 90103,
+            "candidate": 201,
+            "answer_feedback": "Warren and Newsom had started a media fight before the night was over, and Polis’s appeals for a more unifying third way fell to the wayside beneath Hail to the Chief. As public pressure mounts to avoid a floor fight, the party relents to your nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11229802001,
+        "fields": {
+            "answer": 90161,
+            "candidate": 201,
+            "answer_feedback": "“No”, the Biden delegates say. “We won’t let you do this. There must be another path, another candidate”, they protest. Unfortunately for you, they’re right."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1235116662001,
+        "fields": {
+            "answer": 90163,
+            "candidate": 201,
+            "answer_feedback": "Your endorsement of Polis gives him the nomination almost immediately. He gives you his gratitude, and prepares for the arduous task of putting together a fractured party with the goal of defeating Donald Trump."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 17978124001,
+        "fields": {
+            "answer": 90164,
+            "candidate": 201,
+            "answer_feedback": "Warren’s support balloons as you endorse her, and it is clear that none of the other candidates will be able to stand in her way as the two batches of delegates unify."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127423798001,
+        "fields": {
+            "answer": 90031,
+            "candidate": 201,
+            "answer_feedback": "This was the obvious path, but it seems, a good one. Polis and Warren are amicable, and despite Newsom’s furious stumping, he can’t overcome a unified left-of-center alliance between the three of you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112561206901,
+        "fields": {
+            "answer": 90032,
+            "candidate": 201,
+            "answer_feedback": "Newsom sees your inaction and lunges, promising large minimum wage hikes and free college programs before you can even blink an eye. While many still scoff at him as a slave to corporations, enough progressives begin bolting his way to give him the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112079837201,
+        "fields": {
+            "answer": 90034,
+            "candidate": 201,
+            "answer_feedback": "The press begins to hound Newsom, asking him if the Democrats can possibly win without an incumbent President, if him winning the primary shows a lack of confidence in the administration, and he can’t respond. Before long, the establishment bolts your way instead of his."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112123566001,
+        "fields": {
+            "answer": 9121,
+            "candidate": 201,
+            "answer_feedback": "As Polis catches the eyes of the nation, you can’t help but lament. Is this to be your legacy? One of a failed bid for President and a disastrous loss?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1129876123001,
+        "fields": {
+            "answer": 9131,
+            "candidate": 201,
+            "answer_feedback": "As Warren mounts a comeback of the century and seizes the nomination, you can’t help but lament. Is this to be your legacy? One of a failed bid for President and a disastrous loss?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 10987621120701,
+        "fields": {
+            "answer": 90072,
+            "candidate": 201,
+            "answer_feedback": "Your Rose Garden strategy plays out near-perfeclty, with an air of inevitability and respectability that Newsom can’t match and that Polis can’t circumvent with his youth. The nomination is yours."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1198765122001,
+        "fields": {
+            "answer": 90074,
+            "candidate": 201,
+            "answer_feedback": "Warren relents to letting you make your case, and the detrimental effect on Polis is immediate. However, Newsom takes the opportunity to creep forward with the moderates and take the nomination from under your feet."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 114791872001,
+        "fields": {
+            "answer": 90073,
+            "candidate": 201,
+            "answer_feedback": "Polis and Newsom both furiously rally to try and expand their coalitions, but neither can break through while you keep spreading influence and support–eventually enough to take the nomination for yourself."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 111120987601,
+        "fields": {
+            "answer": 90051,
+            "candidate": 201,
+            "answer_feedback": "Polis tries as he might to consolidate the progressives and make entreaties into your base, but he just doesn’t have enough time as more and more delegates break for you–giving you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11201220851,
+        "fields": {
+            "answer": 90052,
+            "candidate": 201,
+            "answer_feedback": "It’s crude, and certainly creates some hard feelings between you and the progressive wing of the party, but it serves you well enough and gives you the victory over Polis."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1123250098761,
+        "fields": {
+            "answer": 90054,
+            "candidate": 201,
+            "answer_feedback": "Newsom drags his feet day after day, while Polis’s coalition only grows from simply progressive to all-encompassing. Before you even know it, he seizes the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11209876101,
+        "fields": {
+            "answer": 90044,
+            "candidate": 201,
+            "answer_feedback": "Newsom drags his feet day after day, while Warren coalition only grows from simply progressive to all-encompassing. Before you even know it, she seizes the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11212974001,
+        "fields": {
+            "answer": 90081,
+            "candidate": 201,
+            "answer_feedback": "Warren and Newsom’s fights in the media grow day by day, and Democrats across the nation quickly grow disillusioned--bolting towards you and giving you the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11200986123201,
+        "fields": {
+            "answer": 90083,
+            "candidate": 201,
+            "answer_feedback": "Polis is appreciative of your outreach--being in fourth place had left him overlooked by the rest of the pack. After a few days of negotiation, his endorsement spirals you into the nomination."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11207390923840800,
+        "fields": {
+            "answer": 40021,
+            "candidate": 201,
+            "answer_feedback": "Clinton and Obama, albeit reluctantly, accept. They overshadow you, discussing the legacy of Biden and the importance of beating Trump. A hefty cash inflow comes out of it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1120080809841,
+        "fields": {
+            "answer": 40022,
+            "candidate": 201,
+            "answer_feedback": "Working on getting GOP defectors to bolt over to you is a tall task, especially without McDonough’s relatively non-partisan appeal. Anything, though, may help."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 134512009876541,
+        "fields": {
+            "answer": 40024,
+            "candidate": 201,
+            "answer_feedback": "The establishment worked to make your challenge to Biden an utter failure, but even they will admit that you’re better than Trump. Staffers and financial advisors begin to trickle into newly bought campaign offices."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1237957812001,
+        "fields": {
+            "answer": 400341,
+            "candidate": 201,
+            "answer_feedback": "Phil sighs. He feels your passion, your energy, your desire to have him, but he doesn’t want it. The Democratic party is simply a leap too far for him, and he tells you that you’ll need to find someone else. With no time, only one name is available…"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11132462001,
+        "fields": {
+            "answer": 6001133,
+            "candidate": 201,
+            "answer_feedback": "After numerous assurances that her role on the ticket will be hammering on the theme of Democracy, and that you can truly win the election with her, she agrees to stay on your ticket–sending some Democrats into an uproar."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 117348093822001,
+        "fields": {
+            "answer": 6001134,
+            "candidate": 201,
+            "answer_feedback": "She shakes her head, she’s not worried about being the Democratic nominee for Vice President, she’s worried about Trump winning. She formally announces later that day, leaving you with a choice to make."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11209078601,
+        "fields": {
+            "answer": 20251,
+            "candidate": 201,
+            "answer_feedback": "Your stump speeches around the rust belt are met with acclaim, especially when pitted against Trump’s paltry schedule. Nationally, though, the effects are muted."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112023408301,
+        "fields": {
+            "answer": 20252,
+            "candidate": 201,
+            "answer_feedback": "Public opinion certainly sides with you, at least on the issue of Democracy in America, but the national polls only barely tick against Trump with this development."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1127508912001,
+        "fields": {
+            "answer": 20253,
+            "candidate": 201,
+            "answer_feedback": "A solid few cracks at Trump at the White House Correspondance Dinner and on SNL do keep a negative focus on Trump for a few weeks, though the change in the state of the race is unclear"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 112123325001,
+        "fields": {
+            "answer": 20253,
+            "candidate": 201,
+            "answer_feedback": "The news media is clearly enamored by Trump’s trials, alerlty covering even his motorcade as it approaches the courtroom. It’s clear it will continue with or without your comment, but whether it will benefit you is still unclear."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11455980782,
+        "fields": {
+            "answer": 20303,
+            "candidate": 201,
+            "answer_feedback": "Staying on the ground in the rust belt, you speak to as many as you can for the next month. By the end, you’re more than exhausted, even as Burgum and Scott try and match the Democratic pace. It’s clearly had an effect on the swing states."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 40042087633,
+        "fields": {
+            "answer": 40044,
+            "candidate": 201,
+            "answer_feedback": "Jaws drop when you announce your schedule for the next week. Beto O’Rourke and M.J. Hegar agree to rally with you across the state, but in their glances to each other you can feel the same question being asked."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 40041235211,
+        "fields": {
+            "answer": 400511,
+            "candidate": 201,
+            "answer_feedback": "Remember the campaign you ran in the primaries? The few voters you courted were those against McDonough, and his forthcoming endorsement is overshadowed in the news by this flip-flop."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 41100222423,
+        "fields": {
+            "answer": 40053,
+            "candidate": 201,
+            "answer_feedback": "Denis lets you in, but it is only a few minutes before a screaming match begins between the two of you over you “goddamn forfeiting” this election. After he orders the Secret Service to throw you out, you wisen up enough to leave before they can."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 43500423653,
+        "fields": {
+            "answer": 4005121,
+            "candidate": 201,
+            "answer_feedback": "Scott’s able to meet with McDonough, but the man is bitter beyond all convincing that the Vermonter is able to exact. While he pries a few good words from the President’s lips, it’s nowhere near the full endorsement you want."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 40253203211,
+        "fields": {
+            "answer": 40071,
+            "candidate": 201,
+            "answer_feedback": "You ran your primary campaign out of your own pockets with hundreds of millions of dollars in corporate money–and unlike Trump, you aren’t good enough at delivering lines to overshadow it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 4238475408422,
+        "fields": {
+            "answer": 40072,
+            "candidate": 201,
+            "answer_feedback": "His felony conviction is a sore spot, but around half the electorate thinks the trial was rigged–you aren’t swaying very many independent voters with this line of attack."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11230932223,
+        "fields": {
+            "answer": 40073,
+            "candidate": 201,
+            "answer_feedback": "Putting Project 2025 into the news cycle has started to catch on, particularly at lower levels. This dialogue is fresh to voters, and any new line of attack on Trump is useful to break through the haze."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 402030987211,
+        "fields": {
+            "answer": 40071,
+            "candidate": 201,
+            "answer_feedback": "There’s not an opening statement at the debate–meaning you waste the entire question time about the Capitol Bombing talking about your Gelato company. From there, you can’t recover."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 4238465408422,
         "fields": {
             "answer": 40072,
             "candidate": 201,
             "answer_feedback": "Trump does go crazy–specfically on a question about the late President Biden–but your stately contrast comes across more as a man staring off into space during a contest for the most important job in the world."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 83022135456,
+        "fields": {
+            "answer": 22024,
+            "candidate": 201,
+            "answer_feedback": "Your bitter resistance only digs a deeper hole for your candidacy. With Clooney and Pelosi calling for you to step aside, the pressure mounts and mounts until it’s unbearable. There’s only one thing to do."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 8410532413,
+        "fields": {
+            "answer": 32024,
+            "candidate": 201,
+            "answer_feedback": "This strategy splices your opponents into two. With some calling for a snap primary, some calling for an open convention, and few outright behind Kamala, they crumble under their divisons."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 8133013556,
+        "fields": {
+            "answer": 122017,
+            "candidate": 201,
+            "answer_feedback": "President Biden is furious, but holds his tongue. While a few feel you’re too harsh on your former ticket mate, some Biden-critical moderates nod along to this rhetoric."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 8234102413,
+        "fields": {
+            "answer": 132017,
+            "candidate": 201,
+            "answer_feedback": "This is about the theme you’ve been hitting on these past few months. While it doesn’t end the talk, putting the narrative back on your record has dispelled the worst edges of this attack"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 12445804111,
+        "fields": {
+            "answer": 142017,
+            "candidate": 201,
+            "answer_feedback": "While the President doesn’t make any major gaffes during your Pittsburgh rally, the man looks ancient and is still deeply unpopular. Tying himself to you may not be to your advantage."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 97300231213,
+        "fields": {
+            "answer": 30093,
+            "candidate": 201,
+            "answer_feedback": "Despite national support for scaling back these regulations, getting DeSantis and Abbott to agree with the likes of Newsom is too tall a task for such a divided time. The current regulations stay."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 9730987601213,
+        "fields": {
+            "answer": 300931,
+            "candidate": 201,
+            "answer_feedback": "Your work with the NGA pays dividends here. Though at first hesitant to colloborate on a national policy, a quick convention of Governrors results in state-by-state regulation that lessens the burden on businesses."
         }
     },
     {
@@ -18465,6 +19496,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 30094,
             "candidate": 201,
             "answer_feedback": "Trudeau and Lopez Obrador are each still trying to cool tensions and secure their own borders after the fear inspired by March 7th, and though you try, trade is just not high enough on their priority list."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 30113441231,
+        "fields": {
+            "answer": 30134,
+            "candidate": 201,
+            "answer_feedback": "Brainairds been working with the FED for some time now, and is able to create a comprehensive policy package fairly quickly. With interest rate cuts widely reported as just around the corner, the economy begins to breathe again."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 111205432333,
+        "fields": {
+            "answer": 11033,
+            "candidate": 201,
+            "answer_feedback": "It’s still hot, even in October. Newsom flies out for a few photo ops and an event in Phoenix–according to him, America has become that phoenix thanks to you, rising from the ashes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 11120233113,
+        "fields": {
+            "answer": 60103,
+            "candidate": 201,
+            "answer_feedback": "Florida, Arizona, and Nevada will each have initiatives, ones that you’re happy to appear on behalf of their supporters. It makes a lot of local headlines, and could well boost your fortunes in each state."
         }
     }
 ]
