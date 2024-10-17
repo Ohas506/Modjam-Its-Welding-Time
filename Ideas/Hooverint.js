@@ -60,7 +60,7 @@ style.innerHTML = `
 
 document.head.appendChild(style);
 
-document.getElementById("header").src = "https://i.imgur.com/UTxa3fZ.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/msZOpfG.png";
 
 document.body.background = "https://live.staticflickr.com/4091/4845184552_e180c2fd9d_b.jpg";
 

@@ -6291,6 +6291,8 @@ updateCandidateName(201, "Howard", "Dean");
 if (ans == 5185) { 
 campaignTrail_temp.question_number=24
 updateCandidateName(201, "Miro", "Weinberger");
+updateCandidateName(203, " Kevin", "Hoyt");
+campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#808080";
 }
 //Dean Dem v Prog
 
@@ -6362,7 +6364,9 @@ campaignTrail_temp.running_mate_json.push({
 }
 //Direct Question Replacement for Question eight
 if (Dem_Donors == -1 && Progs >= 0) {
-campaignTrail_temp.questions_json[7] =  {
+updateCandidateName(203, " Kevin", "Hoyt");
+campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#808080";
+campaignTrail_temp.questions_json[7] =  {    
 "model": "campaign_trail.question",
         "pk": 1065,
         "fields": {
@@ -6377,6 +6381,8 @@ campaignTrail_temp.questions_json[7] =  {
 
 }
 if (Dem_Donors >= 0 && Progs == -1) {
+updateCandidateName(203, "June", "Goodband");
+campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#32CD32";
 campaignTrail_temp.questions_json[7] =  {
  "model": "campaign_trail.question",
         "pk": 1052,
@@ -6390,6 +6396,8 @@ campaignTrail_temp.questions_json[7] =  {
 
 }
 if (Dem_Donors >= 0 && Progs >= 0) {
+updateCandidateName(203, " Kevin", "Hoyt");
+campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#808080";
 campaignTrail_temp.questions_json[7] =  {
 "model": "campaign_trail.question",
         "pk": 1059,
@@ -6402,6 +6410,8 @@ campaignTrail_temp.questions_json[7] =  {
 }
 
 if (Dem_Donors <= -2 && Progs >= 0) {
+updateCandidateName(203, " Kevin", "Hoyt");
+campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#808080";
 campaignTrail_temp.questions_json[7] =  {
 "model": "campaign_trail.question",
         "pk": 1057,
@@ -6415,12 +6425,14 @@ campaignTrail_temp.questions_json[7] =  {
 }
 
 if (Dem_Donors >= 0 && Progs <= -2) {
+updateCandidateName(203, "Zoraya", "Hightower");
+campaignTrail_temp.candidate_json[3]["fields"].color_hex = "#a52a2a";
 campaignTrail_temp.questions_json[7] =  {
 "model": "campaign_trail.question",
     "pk": 1053,
     "fields": {
         "priority": 7,
-        "description": "In light of your enthusiastic support for the right of the VDP, your historic rivalry, and your lack of outreach to the left, the Progressive Party has decided not to endorse your campaign for Governor, instead opting to support a write-in campaign for Zoraya Hightower. On the other hand, the Democratic Party leadership and their powerful donor allies have promised enthusiastic support for the length of your campaign.",
+        "description": "In light of your enthusiastic support for the right of the VDP, your historic rivalry, and your lack of outreach to the left, the Progressive Party has decided not to endorse your campaign for Governor, instead opting to support a independent campaign for Zoraya Hightower. On the other hand, the Democratic Party leadership and their powerful donor allies have promised enthusiastic support for the length of your campaign.",
         "likelihood": 1
     }
 
