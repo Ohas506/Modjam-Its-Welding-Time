@@ -10,7 +10,7 @@ e = campaignTrail_temp;
 
             $(".container")[0].style.backgroundColor = "#002e7a";
 
-            document.getElementById("header").src = "https://cdn.discordapp.com/attachments/1207853324380934184/1231317456803467404/wdPFbFQ.jpg?ex=66f8f9fe&is=66f7a87e&hm=e31f7e031961cd137fe9d50479cc06c412db60af6c457028b440cb6f08e3b7a8&";
+            document.getElementById("header").src = "https://i.imgur.com/N2QQMn8.jpeg";
 
             document.body.background = "https://i.imgur.com/rqkmLu3.png";
 

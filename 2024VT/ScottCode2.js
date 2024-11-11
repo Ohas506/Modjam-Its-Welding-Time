@@ -5612,6 +5612,7 @@ updateCandidateName(201, "Howard", "Dean");
 }
 if (Conservatve_Points < 0) {
 updateCandidateName(203, "John", "Klar");
+}
 campaignTrail_temp.questions_json[13] =  {
     
         "model": "campaign_trail.question",
@@ -5623,25 +5624,14 @@ campaignTrail_temp.questions_json[13] =  {
         }
   
 }
-if (campaignTrail_temp.questions_json[13] == {  
-    
-        "model": "campaign_trail.question",
-                "pk": 1067,
-                "fields": {
-                    "priority": -6,
-                    "description": "Now that the primary is concluded, the general election can begin in earnest. What theme do you want to emphasize as the campaign gets underway?\n\n",
-                    "likelihood": 1
-                }
-            
-    
-})
+if (Conservatve_Points > 0 && campaignTrail_temp.question_number==13) {
 updateCandidateName(203, "Kevin", "Hoyt");
 }
 //Scot RaceCarCyoa
 if (ans ==  5156) {
 changeStateEffect(200, 21452, 20701, 0.04)
 updateFeedback(21453,"It’s a great day at the racetrack. You nab the checkered flag amidst happy crowds, it’s exactly what you missed.")
-
+}
 
 if (ans ==  5201||ans == 5202) {
 campaignTrail_temp.questions_json[24] =  {
@@ -5652,12 +5642,10 @@ campaignTrail_temp.questions_json[24] =  {
             "description": "You have cast your ballot, as you exit the polling site in Barre to enter your truck, a few reporters are waiting. It’s a question you expected. “Governor, who did you vote for for President?”",
             "likelihood": 1
         }
-    
-
-                }
-            }
-        }
     }
+}
+        
+}
 
 //exchange two existing answers, default also their effects
 // example call: answerSwapper (8325, 8549, true)
