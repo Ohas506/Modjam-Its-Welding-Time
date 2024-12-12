@@ -157,12 +157,18 @@ tooltipList = [
     {searchString: "Buttigieg", explanationText: "Husband to Mayor Pete, whom you endorsed for DNC Chair in 2017"},
     {searchString: "Renner", explanationText: "Deputy Mayor of Winooski, former Balint and Leahy staffer"},
     {searchString: "Ed Davey", explanationText: "<img src=https://i.imgur.com/Gp1SFgh.png> jolly ol bloke"},
+    {searchString: "this other thing", explanationText: "<img src=https://i.imgur.com/RFp8NO9.png>"},
     {searchString: "Musk", explanationText: "<img src=https://i.imgur.com/7sIidcf.png> What a fucking idiot"},
     {searchString: "Walz", explanationText: "<img src=https://i.imgur.com/ueOvjJ7.png>"},
+    {searchString: "Burgum", explanationText: "<img src=https://i.imgur.com/HF62aNe.png> Phil’s Pal in North Dakota"},
+    {searchString: "Bill Huff", explanationText: "<img src=https://i.imgur.com/dlKHf78.png> Orange County GOP Chair"},
+    {searchString: "Maulucci", explanationText: "<img src=https://i.imgur.com/HoI1XCC.png> Campaign Manager, whiz kid"},
     {searchString: "company", explanationText: "<img src=https://i.imgur.com/m7P68Gz.png>"},
+    {searchString: "Get Real", explanationText: "<img src=https://i.imgur.com/eK6rh3s.png>"},
     {searchString: "Tilray", explanationText: "American pharmaceutical, cannabis-lifestyle and consumer packaged goods company, Howard Dean is a board member"},
     {searchString: "Hochul", explanationText: "<img src=https://i.imgur.com/yIOdA9F.png> 57th Governor of New York, lost the House"},
     {searchString: "Shannon", explanationText: "<img src=https://i.imgur.com/Z8nA8Hw.png> All Hands On Deck!"},
+    {searchString: "Signs proclaiming local property tax increases", explanationText: "<img src=https://i.imgur.com/pYfAdEM.png>"},
     {searchString: "Rodgers", explanationText: "<img src=https://i.imgur.com/CwRKlzi.png> State Senator for Essex-Orleans from 2013-2021, State Rep. from 2003 to 2011. Populist pro-gun Democrat-turned-Republican."},
     {searchString: "A Note on Vermont’s Electoral System", explanationText: "Vermont has no formal partisan registration and it has open primaries. This means two things, firstly that party membership is less a matter of legally defined registration and more a matter of vague “affiliation.” Secondly, it means that self-identifying “Progressives” may contest Democratic primaries as well as Progressive primaries, as well as vice versa. These individuals are often known as “fusionists” who are often listed as P/Ds or D/Ps, with the first letter usually being whichever party they affiliate with. This system is not without critics, especially by partisan Democrats who would prefer to see a more rigidly structured system, with more exclusive primaries.<br><br>Ex: David Zuckerman is a P/D, Phillip Baruth is a D/P, if you’re seeing this, it means Howard Dean has gone from being a straight Democrat to being a P/D, a Progressive seeking the Democratic nomination."},
   
@@ -538,6 +544,7 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   }
 }
+
 
 
 

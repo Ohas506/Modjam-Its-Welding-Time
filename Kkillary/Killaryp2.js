@@ -411,7 +411,7 @@ function ctsAchievement(achievement, difficultyChecker = true){
             "pk": 10000,
             "fields": {
                 "priority": 0,
-                "description": "<span style= \"font-size: 94%; font-family:helvetica; margin:7px;\">The election was closer than it should have been. If it weren't for Wisconsin of all places, you wouldn’t be here right now. You stand before a massive crowd after your inauguration moments ago. They, and the entire country, are uncertain of the future. What do you have to say, Madam President?</span>",
+                "description": "Congratulations Mayor Bloomberg! Despite entering the race later than almost all of the other candidates, you've gained considerable momentum following Super Tuesday, now it appears you're the front runner. Sanders is still stubbornly holding on however, and you still don't yet have the delegates required to declare victory. Between now and the DNC the race for nominee could not be between two men so starkly apart. What's your plan to close the gap?",
                 "likelihood": 1
             }
         },
