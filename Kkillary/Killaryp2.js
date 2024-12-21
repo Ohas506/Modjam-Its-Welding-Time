@@ -411,7 +411,7 @@ function ctsAchievement(achievement, difficultyChecker = true){
             "pk": 10000,
             "fields": {
                 "priority": 0,
-                "description": "Congratulations Mayor Bloomberg! Despite entering the race later than almost all of the other candidates, you've gained considerable momentum following Super Tuesday, now it appears you're the front runner. Sanders is still stubbornly holding on however, and you still don't yet have the delegates required to declare victory. Between now and the DNC the race for nominee could not be between two men so starkly apart. What's your plan to close the gap?",
+                "description": "All in a flash it happens. After a shock win in New Hampshire and impressive margins in Michigan, the Biden campaign apparatus has collapsed, with the same DNC operatives who once despised you, forcing him out after a trainwreck debate with Trump. You've been vindicated. Now as the runner up in delegate count and the vice president being passed up, the cheers echo you to the stage at the DNC, as you look around and see the very same faces who a few months ago decried you as a Republican plant cheer you on. This is it. Dean Philips, the gentleman from Minnesota, who nobody had heard about a mere few months ago, is the Democratic party's nominee for president.",
                 "likelihood": 1
             }
         },
